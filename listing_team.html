@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>W4M Galaxy Documentation - Workflow4Metabolomics Galaxy Documentation</title>
+<title>W4M Galaxy Documentation - W4M team</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./images/w4m.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -59,7 +61,38 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -85,7 +118,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page"><i class="bi bi-house" role="img">
+    <a class="nav-link" href="./index.html" rel="" target=""><i class="bi bi-house" role="img">
 </i> 
  <span class="menu-text">Home</span></a>
   </li>  
@@ -138,7 +171,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./listing_team.html" rel="" target="">
+    <a class="nav-link active" href="./listing_team.html" rel="" target="" aria-current="page">
  <span class="menu-text">W4M Team</span></a>
   </li>  
 </ul>
@@ -176,7 +209,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Workflow4Metabolomics Galaxy Documentation</h1>
+<h1 class="title">W4M team</h1>
 </div>
 
 
@@ -191,19 +224,84 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Proposition de squelette W4M :</p>
-<ul>
-<li>première page : de présentation de ce qu’est w4m, qu’on fait un Galaxy, qu’on peut y contribuer, qu’on fait des events…</li>
-<li>seconde page : on présente ce qu’est Galaxy et comment on a construit Galaxy w4m</li>
-<li>troisième page : on présente comment contribuer aux outils de w4m</li>
-<li>quatrième page : une liste des outils et leur explication, un menu déroulant avec chaque outil peut être ? (ou on fait un lien vers un autre quarto pour ça ?)</li>
-<li>cinquième page : les events de w4m (menu déroulant pourrait être pas mal peut être)</li>
-<li>sixième page : toutes les personnes de W4M avec une espèce de carte d’identité</li>
-</ul>
+<p>About this site</p>
 
 
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1705650190675" data-listing-reading-time-sort="1">
+<a href="./W4Mteam/julien_saint-vanne.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./images/julien_saint-vanne.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Julien Saint-Vanne
+</h5>
+<div class="card-text listing-description">
+Young bioinformatician (yet) working on development of Shiny…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1705650190675" data-listing-reading-time-sort="1">
+<a href="./W4Mteam/w4m.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./images/W4M.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Workflow4Metabolomics
+</h5>
+<div class="card-text listing-description">
+About this site
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1705650190675" data-listing-reading-time-sort="1">
+<a href="./W4Mteam/yann_guitton.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./images/yann_guitton.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Yann Guitton
+</h5>
+<div class="card-text listing-description">
+About this site
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

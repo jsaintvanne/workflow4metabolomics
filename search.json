@@ -7,9 +7,44 @@
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
+    "objectID": "W4Mteam/yann_guitton.html",
+    "href": "W4Mteam/yann_guitton.html",
+    "title": "Yann Guitton",
+    "section": "",
+    "text": "About this site"
+  },
+  {
     "objectID": "galaxyW4M.html",
     "href": "galaxyW4M.html",
     "title": "What is Galaxy W4M ?",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "listing_team.html",
+    "href": "listing_team.html",
+    "title": "W4M team",
+    "section": "",
+    "text": "About this site\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJulien Saint-Vanne\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWorkflow4Metabolomics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYann Guitton\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "w4e2024.html",
+    "href": "w4e2024.html",
+    "title": "Workflow4Experimenters 2024",
+    "section": "",
+    "text": "Save the date!\nAnalyze your data with Galaxy and the Workflow4metabolomics infrastructure!\nThe next Workflow4Experimenters session (W4E2024) will take place from 8 to 12 April 2024. During this one-week course (entirely in English), you will learn how to use the W4M infrastructure and analyze your own LC-MS, GC-MS, or NMR data.\nThis year an online pre-session is organised from Monday 25 to Friday 29 March from 10 to 12 am.\nAgenda and preregistration: registration form (Deadline 21/01/2024)\n\nFrom March, 25th to 29th (10am to 12pm): online theoretical sessions (methods and tools)\nFrom April 8th to 12th : tutoring on your own data, at (Archamps). Practical information (more soon) - access map\n\n\n\n\nMap of Archamps, Genève and its airport\n\n\nInvited speaker: TBD\nScientific comitee: C. Delporte (ULB, Bruxelles), C. Dalle (U.DAB IRBA, Brétigny-sur-Orge), J. Saint-Vanne, Y. Guitton (Laberca, Nantes), C. Joly, M. Pétéra, F. Giacomoni (PFEM INRA, Clermont-Ferrand), G. Le Corguillé, (Abims, Roscoff), B. Diémé (PFEM Université Clermont Auvergne), F. Souard (ULB, Bruxelles & Université de Grenoble), C. Canlet, M. Tremblay-Franco (Toxalim INRA, Toulouse), Ralf Weber (University of Birmingham)\nAgenda and preregistration: registration form (Deadline 21/01/2024)\nContact: w4e-organisation@groupes.renater.fr"
+  },
+  {
+    "objectID": "tool2.html",
+    "href": "tool2.html",
+    "title": "Description of tool 2",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "contribute.html",
+    "href": "contribute.html",
+    "title": "How to contribute for W4M ?",
     "section": "",
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
@@ -21,31 +56,45 @@
     "text": "About this site"
   },
   {
-    "objectID": "contribute.html",
-    "href": "contribute.html",
-    "title": "How to contribute for W4M ?",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
-  },
-  {
-    "objectID": "tool2.html",
-    "href": "tool2.html",
-    "title": "Description of tool 2",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Workflow4Metabolomics Galaxy Documentation",
     "section": "",
-    "text": "Proposition de squelette W4M :\n\npremière page : de présentation de ce qu’est w4m, qu’on fait un Galaxy, qu’on peut y contribuer, qu’on fait des events…\nseconde page : on présente ce qu’est Galaxy et comment on a construit Galaxy w4m\ntroisième page : on présente comment contribuer aux outils de w4m\nquatrième page : une liste des outils et leur explication (ou on fait un lien vers un autre quarto pour ça ?)\ncinquième page : les events de w4m"
+    "text": "Proposition de squelette W4M :\n\npremière page : de présentation de ce qu’est w4m, qu’on fait un Galaxy, qu’on peut y contribuer, qu’on fait des events…\nseconde page : on présente ce qu’est Galaxy et comment on a construit Galaxy w4m\ntroisième page : on présente comment contribuer aux outils de w4m\nquatrième page : une liste des outils et leur explication, un menu déroulant avec chaque outil peut être ? (ou on fait un lien vers un autre quarto pour ça ?)\ncinquième page : les events de w4m (menu déroulant pourrait être pas mal peut être)\nsixième page : toutes les personnes de W4M avec une espèce de carte d’identité"
   },
   {
-    "objectID": "events.html",
-    "href": "events.html",
-    "title": "Events",
+    "objectID": "w4e2023.html",
+    "href": "w4e2023.html",
+    "title": "Workflow4Experimenters 2023",
     "section": "",
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "W4Mteam/julien_saint-vanne.html",
+    "href": "W4Mteam/julien_saint-vanne.html",
+    "title": "Julien Saint-Vanne",
+    "section": "",
+    "text": "Young bioinformatician (yet) working on development of Shiny applications as principal activity. I love the development part of a tool because it is always a new challenge to share with diferent biologist and send them the tool that they need.\nI also play a lot of volley-ball and snow volley-ball during my free time ! I’m also the happy father of a little boy since 3 months and don’t sleep a lot since but I’m full of love."
+  },
+  {
+    "objectID": "W4Mteam/julien_saint-vanne.html#education",
+    "href": "W4Mteam/julien_saint-vanne.html#education",
+    "title": "Julien Saint-Vanne",
+    "section": "Education",
+    "text": "Education\nTechnical certificate in laboratory analysis in 2012\nMaster degree in BioInfomatic in 2017"
+  },
+  {
+    "objectID": "W4Mteam/julien_saint-vanne.html#experience",
+    "href": "W4Mteam/julien_saint-vanne.html#experience",
+    "title": "Julien Saint-Vanne",
+    "section": "Experience",
+    "text": "Experience\nCNRS in Roscoff as a developper of Galaxy W4M tools for MSMS analysis (from 2018 to 2019)\nONIRIS - LABERCA in Nantes as a reasearch engineer in development of Shiny application for specific compounds (2020)\nEFS - UMR1236 in Rennes as a reasearch engineer to develop application to analyze multiparametric data in cytometry\nONIRIS - LABERCA in Nantes as a research engineer to develop Shiny application, add a visualisation part in Galaxy and make some geek things in my lab."
+  },
+  {
+    "objectID": "W4Mteam/w4m.html",
+    "href": "W4Mteam/w4m.html",
+    "title": "Workflow4Metabolomics",
+    "section": "",
+    "text": "About this site"
   }
 ]
