@@ -7,25 +7,81 @@
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
-    "objectID": "W4Mteam/yann_guitton.html",
-    "href": "W4Mteam/yann_guitton.html",
-    "title": "Yann Guitton",
+    "objectID": "W4Mteam/sylvain_dechaumet.html",
+    "href": "W4Mteam/sylvain_dechaumet.html",
+    "title": "Sylvain Dechaumet",
     "section": "",
-    "text": "About this site"
+    "text": "He looks angry but he is very cool !"
+  },
+  {
+    "objectID": "W4Mteam/sylvain_dechaumet.html#education",
+    "href": "W4Mteam/sylvain_dechaumet.html#education",
+    "title": "Sylvain Dechaumet",
+    "section": "Education",
+    "text": "Education"
+  },
+  {
+    "objectID": "W4Mteam/sylvain_dechaumet.html#experience",
+    "href": "W4Mteam/sylvain_dechaumet.html#experience",
+    "title": "Sylvain Dechaumet",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "W4Mteam/melanie_petera.html",
+    "href": "W4Mteam/melanie_petera.html",
+    "title": "Mélanie Pétéra",
+    "section": "",
+    "text": "She looks angry but she is very cool !"
+  },
+  {
+    "objectID": "W4Mteam/melanie_petera.html#education",
+    "href": "W4Mteam/melanie_petera.html#education",
+    "title": "Mélanie Pétéra",
+    "section": "Education",
+    "text": "Education"
+  },
+  {
+    "objectID": "W4Mteam/melanie_petera.html#experience",
+    "href": "W4Mteam/melanie_petera.html#experience",
+    "title": "Mélanie Pétéra",
+    "section": "Experience",
+    "text": "Experience\nEngineer in statistics / MSc Contact infos\nmelanie.petera{at}inrae{dot}fr phone: +33(0)4 73 62 47 89 Involved in routine analyses as data analyst and/or data treatment supervisor. Workflow developer for internal data analysis procedures. Participation to Workflow4Metabolomics as a core team member.\nMissions\nData processing and statistical analysis of untargeted MS analyses Development and maintenance of in-house data processing workflows Training and guidance Main publications\nGiacomoni, F., Le Corguille, G., Monsoor, M., Landi, M., Pericard, P., Pétéra, M., … & Caron, C. (2015). Workflow4Metabolomics: a collaborative research infrastructure for computational metabolomics. Bioinformatics, 31(9), 1493-1495. dx.doi.org/10.1093/bioinformatics/btu813 Comte, B., Monnerie, S., Brandolini-Bunlon, M., Canlet, C., Castelli, F., Chu-Van, E., … & Pujos-Guillot, E. (2021). Multiplatform metabolomics for an integrative exploration of metabolic syndrome in older men. EBioMedicine, 69, 103440. doi.org/10.1016/j.ebiom.2021.103440 Pujos-Guillot, E., Pétéra, M., Jacquemin, J., Centeno, D., Lyan, B., Montoliu, I., … & Comte, B. (2019). Identification of pre-frailty sub-phenotypes in elderly using metabolomics. Frontiers in physiology, 9, 1903. dx.doi.org/10.3389/fphys.2018.01903"
   },
   {
     "objectID": "galaxyW4M.html",
     "href": "galaxyW4M.html",
     "title": "What is Galaxy W4M ?",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "The Workflow4Metabolomics, W4M in short, is a French infrastructure offering software tool processing, analyzing and annotating metabolomics data. It is based on the Galaxy platform.\nIn the context of collaboration between metabolomics (MetaboHUB French infrastructure) and bioinformatics platforms (IFB: Institut Français de Bioinformatique), we have developed full LC/MS, GC/MS and NMR pipelines using Galaxy framework for data analysis including preprocessing, normalization, quality control, statistical analysis and annotation steps. Those modular and extensible workflows are composed with existing components (XCMS and CAMERA packages, etc.) but also a whole suite of complementary homemade tools. This implementation is accessible through a web interface, which guarantees the parameters completeness. The advanced features of Galaxy have made possible the integration of components from different sources and of different types. Thus, an extensible Virtual Research Environment (VRE) is offered to metabolomics communities (platforms, end users, etc.), and enables preconfigured workflows sharing for new users, but also experts in the field."
+  },
+  {
+    "objectID": "galaxyW4M.html#our-project",
+    "href": "galaxyW4M.html#our-project",
+    "title": "What is Galaxy W4M ?",
+    "section": "",
+    "text": "The Workflow4Metabolomics, W4M in short, is a French infrastructure offering software tool processing, analyzing and annotating metabolomics data. It is based on the Galaxy platform.\nIn the context of collaboration between metabolomics (MetaboHUB French infrastructure) and bioinformatics platforms (IFB: Institut Français de Bioinformatique), we have developed full LC/MS, GC/MS and NMR pipelines using Galaxy framework for data analysis including preprocessing, normalization, quality control, statistical analysis and annotation steps. Those modular and extensible workflows are composed with existing components (XCMS and CAMERA packages, etc.) but also a whole suite of complementary homemade tools. This implementation is accessible through a web interface, which guarantees the parameters completeness. The advanced features of Galaxy have made possible the integration of components from different sources and of different types. Thus, an extensible Virtual Research Environment (VRE) is offered to metabolomics communities (platforms, end users, etc.), and enables preconfigured workflows sharing for new users, but also experts in the field."
+  },
+  {
+    "objectID": "galaxyW4M.html#galaxy",
+    "href": "galaxyW4M.html#galaxy",
+    "title": "What is Galaxy W4M ?",
+    "section": "Galaxy",
+    "text": "Galaxy\nGalaxy is an open, web-based platform for data intensive biomedical research. Whether on the free public server or your own instance, you can perform, reproduce, and share complete analyses.\nHomepage: https://galaxyproject.org/\nworkflow"
+  },
+  {
+    "objectID": "galaxyW4M.html#citation",
+    "href": "galaxyW4M.html#citation",
+    "title": "What is Galaxy W4M ?",
+    "section": "Citation",
+    "text": "Citation\nGiacomoni F., Le Corguillé G., Monsoor M., Landi M., Pericard P., Pétéra M., Duperier C., Tremblay-Franco M., Martin J.-F., Jacob D., Goulitquer S., Thévenot E.A. and Caron C. (2014). Workflow4Metabolomics: A collaborative research infrastructure for computational metabolomics. Bioinformatics, http://dx.doi.org/10.1093/bioinformatics/btu813"
   },
   {
     "objectID": "listing_team.html",
     "href": "listing_team.html",
     "title": "W4M team",
     "section": "",
-    "text": "About this site\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJulien Saint-Vanne\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWorkflow4Metabolomics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYann Guitton\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Here are all the participants for the development of a beautiful and usefull W4M Galaxy.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJulien Saint-Vanne\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMélanie Pétéra\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSylvain Dechaumet\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWorkflow4Metabolomics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYann Guitton\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "w4e2024.html",
@@ -46,7 +102,7 @@
     "href": "contribute.html",
     "title": "How to contribute for W4M ?",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Push your tools / W4M as a Showcase Your tools can be installed, integrated and hosted within the main W4M instance Tools.\nQuality standards However, the tools must stick to the IUC standards in order to be easily integrated:\nAvailable in a GitHub repository Conda dependencies Functional tests using Planemo Available in the Main ToolShed In the first place, your tools will be displayed in the Contribution section of the tool panel. And eventually, it should be promoted among the other tools.\nAdvanced mode In order to be fully integrated in our reference workflows, your tools must follow your exchange formats between tools (for more information, contact us).\nA collaboration should be established if help is needed!\nSupport / HelpDesk In all cases, the tools must be maintained by the developers themselves. A tool can be removed if this after sales service isn’t done.\nGuidelines Writing a tool"
   },
   {
     "objectID": "about.html",
@@ -89,6 +145,13 @@
     "title": "Julien Saint-Vanne",
     "section": "Experience",
     "text": "Experience\nCNRS in Roscoff as a developper of Galaxy W4M tools for MSMS analysis (from 2018 to 2019)\nONIRIS - LABERCA in Nantes as a reasearch engineer in development of Shiny application for specific compounds (2020)\nEFS - UMR1236 in Rennes as a reasearch engineer to develop application to analyze multiparametric data in cytometry\nONIRIS - LABERCA in Nantes as a research engineer to develop Shiny application, add a visualisation part in Galaxy and make some geek things in my lab."
+  },
+  {
+    "objectID": "W4Mteam/yann_guitton.html",
+    "href": "W4Mteam/yann_guitton.html",
+    "title": "Yann Guitton",
+    "section": "",
+    "text": "About this site"
   },
   {
     "objectID": "W4Mteam/w4m.html",
