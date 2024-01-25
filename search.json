@@ -35,6 +35,34 @@
     "text": "Citation\nGiacomoni F., Le Corguillé G., Monsoor M., Landi M., Pericard P., Pétéra M., Duperier C., Tremblay-Franco M., Martin J.-F., Jacob D., Goulitquer S., Thévenot E.A. and Caron C. (2014). Workflow4Metabolomics: A collaborative research infrastructure for computational metabolomics. Bioinformatics, http://dx.doi.org/10.1093/bioinformatics/btu813\nGuitton Y., Tremblay-Franco M., Le Corguillé G., Martin J.F., Pétéra M., Roger-Mele P., Delabrière A., Goulitquer S., Monsoor M., Duperier C., Canlet C., Servien R., Tardivel P., Caron C., Giacomoni F., Thévenot E.A., Create, run, share, publish, and reference your LC–MS, FIA–MS, GC–MS, and NMR data analysis workflows with the Workflow4Metabolomics 3.0 Galaxy online infrastructure for metabolomics, The International Journal of Biochemistry & Cell Biology, 2017, ISSN 1357-2725, http://dx.doi.org/10.1016/j.biocel.2017.07.002. This paper is also available on the open archive HAL."
   },
   {
+    "objectID": "people/old_w4m/Natacha_Lenuzza.html#experience",
+    "href": "people/old_w4m/Natacha_Lenuzza.html#experience",
+    "title": "Natacha Lenuzza",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/old_w4m/Romain_Dallet.html#experience",
+    "href": "people/old_w4m/Romain_Dallet.html#experience",
+    "title": "Romain Dallet",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/old_w4m/Misharl_Monsoor.html#experience",
+    "href": "people/old_w4m/Misharl_Monsoor.html#experience",
+    "title": "Misharl Monsoor",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/old_w4m/Pierre_Pericard.html#experience",
+    "href": "people/old_w4m/Pierre_Pericard.html#experience",
+    "title": "Pierre Péricard",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
     "objectID": "people/W4Mteam/Florence_Souard.html#experience",
     "href": "people/W4Mteam/Florence_Souard.html#experience",
     "title": "Florence Souard",
@@ -49,23 +77,16 @@
     "text": "Experience"
   },
   {
-    "objectID": "people/W4Mteam/franckgiacomoni.html#experience",
-    "href": "people/W4Mteam/franckgiacomoni.html#experience",
-    "title": "Franck Giacomoni",
+    "objectID": "people/W4Mteam/christophe_duperier.html#experience",
+    "href": "people/W4Mteam/christophe_duperier.html#experience",
+    "title": "Christophe Duperier",
     "section": "Experience",
     "text": "Experience"
   },
   {
-    "objectID": "people/W4Mteam/Marie_TremblayFranco.html#experience",
-    "href": "people/W4Mteam/Marie_TremblayFranco.html#experience",
-    "title": "Marie Tremblay-Franco",
-    "section": "Experience",
-    "text": "Experience"
-  },
-  {
-    "objectID": "people/W4Mteam/Natacha_Lenuzza.html#experience",
-    "href": "people/W4Mteam/Natacha_Lenuzza.html#experience",
-    "title": "Natacha Lenuzza",
+    "objectID": "people/W4Mteam/Celine_Dalle.html#experience",
+    "href": "people/W4Mteam/Celine_Dalle.html#experience",
+    "title": "Céline Dalle",
     "section": "Experience",
     "text": "Experience"
   },
@@ -98,13 +119,6 @@
     "text": "Experience"
   },
   {
-    "objectID": "people/W4Mteam/Pierrick_Roge_Mele.html#experience",
-    "href": "people/W4Mteam/Pierrick_Roge_Mele.html#experience",
-    "title": "Pierrick Roge-Mele",
-    "section": "Experience",
-    "text": "Experience"
-  },
-  {
     "objectID": "people/W4Mteam/melanie_petera.html#experience",
     "href": "people/W4Mteam/melanie_petera.html#experience",
     "title": "Mélanie Pétéra",
@@ -112,23 +126,9 @@
     "text": "Experience\nEngineer in statistics / MSc Contact infos\nmelanie.petera{at}inrae{dot}fr phone: +33(0)4 73 62 47 89 Involved in routine analyses as data analyst and/or data treatment supervisor. Workflow developer for internal data analysis procedures. Participation to Workflow4Metabolomics as a core team member.\nMissions\nData processing and statistical analysis of untargeted MS analyses Development and maintenance of in-house data processing workflows Training and guidance Main publications\nGiacomoni, F., Le Corguille, G., Monsoor, M., Landi, M., Pericard, P., Pétéra, M., … & Caron, C. (2015). Workflow4Metabolomics: a collaborative research infrastructure for computational metabolomics. Bioinformatics, 31(9), 1493-1495. dx.doi.org/10.1093/bioinformatics/btu813 Comte, B., Monnerie, S., Brandolini-Bunlon, M., Canlet, C., Castelli, F., Chu-Van, E., … & Pujos-Guillot, E. (2021). Multiplatform metabolomics for an integrative exploration of metabolic syndrome in older men. EBioMedicine, 69, 103440. doi.org/10.1016/j.ebiom.2021.103440 Pujos-Guillot, E., Pétéra, M., Jacquemin, J., Centeno, D., Lyan, B., Montoliu, I., … & Comte, B. (2019). Identification of pre-frailty sub-phenotypes in elderly using metabolomics. Frontiers in physiology, 9, 1903. dx.doi.org/10.3389/fphys.2018.01903"
   },
   {
-    "objectID": "people/W4Mteam/Binta_Dieme.html#experience",
-    "href": "people/W4Mteam/Binta_Dieme.html#experience",
-    "title": "Binta Diémé",
-    "section": "Experience",
-    "text": "Experience"
-  },
-  {
     "objectID": "people/W4Mteam/Gildas_LeCorguille.html#experience",
     "href": "people/W4Mteam/Gildas_LeCorguille.html#experience",
     "title": "Gildas Le Corguillé",
-    "section": "Experience",
-    "text": "Experience"
-  },
-  {
-    "objectID": "people/W4Mteam/Sophie_Goulitquer.html#experience",
-    "href": "people/W4Mteam/Sophie_Goulitquer.html#experience",
-    "title": "Sophie Goulitquer",
     "section": "Experience",
     "text": "Experience"
   },
@@ -217,23 +217,9 @@
     "text": "Experience"
   },
   {
-    "objectID": "people/W4Mteam/Pierre_Pericard.html#experience",
-    "href": "people/W4Mteam/Pierre_Pericard.html#experience",
-    "title": "Pierre Péricard",
-    "section": "Experience",
-    "text": "Experience"
-  },
-  {
-    "objectID": "people/W4Mteam/JeanFrançois_Martin.html#experience",
-    "href": "people/W4Mteam/JeanFrançois_Martin.html#experience",
-    "title": "Jean-François Martin",
-    "section": "Experience",
-    "text": "Experience"
-  },
-  {
-    "objectID": "people/W4Mteam/Misharl_Monsoor.html#experience",
-    "href": "people/W4Mteam/Misharl_Monsoor.html#experience",
-    "title": "Misharl Monsoor",
+    "objectID": "people/W4Mteam/Binta_Dieme.html#experience",
+    "href": "people/W4Mteam/Binta_Dieme.html#experience",
+    "title": "Binta Diémé",
     "section": "Experience",
     "text": "Experience"
   },
@@ -257,13 +243,6 @@
     "title": "Julien Saint-Vanne",
     "section": "Experience",
     "text": "Experience\nCNRS in Roscoff as a developper of Galaxy W4M tools for MSMS analysis (from 2018 to 2019)\nONIRIS - LABERCA in Nantes as a reasearch engineer in development of Shiny application for specific compounds (2020)\nEFS - UMR1236 in Rennes as a reasearch engineer to develop application to analyze multiparametric data in cytometry\nONIRIS - LABERCA in Nantes as a research engineer to develop Shiny application, add a visualisation part in Galaxy and make some geek things in my lab."
-  },
-  {
-    "objectID": "people/W4Mteam/Romain_Dallet.html#experience",
-    "href": "people/W4Mteam/Romain_Dallet.html#experience",
-    "title": "Romain Dallet",
-    "section": "Experience",
-    "text": "Experience"
   },
   {
     "objectID": "people/W4Mteam/Sylvain_Chereau.html#experience",
@@ -294,23 +273,16 @@
     "text": "Experience"
   },
   {
-    "objectID": "people/W4Mteam/Celine_Dalle.html#experience",
-    "href": "people/W4Mteam/Celine_Dalle.html#experience",
-    "title": "Céline Dalle",
+    "objectID": "people/W4Mteam/Marie_TremblayFranco.html#experience",
+    "href": "people/W4Mteam/Marie_TremblayFranco.html#experience",
+    "title": "Marie Tremblay-Franco",
     "section": "Experience",
     "text": "Experience"
   },
   {
-    "objectID": "people/W4Mteam/christophe_duperier.html#experience",
-    "href": "people/W4Mteam/christophe_duperier.html#experience",
-    "title": "Christophe Duperier",
-    "section": "Experience",
-    "text": "Experience"
-  },
-  {
-    "objectID": "people/W4Mteam/Marion_Landi.html#experience",
-    "href": "people/W4Mteam/Marion_Landi.html#experience",
-    "title": "Marion Landi",
+    "objectID": "people/W4Mteam/franckgiacomoni.html#experience",
+    "href": "people/W4Mteam/franckgiacomoni.html#experience",
+    "title": "Franck Giacomoni",
     "section": "Experience",
     "text": "Experience"
   },
@@ -322,9 +294,37 @@
     "text": "Experience"
   },
   {
+    "objectID": "people/old_w4m/Sophie_Goulitquer.html#experience",
+    "href": "people/old_w4m/Sophie_Goulitquer.html#experience",
+    "title": "Sophie Goulitquer",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/old_w4m/JeanFrançois_Martin.html#experience",
+    "href": "people/old_w4m/JeanFrançois_Martin.html#experience",
+    "title": "Jean-François Martin",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/old_w4m/Pierrick_Roge_Mele.html#experience",
+    "href": "people/old_w4m/Pierrick_Roge_Mele.html#experience",
+    "title": "Pierrick Roge-Mele",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
     "objectID": "people/old_w4m/Lain_Pavot.html#experience",
     "href": "people/old_w4m/Lain_Pavot.html#experience",
     "title": "Lain Pavot",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/old_w4m/Marion_Landi.html#experience",
+    "href": "people/old_w4m/Marion_Landi.html#experience",
+    "title": "Marion Landi",
     "section": "Experience",
     "text": "Experience"
   },
@@ -333,20 +333,20 @@
     "href": "listing_team.html",
     "title": "W4M team",
     "section": "",
-    "text": "Here are all the participants for the development of a beautiful and usefull W4M Galaxy.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBioinformatic Engineer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Here are all the participants for the development of a beautiful and usefull W4M Galaxy.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBioinformatic Engineer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "listing_team.html#current-w4m-team",
     "href": "listing_team.html#current-w4m-team",
     "title": "W4M team",
     "section": "",
-    "text": "Here are all the participants for the development of a beautiful and usefull W4M Galaxy.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBioinformatic Engineer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Here are all the participants for the development of a beautiful and usefull W4M Galaxy.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBioinformatic Engineer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "listing_team.html#previous-collaborators",
     "href": "listing_team.html#previous-collaborators",
     "title": "W4M team",
     "section": "Previous collaborators",
-    "text": "Previous collaborators\nHere are all the previous collaborators we had the chance to share with\n\n\n\n\n\n\n\n\n\n\nLain Pavot\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Previous collaborators\nHere are all the previous collaborators we had the chance to share with\n\n\n\n\n\n\n\n\n\n\nJean-François Martin\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLain Pavot\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarion Landi\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMisharl Monsoor\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNatacha Lenuzza\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPierre Péricard\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPierrick Roge-Mele\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRomain Dallet\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSophie Goulitquer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
