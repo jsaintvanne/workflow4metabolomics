@@ -32,7 +32,7 @@
     "href": "galaxyW4M.html#citation",
     "title": "What is Galaxy W4M ?",
     "section": "Citation",
-    "text": "Citation\nGiacomoni F., Le Corguillé G., Monsoor M., Landi M., Pericard P., Pétéra M., Duperier C., Tremblay-Franco M., Martin J.-F., Jacob D., Goulitquer S., Thévenot E.A. and Caron C. (2014). Workflow4Metabolomics: A collaborative research infrastructure for computational metabolomics. Bioinformatics, http://dx.doi.org/10.1093/bioinformatics/btu813"
+    "text": "Citation\nGiacomoni F., Le Corguillé G., Monsoor M., Landi M., Pericard P., Pétéra M., Duperier C., Tremblay-Franco M., Martin J.-F., Jacob D., Goulitquer S., Thévenot E.A. and Caron C. (2014). Workflow4Metabolomics: A collaborative research infrastructure for computational metabolomics. Bioinformatics, http://dx.doi.org/10.1093/bioinformatics/btu813\nGuitton Y., Tremblay-Franco M., Le Corguillé G., Martin J.F., Pétéra M., Roger-Mele P., Delabrière A., Goulitquer S., Monsoor M., Duperier C., Canlet C., Servien R., Tardivel P., Caron C., Giacomoni F., Thévenot E.A., Create, run, share, publish, and reference your LC–MS, FIA–MS, GC–MS, and NMR data analysis workflows with the Workflow4Metabolomics 3.0 Galaxy online infrastructure for metabolomics, The International Journal of Biochemistry & Cell Biology, 2017, ISSN 1357-2725, http://dx.doi.org/10.1016/j.biocel.2017.07.002. This paper is also available on the open archive HAL."
   },
   {
     "objectID": "people/W4Mteam/Florence_Souard.html#experience",
@@ -156,9 +156,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Workflow4Metabolomics Galaxy Documentation",
+    "title": "Workflow4Metabolomics",
     "section": "",
-    "text": "Proposition de squelette W4M :\n\npremière page : de présentation de ce qu’est w4m, qu’on fait un Galaxy, qu’on peut y contribuer, qu’on fait des events…\nseconde page : on présente ce qu’est Galaxy et comment on a construit Galaxy w4m\ntroisième page : on présente comment contribuer aux outils de w4m\nquatrième page : une liste des outils et leur explication, un menu déroulant avec chaque outil peut être ? (ou on fait un lien vers un autre quarto pour ça ?)\ncinquième page : les events de w4m (menu déroulant pourrait être pas mal peut être)\nsixième page : toutes les personnes de W4M avec une espèce de carte d’identité\n\nJ’ai tout cassé !"
+    "text": "Important\n\n\n\nWorkflow4experimenters (W4E) course 2024 : Pre-Registrations Opened - Until 31 Jan\n\n\n\n\n\n\n\n\nNote\n\n\n\nNote à supprimer Proposition de squelette W4M : - première page : de présentation de ce qu’est w4m, qu’on fait un Galaxy, qu’on peut y contribuer, qu’on fait des events… - seconde page : on présente ce qu’est Galaxy et comment on a construit Galaxy w4m - troisième page : on présente comment contribuer aux outils de w4m - quatrième page : une liste des outils et leur explication, un menu déroulant avec chaque outil peut être ? (ou on fait un lien vers un autre quarto pour ça ?) - cinquième page : les events de w4m (menu déroulant pourrait être pas mal peut être) - sixième page : toutes les personnes de W4M avec une espèce de carte d’identité\n\n\nWelcome to the collaborative portal of W4M dedicated to metabolomics data processing, analysis and annotation for the Metabolomics community. On this website you will find information on our main missions as well as users and developpers guides to use or contribute with us:\n- Teaching schools (Workflow 4 Experimenters)\n- Galaxy instance for metabolomics (Workflow 4 Metabolomics)\n- Team members here\nW4M is supported by:\n- The National Infrastructure of Metabolomics and Fluxomics: MetaboHUB [MetaboHUB-ANR-11-INBS-0010, 2011]\n- The French Institute of Bioinformatics: IFB [ANR-11-INBS-0013236]\n- The French Network of Metabolomic and Fluxomic: RFMF"
   },
   {
     "objectID": "about.html",
