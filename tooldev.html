@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>W4M Galaxy Documentation - Cécile Canlet</title>
+<title>W4M Galaxy Documentation - Tool development</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,21 +23,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../images/w4m.png" rel="icon" type="image/png">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./images/w4m.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -67,7 +68,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -77,10 +78,10 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../images/w4m.png" alt="" class="navbar-logo">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/w4m.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">W4M Galaxy Documentation</span>
     </a>
   </div>
@@ -91,7 +92,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> <i class="bi bi-house" role="img">
+    <a class="nav-link" href="./index.html"> <i class="bi bi-house" role="img">
 </i> 
 <span class="menu-text">Home</span></a>
   </li>  
@@ -103,20 +104,20 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-galaxy-w4m">    
         <li>
-    <a class="dropdown-item" href="../../galaxyW4M.html">
+    <a class="dropdown-item" href="./galaxyW4M.html">
  <span class="dropdown-text">Autre chose</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../galaxyW4M.html">
+    <a class="dropdown-item" href="./galaxyW4M.html">
  <span class="dropdown-text">Encore autre chose</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../tooldev.html"><i class="bi bi-pencil-square" role="img">
+    <a class="dropdown-item" href="./tooldev.html"><i class="bi bi-pencil-square" role="img">
 </i> 
  <span class="dropdown-text">Tool development</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../contribute.html"><i class="bi bi-pencil-square" role="img">
+    <a class="dropdown-item" href="./contribute.html"><i class="bi bi-pencil-square" role="img">
 </i> 
  <span class="dropdown-text">I want to contribute</span></a>
   </li>  
@@ -130,11 +131,11 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-tools">    
         <li>
-    <a class="dropdown-item" href="../../tool1.html">
+    <a class="dropdown-item" href="./tool1.html">
  <span class="dropdown-text">Tool 1</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../tool2.html">
+    <a class="dropdown-item" href="./tool2.html">
  <span class="dropdown-text">Tool 2</span></a>
   </li>  
     </ul>
@@ -147,22 +148,22 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-events">    
         <li>
-    <a class="dropdown-item" href="../../w4e2024.html">
+    <a class="dropdown-item" href="./w4e2024.html">
  <span class="dropdown-text">Workflow4Experimenters 2024</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../w4e2023.html">
+    <a class="dropdown-item" href="./w4e2023.html">
  <span class="dropdown-text">Workflow4Experimenters 2023</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../listing_team.html"> <i class="bi bi-people" role="img">
+    <a class="nav-link" href="./listing_team.html"> <i class="bi bi-people" role="img">
 </i> 
 <span class="menu-text">W4M Team</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -200,44 +201,81 @@ ul.task-list li input[type="checkbox"] {
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
+   
   <ul>
-  <li><a href="#education" id="toc-education" class="nav-link active" data-scroll-target="#education">Education</a></li>
-  <li><a href="#experience" id="toc-experience" class="nav-link" data-scroll-target="#experience">Experience</a></li>
+  <li><a href="#developing-galaxy-tools-in-general" id="toc-developing-galaxy-tools-in-general" class="nav-link active" data-scroll-target="#developing-galaxy-tools-in-general">Developing Galaxy tools in general</a></li>
+  <li><a href="#developing-tools-compatible-with-w4m-inputoutput-datasets" id="toc-developing-tools-compatible-with-w4m-inputoutput-datasets" class="nav-link" data-scroll-target="#developing-tools-compatible-with-w4m-inputoutput-datasets">Developing tools compatible with W4M input/output datasets</a>
+  <ul class="collapse">
+  <li><a href="#about-the-w4m-3-tables-format" id="toc-about-the-w4m-3-tables-format" class="nav-link" data-scroll-target="#about-the-w4m-3-tables-format">About the W4M 3-tables format</a></li>
+  </ul></li>
+  <li><a href="#developing-tools-in-a-w4m-approuved-format" id="toc-developing-tools-in-a-w4m-approuved-format" class="nav-link" data-scroll-target="#developing-tools-in-a-w4m-approuved-format">Developing tools in a W4M-approuved format</a>
+  <ul class="collapse">
+  <li><a href="#the-tool-being-wrapped" id="toc-the-tool-being-wrapped" class="nav-link" data-scroll-target="#the-tool-being-wrapped">The tool being wrapped</a></li>
+  <li><a href="#the-galaxy-xml-wrapper" id="toc-the-galaxy-xml-wrapper" class="nav-link" data-scroll-target="#the-galaxy-xml-wrapper">The Galaxy XML wrapper</a></li>
+  <li><a href="#documenting-the-galaxy-tool" id="toc-documenting-the-galaxy-tool" class="nav-link" data-scroll-target="#documenting-the-galaxy-tool">Documenting the Galaxy tool</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<div class="quarto-about-trestles content">
-  <div class="about-entity">
-    <img src="https://mth-metatoul.com/wp-content/uploads/2023/05/Cecile_CANLET.png" class="about-image
-  rounded " style="width: 20em;">
+<main class="content" id="quarto-document-content">
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Cécile Canlet</h1>
+<h1 class="title">Tool development</h1>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    
+  
+    
   </div>
+  
+
+
 </header>
-    <div class="about-links">
-  <a href="https://www.researchgate.net/profile/Cecile-Canlet" class="about-link" rel="" target="">
-    <i class="bi bi-researchgate"></i>
-     <span class="about-link-text">Research Gate</span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
 
-<section id="education" class="level2">
-<h2 data-anchor-id="education">Education</h2>
+
+<section id="developing-galaxy-tools-in-general" class="level2">
+<h2 class="anchored" data-anchor-id="developing-galaxy-tools-in-general">Developing Galaxy tools in general</h2>
+<p>In case you are not familiar with Galaxy tool development, there is plenty of supports to help you beginning and improuving.</p>
+<p><strong>TODO</strong> A voir : - <a href="https://github.com/jsaintvanne/workflow4metabolomics/blob/doc-ju/GUIDELINES.md#writing-a-tool">rediriger ici</a> et compléter (mention des GTN) - OU - délocaliser le contenu ici et compléter (toujours mention des GTN)</p>
+<p>Please note that W4M also hosts a GitHub repository aiming to gather tools and contributors from the metabolomics world. <a href="https://github.com/workflow4metabolomics/tools-metabolomics">More information available in the Readme</a></p>
 </section>
-<section id="experience" class="level2">
-<h2 data-anchor-id="experience">Experience</h2>
+<section id="developing-tools-compatible-with-w4m-inputoutput-datasets" class="level2">
+<h2 class="anchored" data-anchor-id="developing-tools-compatible-with-w4m-inputoutput-datasets">Developing tools compatible with W4M input/output datasets</h2>
+<p>Due to the diversity of tools needed to construct comprehensive metabolomic workflows, W4M chose to adopt common standards across its tools, in particular regarding data table formats.</p>
+<section id="about-the-w4m-3-tables-format" class="level3">
+<h3 class="anchored" data-anchor-id="about-the-w4m-3-tables-format">About the W4M 3-tables format</h3>
+<p><strong>TODO</strong> topo sur le format 3 tableaux ? ou lien vers un endroit où ya le topo ?</p>
+</section>
+</section>
+<section id="developing-tools-in-a-w4m-approuved-format" class="level2">
+<h2 class="anchored" data-anchor-id="developing-tools-in-a-w4m-approuved-format">Developing tools in a W4M-approuved format</h2>
+<p><strong>TODO</strong> blabla intro</p>
+<section id="the-tool-being-wrapped" class="level3">
+<h3 class="anchored" data-anchor-id="the-tool-being-wrapped">The tool being wrapped</h3>
+<p><strong>TODO</strong> topo sur le user experience</p>
+<p><strong>TODO</strong> Ajout de la ref à <a href="https://cran.r-project.org/web/packages/W4MRUtils/index.html">W4MRUtils</a> dans le cas de codes en R.</p>
+</section>
+<section id="the-galaxy-xml-wrapper" class="level3">
+<h3 class="anchored" data-anchor-id="the-galaxy-xml-wrapper">The Galaxy XML wrapper</h3>
+<p>Among the possible variations for functional XML wrappers, W4M is willing to garantee […]</p>
+<p><strong>TODO</strong> les reco W4M du XML</p>
+</section>
+<section id="documenting-the-galaxy-tool" class="level3">
+<h3 class="anchored" data-anchor-id="documenting-the-galaxy-tool">Documenting the Galaxy tool</h3>
+<p><strong>TODO</strong> Topo sur l’importance de la doc</p>
+<p><strong>TODO</strong> Lien vers le template-type</p>
 
 
 </section>
-</main></div>
-</div>
- <!-- /main -->
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -258,6 +296,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

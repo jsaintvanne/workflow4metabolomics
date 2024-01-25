@@ -161,6 +161,34 @@
     "text": "Important\n\n\n\nWorkflow4experimenters (W4E) course 2024 : Pre-Registrations Opened - Until 31 Jan\n\n\n\n\n\n\n\n\nNote\n\n\n\nNote à supprimer Proposition de squelette W4M : - première page : de présentation de ce qu’est w4m, qu’on fait un Galaxy, qu’on peut y contribuer, qu’on fait des events… - seconde page : on présente ce qu’est Galaxy et comment on a construit Galaxy w4m - troisième page : on présente comment contribuer aux outils de w4m - quatrième page : une liste des outils et leur explication, un menu déroulant avec chaque outil peut être ? (ou on fait un lien vers un autre quarto pour ça ?) - cinquième page : les events de w4m (menu déroulant pourrait être pas mal peut être) - sixième page : toutes les personnes de W4M avec une espèce de carte d’identité\n\n\nWelcome to the collaborative portal of W4M dedicated to metabolomics data processing, analysis and annotation for the Metabolomics community. On this website you will find information on our main missions as well as users and developpers guides to use or contribute with us:\n- Teaching schools (Workflow 4 Experimenters)\n- Galaxy instance for metabolomics (Workflow 4 Metabolomics)\n- Team members here\nW4M is supported by:\n- The National Infrastructure of Metabolomics and Fluxomics: MetaboHUB [MetaboHUB-ANR-11-INBS-0010, 2011]\n- The French Institute of Bioinformatics: IFB [ANR-11-INBS-0013236]\n- The French Network of Metabolomic and Fluxomic: RFMF"
   },
   {
+    "objectID": "tooldev.html",
+    "href": "tooldev.html",
+    "title": "Tool development",
+    "section": "",
+    "text": "In case you are not familiar with Galaxy tool development, there is plenty of supports to help you beginning and improuving.\nTODO A voir : - rediriger ici et compléter (mention des GTN) - OU - délocaliser le contenu ici et compléter (toujours mention des GTN)\nPlease note that W4M also hosts a GitHub repository aiming to gather tools and contributors from the metabolomics world. More information available in the Readme"
+  },
+  {
+    "objectID": "tooldev.html#developing-galaxy-tools-in-general",
+    "href": "tooldev.html#developing-galaxy-tools-in-general",
+    "title": "Tool development",
+    "section": "",
+    "text": "In case you are not familiar with Galaxy tool development, there is plenty of supports to help you beginning and improuving.\nTODO A voir : - rediriger ici et compléter (mention des GTN) - OU - délocaliser le contenu ici et compléter (toujours mention des GTN)\nPlease note that W4M also hosts a GitHub repository aiming to gather tools and contributors from the metabolomics world. More information available in the Readme"
+  },
+  {
+    "objectID": "tooldev.html#developing-tools-compatible-with-w4m-inputoutput-datasets",
+    "href": "tooldev.html#developing-tools-compatible-with-w4m-inputoutput-datasets",
+    "title": "Tool development",
+    "section": "Developing tools compatible with W4M input/output datasets",
+    "text": "Developing tools compatible with W4M input/output datasets\nDue to the diversity of tools needed to construct comprehensive metabolomic workflows, W4M chose to adopt common standards across its tools, in particular regarding data table formats.\n\nAbout the W4M 3-tables format\nTODO topo sur le format 3 tableaux ? ou lien vers un endroit où ya le topo ?"
+  },
+  {
+    "objectID": "tooldev.html#developing-tools-in-a-w4m-approuved-format",
+    "href": "tooldev.html#developing-tools-in-a-w4m-approuved-format",
+    "title": "Tool development",
+    "section": "Developing tools in a W4M-approuved format",
+    "text": "Developing tools in a W4M-approuved format\nTODO blabla intro\n\nThe tool being wrapped\nTODO topo sur le user experience\nTODO Ajout de la ref à W4MRUtils dans le cas de codes en R.\n\n\nThe Galaxy XML wrapper\nAmong the possible variations for functional XML wrappers, W4M is willing to garantee […]\nTODO les reco W4M du XML\n\n\nDocumenting the Galaxy tool\nTODO Topo sur l’importance de la doc\nTODO Lien vers le template-type"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
