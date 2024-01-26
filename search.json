@@ -147,18 +147,25 @@
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
-    "objectID": "tool1.html",
-    "href": "tool1.html",
-    "title": "Description of tool 1",
+    "objectID": "tooluser.html",
+    "href": "tooluser.html",
+    "title": "User guide",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "The most effective way to master the use of our tools is by enrolling in our comprehensive training school . Below you will find in-depth learning guides, providing you with the skills you need to leverage our tools seamlessly:\n\nAccess complete and interactive step-by-step guides by visiting the  Galaxy Training Network on metabolomics\nExplore our  Galaxy instance were each tool is accompanied by comprehensive support, including helpful documentation, examples, and references, ensuring that you have the resources you need"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Workflow4Metabolomics",
+    "objectID": "tooluser.html#user-guide",
+    "href": "tooluser.html#user-guide",
+    "title": "User guide",
     "section": "",
-    "text": "Important\n\n\n\nWorkflow4experimenters () course 2024 : Pre-Registrations Opened - Until 31 Jan\n\n\nWelcome to the collaborative portal of  dedicated to metabolomics data processing, analysis and annotation for the Metabolomics community. On this website you will find information on our main missions as well as users and developpers guides.\n\nKeep in touch\nYou can subscribe to our newsletter to get updated on new events !\n\n\nFast access\n\n\n\n\n\n\n \n\n\n Galaxy instance\n\n\n \n\n\n Teaching School\n\n\n \n\n\n\n\n\nResources\nI’m a newcomer and I want to know more about , visit our about us section\nI want to learn how to process metabolomics data, you can either:\n\nGo to our teaching school event  section\nConsult our official Galaxy training guides \n\nI want to contribute as:\n\nA tutor to help people understand how to process metabolomics data: contact here\n\nA developper to propose or add new tools to the community:\n\nCheck our guides and how-to here\n\nI need help contact here\n\n\nI don’t know but I want to help: contact here\n\nI want to report a problem on:\n\nthe galaxy instance, post an issue on the IFB Communit Support\non this website, post an issue on lien repo\n\nI want to know who is behind all of these, to our team member section\n\n\nOur sponsors\n\nThe National Infrastructure of Metabolomics and Fluxomics: MetaboHUB [MetaboHUB-ANR-11-INBS-0010, 2011]\nThe French Institute of Bioinformatics: IFB [ANR-11-INBS-0013236]\nThe French Network of Metabolomic and Fluxomic: RFMF"
+    "text": "The most effective way to master the use of our tools is by enrolling in our comprehensive training school . Below you will find in-depth learning guides, providing you with the skills you need to leverage our tools seamlessly:\n\nAccess complete and interactive step-by-step guides by visiting the  Galaxy Training Network on metabolomics\nExplore our  Galaxy instance were each tool is accompanied by comprehensive support, including helpful documentation, examples, and references, ensuring that you have the resources you need"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
   },
   {
     "objectID": "tooldev.html",
@@ -189,11 +196,18 @@
     "text": "Developing tools in a W4M-approuved format\nTODO blabla intro\n\nThe tool being wrapped\nTODO topo sur le user experience\nTODO Ajout de la ref à W4MRUtils dans le cas de codes en R.\n\n\nThe Galaxy XML wrapper\nAmong the possible variations for functional XML wrappers, W4M is willing to garantee […]\nTODO les reco W4M du XML\n\n\nDocumenting the Galaxy tool\nTODO Topo sur l’importance de la doc\nTODO Lien vers le template-type"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Workflow4Metabolomics",
     "section": "",
-    "text": "About this site"
+    "text": "Important\n\n\n\nWorkflow4experimenters () course 2024 : Pre-Registrations Opened - Until 31 Jan\n\n\nWelcome to the collaborative portal of  dedicated to metabolomics data processing, analysis and annotation for the Metabolomics community. On this website you will find information on our main missions as well as users and developpers guides.\n\nKeep in touch\nYou can subscribe to our newsletter to get updated on new events !\n\n\nFast access\n\n\n\n\n\n\n \n\n\n Galaxy instance\n\n\n \n\n\n Teaching School\n\n\n \n\n\n\n\n\nResources\nI’m a newcomer and I want to know more about , visit our about us section\nI want to learn how to process metabolomics data, you can either:\n\nGo to our teaching school event  section\nConsult our user page here\nOr directly go to our official Galaxy training guides \n\nI want to contribute as:\n\nA tutor to help people understand how to process metabolomics data: contact here\n\nA developper to propose or add new tools to the community:\n\nCheck our guides and how-to here\n\nI need help contact here\n\n\nI don’t know but I want to help: contact here\n\nI want to report a problem on:\n\nthe galaxy instance, post an issue on the IFB Communit Support\non this website, post an issue on lien repo\n\nI want to know who is behind all of these, to our team member section\n\n\nOur sponsors\n\nThe National Infrastructure of Metabolomics and Fluxomics: MetaboHUB [MetaboHUB-ANR-11-INBS-0010, 2011]\nThe French Institute of Bioinformatics: IFB [ANR-11-INBS-0013236]\nThe French Network of Metabolomic and Fluxomic: RFMF"
+  },
+  {
+    "objectID": "tool1.html",
+    "href": "tool1.html",
+    "title": "Description of tool 1",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
     "objectID": "w4e2023.html",
