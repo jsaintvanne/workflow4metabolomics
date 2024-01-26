@@ -221,7 +221,7 @@
     "href": "tooldev.html#developing-tools-in-a-w4m-approuved-format",
     "title": "Tool development",
     "section": "Developing tools in a W4M-approuved format",
-    "text": "Developing tools in a W4M-approuved format\nTODO blabla intro\n\nThe tool being wrapped\nTODO topo sur le user experience\nTODO Ajout de la ref à W4MRUtils dans le cas de codes en R.\n\n\nThe Galaxy XML wrapper\nAmong the possible variations for functional XML wrappers, W4M is willing to garantee […]\nTODO les reco W4M du XML\n\n\nDocumenting the Galaxy tool\nTODO Topo sur l’importance de la doc\nTODO Lien vers le template-type"
+    "text": "Developing tools in a W4M-approuved format\nTODO blabla intro\n\nThe tool being wrapped\nTODO topo sur le user experience\nTODO Ajout de la ref à W4MRUtils dans le cas de codes en R.\n\n\nThe Galaxy XML wrapper\nAmong the possible variations for functional XML wrappers, W4M is willing to garantee […]\nTODO les reco W4M du XML\n\n\nDocumenting the Galaxy tool\nTODO Topo sur l’importance de la doc\nTODO Presenter les section mandatory et facultative\nAbout the format, you can find here a template of Help tag to help you initiating your writing with the recommanded sections and formats."
   },
   {
     "objectID": "W4M_datasets/sacurine.html",
