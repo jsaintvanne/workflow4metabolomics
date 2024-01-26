@@ -154,13 +154,6 @@
     "text": "The most effective way to master the use of our tools is by enrolling in our comprehensive training school . Below you will find in-depth learning guides, providing you with the skills you need to leverage our tools seamlessly."
   },
   {
-    "objectID": "tooluser.html#user-guide",
-    "href": "tooluser.html#user-guide",
-    "title": "User guide",
-    "section": "",
-    "text": "The most effective way to master the use of our tools is by enrolling in our comprehensive training school . Below you will find in-depth learning guides, providing you with the skills you need to leverage our tools seamlessly."
-  },
-  {
     "objectID": "tooluser.html#galaxy-training-network-on-metabolomics",
     "href": "tooluser.html#galaxy-training-network-on-metabolomics",
     "title": "User guide",
@@ -175,11 +168,32 @@
     "text": "Galaxy  Instance\nExplore our  Galaxy instance were each tool is accompanied by comprehensive support, including helpful documentation, examples, and references, ensuring that you have the resources you need."
   },
   {
+    "objectID": "tooluser.html#workflows-examples",
+    "href": "tooluser.html#workflows-examples",
+    "title": "User guide",
+    "section": "Workflows examples",
+    "text": "Workflows examples"
+  },
+  {
+    "objectID": "tooluser.html#datasets-examples",
+    "href": "tooluser.html#datasets-examples",
+    "title": "User guide",
+    "section": "Datasets examples",
+    "text": "Datasets examples\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\ngalaxyref\n\n\nlink\n\n\nTitle\n\n\nAuthor\n\n\nhistory\n\n\ndoi\n\n\n\n\n\n\nW4M00001\n\n\nMTBLS404\n\n\nSacurine\n\n\n \n\n\n \n\n\npublication\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
     "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Workflow4Metabolomics",
+    "section": "",
+    "text": "Important\n\n\n\nWorkflow4experimenters () course 2024 : Pre-Registrations Opened - Until 31 Jan\n\n\nWelcome to the collaborative portal of  dedicated to metabolomics data processing, analysis and annotation for the Metabolomics community. On this website you will find information on our main missions as well as users and developpers guides.\n\nKeep in touch\nYou can subscribe to our newsletter to get updated on new events !\n\n\nFast access\n\n\n\n\n\n\n \n\n\n Galaxy instance\n\n\n \n\n\n Teaching School\n\n\n \n\n\n\n\n\nResources\nI’m a newcomer and I want to know more about , visit our about us section\nI want to learn how to process metabolomics data, you can either:\n\nGo to our teaching school event  section\nConsult our user page here\nOr directly go to our official Galaxy training guides \n\nI want to contribute as:\n\nA tutor to help people understand how to process metabolomics data: contact here\n\nA developper to propose or add new tools to the community:\n\nCheck our guides and how-to here\n\nI need help contact here\n\n\nI don’t know but I want to help: contact here\n\nI want to report a problem on:\n\nthe galaxy instance, post an issue on the IFB Communit Support\non this website, post an issue on lien repo\n\nI want to know who is behind all of these, to our team member section\n\n\nOur sponsors\n\nThe National Infrastructure of Metabolomics and Fluxomics: MetaboHUB [MetaboHUB-ANR-11-INBS-0010, 2011]\nThe French Institute of Bioinformatics: IFB [ANR-11-INBS-0013236]\nThe French Network of Metabolomic and Fluxomic: RFMF"
   },
   {
     "objectID": "tooldev.html",
@@ -210,11 +224,18 @@
     "text": "Developing tools in a W4M-approuved format\nTODO blabla intro\n\nThe tool being wrapped\nTODO topo sur le user experience\nTODO Ajout de la ref à W4MRUtils dans le cas de codes en R.\n\n\nThe Galaxy XML wrapper\nAmong the possible variations for functional XML wrappers, W4M is willing to garantee […]\nTODO les reco W4M du XML\n\n\nDocumenting the Galaxy tool\nTODO Topo sur l’importance de la doc\nTODO Lien vers le template-type"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Workflow4Metabolomics",
+    "objectID": "W4M_datasets/sacurine.html",
+    "href": "W4M_datasets/sacurine.html",
+    "title": "Sacurine",
     "section": "",
-    "text": "Important\n\n\n\nWorkflow4experimenters () course 2024 : Pre-Registrations Opened - Until 31 Jan\n\n\nWelcome to the collaborative portal of  dedicated to metabolomics data processing, analysis and annotation for the Metabolomics community. On this website you will find information on our main missions as well as users and developpers guides.\n\nKeep in touch\nYou can subscribe to our newsletter to get updated on new events !\n\n\nFast access\n\n\n\n\n\n\n \n\n\n Galaxy instance\n\n\n \n\n\n Teaching School\n\n\n \n\n\n\n\n\nResources\nI’m a newcomer and I want to know more about , visit our about us section\nI want to learn how to process metabolomics data, you can either:\n\nGo to our teaching school event  section\nConsult our user page here\nOr directly go to our official Galaxy training guides \n\nI want to contribute as:\n\nA tutor to help people understand how to process metabolomics data: contact here\n\nA developper to propose or add new tools to the community:\n\nCheck our guides and how-to here\n\nI need help contact here\n\n\nI don’t know but I want to help: contact here\n\nI want to report a problem on:\n\nthe galaxy instance, post an issue on the IFB Communit Support\non this website, post an issue on lien repo\n\nI want to know who is behind all of these, to our team member section\n\n\nOur sponsors\n\nThe National Infrastructure of Metabolomics and Fluxomics: MetaboHUB [MetaboHUB-ANR-11-INBS-0010, 2011]\nThe French Institute of Bioinformatics: IFB [ANR-11-INBS-0013236]\nThe French Network of Metabolomic and Fluxomic: RFMF"
+    "text": "Study: Characterization of the physiological variations of the metabolome in biofluids is critical to understand human physiology and to avoid confounding effects in cohort studies aiming at biomarker discovery.\nDataset: In this study conducted by the MetaboHUB French Infrastructure for Metabolomics, urine samples from 184 volunteers were analyzed by reversed-phase (C18) ultrahigh performance liquid chromatography (UPLC) coupled to high-resolution mass spectrometry (LTQ-Orbitrap). A total of 258 metabolites were identified at confidence levels provided by the metabolomics standards initiative (MSI) levels 1 or 2.\nWorkflow: This history describes the statistical analysis of the data set from the negative ionization mode (113 identified metabolites at MSI levels 1 or 2): correction of signal drift (loess model built on QC pools) and batch effects (two batches), variable filtering (QC coefficent of variation &lt; 30%), normalization by the sample osmolality, log10 transformation, sample filtering (Hotelling, decile and missing pvalues &gt; 0.001) resulting in the HU_096 sample being discarded, univariate hypothesis testing of significant variations with age, BMI, or between genders (FDR &lt; 0.05), and OPLS(-DA) modeling of age, BMI and gender.\nComments: The ‘sacurine’ data set (after normalization and filtering) is also available in the ropls R package from the Bioconductor repository. For a comprehensive analysis of the dataset (starting from the preprocessing of the raw files and including all detected features in the subsequent steps), please see the companion ‘W4M00002_Sacurine-comprehensive’ reference history."
+  },
+  {
+    "objectID": "W4M_datasets/sacurine.html#description",
+    "href": "W4M_datasets/sacurine.html#description",
+    "title": "Sacurine",
+    "section": "",
+    "text": "Study: Characterization of the physiological variations of the metabolome in biofluids is critical to understand human physiology and to avoid confounding effects in cohort studies aiming at biomarker discovery.\nDataset: In this study conducted by the MetaboHUB French Infrastructure for Metabolomics, urine samples from 184 volunteers were analyzed by reversed-phase (C18) ultrahigh performance liquid chromatography (UPLC) coupled to high-resolution mass spectrometry (LTQ-Orbitrap). A total of 258 metabolites were identified at confidence levels provided by the metabolomics standards initiative (MSI) levels 1 or 2.\nWorkflow: This history describes the statistical analysis of the data set from the negative ionization mode (113 identified metabolites at MSI levels 1 or 2): correction of signal drift (loess model built on QC pools) and batch effects (two batches), variable filtering (QC coefficent of variation &lt; 30%), normalization by the sample osmolality, log10 transformation, sample filtering (Hotelling, decile and missing pvalues &gt; 0.001) resulting in the HU_096 sample being discarded, univariate hypothesis testing of significant variations with age, BMI, or between genders (FDR &lt; 0.05), and OPLS(-DA) modeling of age, BMI and gender.\nComments: The ‘sacurine’ data set (after normalization and filtering) is also available in the ropls R package from the Bioconductor repository. For a comprehensive analysis of the dataset (starting from the preprocessing of the raw files and including all detected features in the subsequent steps), please see the companion ‘W4M00002_Sacurine-comprehensive’ reference history."
   },
   {
     "objectID": "tool1.html",
