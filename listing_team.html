@@ -78,10 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-description','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      page: 18,
-    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+      valueNames: ['listing-title','listing-description','listing-image','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -107,9 +106,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -158,6 +157,9 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="styles.css">
+<meta name="twitter:title" content="W4M Galaxy Documentation - W4M team">
+<meta name="twitter:description" content="">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed">
@@ -286,7 +288,7 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -298,9 +300,9 @@ window.Quarto = {
   <li><a href="#previous-collaborators" id="toc-previous-collaborators" class="nav-link" data-scroll-target="#previous-collaborators">Previous collaborators</a></li>
   </ul>
 </nav>
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(30)</span></div><div class="category" data-category="Development">Development <span class="quarto-category-count">(1)</span></div><div class="category" data-category="GCMS">GCMS <span class="quarto-category-count">(11)</span></div><div class="category" data-category="Informatic">Informatic <span class="quarto-category-count">(4)</span></div><div class="category" data-category="LCMS">LCMS <span class="quarto-category-count">(12)</span></div><div class="category" data-category="MSMS">MSMS <span class="quarto-category-count">(11)</span></div><div class="category" data-category="NRM">NRM <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Statistics">Statistics <span class="quarto-category-count">(12)</span></div><div class="category" data-category="Wrapper">Wrapper <span class="quarto-category-count">(1)</span></div><div class="category" data-category="XML">XML <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -309,7 +311,7 @@ window.Quarto = {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -326,7 +328,7 @@ window.Quarto = {
 <p>Here are all the participants for the development of a beautiful and usefull W4M Galaxy.</p>
 <div id="listing-current" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1706279080866" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="0" data-categories="LCMS,GCMS,MSMS,Statistics" data-listing-file-modified-sort="1706279228269" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/W4Mteam/Binta_Dieme.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -336,16 +338,28 @@ window.Quarto = {
 <h5 class="no-anchor card-title listing-title">
 Binta Diémé
 </h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('LCMS'); return false;">
+LCMS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('GCMS'); return false;">
+GCMS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('MSMS'); return false;">
+MSMS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Statistics'); return false;">
+Statistics
+</div>
+</div>
 <div class="card-text listing-description">
-
-
-
+???
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1706279080866" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="1" data-categories="LCMS,GCMS,MSMS,Statistics" data-listing-file-modified-sort="1706279228269" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/W4Mteam/Charlotte_Joly.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -355,16 +369,28 @@ Binta Diémé
 <h5 class="no-anchor card-title listing-title">
 Charlotte Joly
 </h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('LCMS'); return false;">
+LCMS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('GCMS'); return false;">
+GCMS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('MSMS'); return false;">
+MSMS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Statistics'); return false;">
+Statistics
+</div>
+</div>
 <div class="card-text listing-description">
-
-
-
+???
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1706279080866" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="2" data-categories="LCMS,GCMS,MSMS,Statistics" data-listing-file-modified-sort="1706279228269" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/W4Mteam/christophe_duperier.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -374,16 +400,28 @@ Charlotte Joly
 <h5 class="no-anchor card-title listing-title">
 Christophe Duperier
 </h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('LCMS'); return false;">
+LCMS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('GCMS'); return false;">
+GCMS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('MSMS'); return false;">
+MSMS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Statistics'); return false;">
+Statistics
+</div>
+</div>
 <div class="card-text listing-description">
-
-
-
+???
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1706279080866" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="3" data-categories="LCMS,GCMS,MSMS,Statistics" data-listing-file-modified-sort="1706279228269" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/W4Mteam/Celine_Canlet.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -393,16 +431,28 @@ Christophe Duperier
 <h5 class="no-anchor card-title listing-title">
 Cécile Canlet
 </h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('LCMS'); return false;">
+LCMS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('GCMS'); return false;">
+GCMS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('MSMS'); return false;">
+MSMS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Statistics'); return false;">
+Statistics
+</div>
+</div>
 <div class="card-text listing-description">
-
-
-
+???
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1706279080866" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="4" data-categories="LCMS,GCMS,MSMS,Statistics" data-listing-file-modified-sort="1706279228269" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/W4Mteam/cedric_delporte.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -412,16 +462,28 @@ Cécile Canlet
 <h5 class="no-anchor card-title listing-title">
 Cédric Deplorte
 </h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('LCMS'); return false;">
+LCMS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('GCMS'); return false;">
+GCMS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('MSMS'); return false;">
+MSMS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Statistics'); return false;">
+Statistics
+</div>
+</div>
 <div class="card-text listing-description">
-
-
-
+???
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1706279080866" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="5" data-categories="LCMS,GCMS,MSMS,Statistics" data-listing-file-modified-sort="1706279228269" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/W4Mteam/Celine_Dalle.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -431,16 +493,28 @@ Cédric Deplorte
 <h5 class="no-anchor card-title listing-title">
 Céline Dalle
 </h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('LCMS'); return false;">
+LCMS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('GCMS'); return false;">
+GCMS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('MSMS'); return false;">
+MSMS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Statistics'); return false;">
+Statistics
+</div>
+</div>
 <div class="card-text listing-description">
-
-
-
+???
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1706279080866" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="6" data-categories="Informatic" data-listing-file-modified-sort="1706279228269" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/W4Mteam/David_Benaben.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -450,16 +524,19 @@ Céline Dalle
 <h5 class="no-anchor card-title listing-title">
 David Benaben
 </h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Informatic'); return false;">
+Informatic
+</div>
+</div>
 <div class="card-text listing-description">
-
-
-
+???
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="7" data-listing-file-modified-sort="1706279080866" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="7" data-categories="LCMS,GCMS,MSMS,Statistics" data-listing-file-modified-sort="1706279228269" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/W4Mteam/Eric_Venot.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -469,16 +546,28 @@ David Benaben
 <h5 class="no-anchor card-title listing-title">
 Eric Venot
 </h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('LCMS'); return false;">
+LCMS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('GCMS'); return false;">
+GCMS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('MSMS'); return false;">
+MSMS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Statistics'); return false;">
+Statistics
+</div>
+</div>
 <div class="card-text listing-description">
-
-
-
+???
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-listing-file-modified-sort="1706279080866" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="8" data-categories="LCMS,GCMS,MSMS,Statistics" data-listing-file-modified-sort="1706279228269" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/W4Mteam/Etienne_Thevenot.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -488,16 +577,28 @@ Eric Venot
 <h5 class="no-anchor card-title listing-title">
 Etienne Thévenot
 </h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('LCMS'); return false;">
+LCMS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('GCMS'); return false;">
+GCMS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('MSMS'); return false;">
+MSMS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Statistics'); return false;">
+Statistics
+</div>
+</div>
 <div class="card-text listing-description">
-
-
-
+???
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="9" data-listing-file-modified-sort="1706279080866" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="9" data-categories="LCMS,GCMS,MSMS,Statistics" data-listing-file-modified-sort="1706279228269" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/W4Mteam/Florence_Souard.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -507,16 +608,28 @@ Etienne Thévenot
 <h5 class="no-anchor card-title listing-title">
 Florence Souard
 </h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('LCMS'); return false;">
+LCMS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('GCMS'); return false;">
+GCMS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('MSMS'); return false;">
+MSMS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Statistics'); return false;">
+Statistics
+</div>
+</div>
 <div class="card-text listing-description">
-
-
-
+???
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="10" data-listing-file-modified-sort="1706279080866" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="10" data-categories="LCMS,GCMS,MSMS,Statistics,Informatic" data-listing-file-modified-sort="1706279228269" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/W4Mteam/franckgiacomoni.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -526,16 +639,31 @@ Florence Souard
 <h5 class="no-anchor card-title listing-title">
 Franck Giacomoni
 </h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('LCMS'); return false;">
+LCMS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('GCMS'); return false;">
+GCMS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('MSMS'); return false;">
+MSMS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Statistics'); return false;">
+Statistics
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Informatic'); return false;">
+Informatic
+</div>
+</div>
 <div class="card-text listing-description">
-
-
-
+???
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="11" data-listing-file-modified-sort="1706279080866" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="11" data-categories="Informatic,Wrapper" data-listing-file-modified-sort="1706279228269" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/W4Mteam/Gildas_LeCorguille.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -545,16 +673,22 @@ Franck Giacomoni
 <h5 class="no-anchor card-title listing-title">
 Gildas Le Corguillé
 </h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Informatic'); return false;">
+Informatic
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Wrapper'); return false;">
+Wrapper
+</div>
+</div>
 <div class="card-text listing-description">
-
-
-
+???
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="12" data-listing-file-modified-sort="1706279080866" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="12" data-categories="LCMS,Statistics" data-listing-file-modified-sort="1706279228269" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/W4Mteam/Isabelle_Schmitz.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -564,25 +698,60 @@ Gildas Le Corguillé
 <h5 class="no-anchor card-title listing-title">
 Isabelle Schmitz
 </h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('LCMS'); return false;">
+LCMS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Statistics'); return false;">
+Statistics
+</div>
+</div>
 <div class="card-text listing-description">
-
-
-
+???
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="13" data-listing-file-modified-sort="1706279080866" data-listing-reading-time-sort="1" data-listing-word-count-sort="165">
+<div class="g-col-1" data-index="13" data-categories="Informatic,R,LCMS,GCMS,MSMS,Development,Statistics,NRM,XML" data-listing-file-modified-sort="1706279228269" data-listing-reading-time-sort="1" data-listing-word-count-sort="165">
 <a href="./people/W4Mteam/julien_saint-vanne.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./people/images/julien_saint-vanne.png" class="thumbnail-image card-img" style="height: 200px;">
+<img src="https://avatars.githubusercontent.com/u/35449860?v=4" class="thumbnail-image card-img" style="height: 200px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Julien Saint-Vanne
 </h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Informatic'); return false;">
+Informatic
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('LCMS'); return false;">
+LCMS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('GCMS'); return false;">
+GCMS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('MSMS'); return false;">
+MSMS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Development'); return false;">
+Development
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Statistics'); return false;">
+Statistics
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('NRM'); return false;">
+NRM
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('XML'); return false;">
+XML
+</div>
+</div>
 <div class="card-text listing-description">
 Bioinformatic Engineer
 </div>
@@ -590,7 +759,7 @@ Bioinformatic Engineer
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="14" data-listing-file-modified-sort="1706279080866" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="14" data-listing-file-modified-sort="1706279228269" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/W4Mteam/Marie_TremblayFranco.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -609,7 +778,7 @@ Marie Tremblay-Franco
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="15" data-listing-file-modified-sort="1706279080866" data-listing-reading-time-sort="1" data-listing-word-count-sort="146">
+<div class="g-col-1" data-index="15" data-listing-file-modified-sort="1706279228269" data-listing-reading-time-sort="1" data-listing-word-count-sort="146">
 <a href="./people/W4Mteam/melanie_petera.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -626,7 +795,7 @@ Engineer in statistics / MSc Contact infos
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="16" data-listing-file-modified-sort="1706279080866" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="16" data-listing-file-modified-sort="1706279228269" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/W4Mteam/Nils_Paulhe.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -645,7 +814,7 @@ Nils Paulhe
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="17" data-listing-file-modified-sort="1706279080866" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="17" data-listing-file-modified-sort="1706279228269" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/W4Mteam/Ralf_Weber.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -664,11 +833,11 @@ Ralf Weber
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="18" data-listing-file-modified-sort="1706279080866" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="18" data-listing-file-modified-sort="1706279228269" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/W4Mteam/Sylvain_Chereau.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img data-src="https://media.licdn.com/dms/image/C5603AQGFRRfn3v1PiA/profile-displayphoto-shrink_200_200/0/1618990111037?e=2147483647&amp;v=beta&amp;t=LBgWpLziVzgqwDy4EhmpD-69uK9xKuH37_sXP1GsajI" class="thumbnail-image card-img" style="height: 200px;">
+<img src="https://media.licdn.com/dms/image/C5603AQGFRRfn3v1PiA/profile-displayphoto-shrink_200_200/0/1618990111037?e=2147483647&amp;v=beta&amp;t=LBgWpLziVzgqwDy4EhmpD-69uK9xKuH37_sXP1GsajI" class="thumbnail-image card-img" style="height: 200px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -683,11 +852,11 @@ Sylvain Chéreau
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="19" data-listing-file-modified-sort="1706279080866" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="19" data-listing-file-modified-sort="1706279228269" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/W4Mteam/sylvain_dechaumet.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img data-src="https://avatars.githubusercontent.com/u/29856567?v=4" class="thumbnail-image card-img" style="height: 200px;">
+<img src="https://avatars.githubusercontent.com/u/29856567?v=4" class="thumbnail-image card-img" style="height: 200px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -702,11 +871,11 @@ Sylvain Dechaumet
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="20" data-listing-file-modified-sort="1706279080866" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
+<div class="g-col-1" data-index="20" data-listing-file-modified-sort="1706279228269" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
 <a href="./people/W4Mteam/yann_guitton.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img data-src="https://avatars.githubusercontent.com/u/5373737?v=4" class="thumbnail-image card-img" style="height: 200px;">
+<img src="https://avatars.githubusercontent.com/u/5373737?v=4" class="thumbnail-image card-img" style="height: 200px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -725,9 +894,6 @@ Yann Guitton
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-<nav id="current-pagination" class="listing-pagination" aria-label="Page Navigation">
-  <ul class="pagination"></ul>
-</nav>
 </div>
 </section>
 <section id="previous-collaborators" class="level2">
@@ -735,7 +901,7 @@ No matching items
 <p>Here are all the previous collaborators we had the chance to share with</p>
 <div id="listing-previous_collab" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-6">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1706279080866" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1706279228269" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/old_w4m/JeanFrançois_Martin.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -759,7 +925,7 @@ Jean-François Martin
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1706279080866" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1706279228269" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/old_w4m/Lain_Pavot.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -783,7 +949,7 @@ Lain Pavot
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1706279080866" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1706279228269" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/old_w4m/Marion_Landi.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -807,7 +973,7 @@ Marion Landi
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1706279080866" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1706279228269" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/old_w4m/Misharl_Monsoor.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -831,7 +997,7 @@ Misharl Monsoor
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1706279080866" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1706279228269" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/old_w4m/Natacha_Lenuzza.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -855,7 +1021,7 @@ Natacha Lenuzza
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1706279080866" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1706279228269" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/old_w4m/Pierre_Pericard.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -879,7 +1045,7 @@ Pierre Péricard
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1706279080866" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1706279228269" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/old_w4m/Pierrick_Roge_Mele.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -903,7 +1069,7 @@ Pierrick Roge-Mele
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="7" data-listing-file-modified-sort="1706279080870" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="7" data-listing-file-modified-sort="1706279228269" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/old_w4m/Romain_Dallet.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -927,7 +1093,7 @@ Romain Dallet
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-listing-file-modified-sort="1706279080870" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="8" data-listing-file-modified-sort="1706279228269" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/old_w4m/Sophie_Goulitquer.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">

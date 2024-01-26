@@ -78,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-galaxyref','listing-link','listing-title','listing-author','listing-history','listing-doi',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-galaxyref','listing-link','listing-title','listing-author','listing-W4M','listing-doi',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
       searchColumns: ["listing-title","listing-author"],
     };
@@ -129,6 +129,9 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="styles.css">
+<meta name="twitter:title" content="W4M Galaxy Documentation - User guide">
+<meta name="twitter:description" content="">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed">
@@ -349,7 +352,7 @@ link
 <a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Author</a>
 </th>
 <th>
-history
+W4M
 </th>
 <th>
 doi
@@ -357,7 +360,7 @@ doi
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-file-modified-sort="1706279080854" data-listing-reading-time-sort="2" data-listing-word-count-sort="226" data-listing-title-sort="Sacurine" data-listing-filename-sort="sacurine.qmd">
+<tr data-index="0" data-listing-file-modified-sort="1706279228253" data-listing-reading-time-sort="2" data-listing-word-count-sort="226" data-listing-title-sort="Sacurine" data-listing-filename-sort="sacurine.qmd">
 <td>
 <span class="listing-galaxyref">W4M00001</span>
 </td>
@@ -368,10 +371,10 @@ doi
 <a href="./W4M_datasets/sacurine.html" class="title listing-title">Sacurine</a>
 </td>
 <td>
-<span class="listing-author">&nbsp;</span>
+<span class="listing-author">Thevenot et al.</span>
 </td>
 <td>
-<span class="listing-history">&nbsp;</span>
+<span class="listing-W4M"><a href="https://workflow4metabolomics.usegalaxy.fr/published/history?id=3052e053b71f3ff5">history</a></span>
 </td>
 <td>
 <span class="listing-doi"><a href="https://pubs.acs.org/doi/10.1021/acs.jproteome.5b00354">publication</a></span>
