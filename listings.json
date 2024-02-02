@@ -39,5 +39,21 @@
       "/people/old_w4m/Romain_Dallet.html",
       "/people/old_w4m/Sophie_Goulitquer.html"
     ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/test1.html",
+      "/test2.html"
+    ]
+  },
+  {
+    "listing": "/news.html",
+    "items": [
+      "/w4e2024.html",
+      "/w4e2023.html",
+      "/w4e2021.html",
+      "/w4e2020.html"
+    ]
   }
 ]

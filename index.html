@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./images/w4m.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -66,7 +68,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-fast_access .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description','listing-image','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-fast_access'] = new List('listing-fast_access', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 <meta name="twitter:title" content="W4M Galaxy Documentation - Workflow4Metabolomics">
@@ -145,23 +205,11 @@ ul.task-list li input[type="checkbox"] {
   </li>  
     </ul>
   </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-events" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-      <i class="bi bi-calendar-week" role="img">
+  <li class="nav-item">
+    <a class="nav-link" href="./news.html"> <i class="bi bi-calendar-week" role="img">
 </i> 
- <span class="menu-text">Events</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-events">    
-        <li>
-    <a class="dropdown-item" href="./w4e2024.html">
- <span class="dropdown-text">Workflow4Experimenters 2024</span></a>
+<span class="menu-text">News &amp; Events</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="./w4e2023.html">
- <span class="dropdown-text">Workflow4Experimenters 2023</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item">
     <a class="nav-link" href="./listing_team.html"> <i class="bi bi-people" role="img">
 </i> 
@@ -257,26 +305,13 @@ Important
 </section>
 <section id="fast-access" class="level3">
 <h3 class="anchored" data-anchor-id="fast-access">Fast access</h3>
-<div>
-
-</div>
-<div class="quarto-layout-panel" data-layout="[ -10, 20, -5, 20, -10]">
-<div class="quarto-layout-row">
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 15.4%;justify-content: flex-start;">
-<p>&nbsp;</p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 30.8%;justify-content: flex-start;">
+<p>:::{#fast_access}:::</p>
+<div class="grid">
+<div class="g-col-6">
 <p><a href="https://workflow4metabolomics.usegalaxy.fr/"><img src="https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png" style="height:2em"> Galaxy instance</a></p>
 </div>
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 7.7%;justify-content: flex-start;">
-<p>&nbsp;</p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 30.8%;justify-content: flex-start;">
+<div class="g-col-6">
 <p><a href="https://workflow4metabolomics.org/W4E2024"><img src="./images/W4E_icon.svg" style="height:2em"> Teaching School</a></p>
-</div>
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 15.4%;justify-content: flex-start;">
-<p>&nbsp;</p>
-</div>
 </div>
 </div>
 </section>
@@ -334,9 +369,46 @@ Important
 </div>
 
 
+
 </section>
 
-</main> <!-- /main -->
+<div class="quarto-listing quarto-listing-container-grid" id="listing-fast_access">
+<div class="list grid quarto-listing-cols-4">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1706879192848" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
+<a href="./test1.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 200px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+LALA
+</h5>
+<div class="card-text listing-description">
+ Galaxy instance
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1706879192848" data-listing-reading-time-sort="3" data-listing-word-count-sort="456">
+<a href="./test2.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 200px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Test
+</h5>
+<div class="card-text listing-description">
+–&gt; <!--     <div id="twitter-feed"></div> -->
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
