@@ -6,6 +6,25 @@
     ]
   },
   {
+    "listing": "/news.html",
+    "items": [
+      "/w4e2024.html",
+      "/w4e2023.html",
+      "/w4e2021.html",
+      "/w4e2020.html",
+      "/w4e2018.html",
+      "/w4e2017.html",
+      "/w4e2016.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/resources1.html",
+      "/resources2.html"
+    ]
+  },
+  {
     "listing": "/listing_team.html",
     "items": [
       "/people/W4Mteam/Binta_Dieme.html",
@@ -38,22 +57,6 @@
       "/people/old_w4m/Pierrick_Roge_Mele.html",
       "/people/old_w4m/Romain_Dallet.html",
       "/people/old_w4m/Sophie_Goulitquer.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/test1.html",
-      "/test2.html"
-    ]
-  },
-  {
-    "listing": "/news.html",
-    "items": [
-      "/w4e2024.html",
-      "/w4e2023.html",
-      "/w4e2021.html",
-      "/w4e2020.html"
     ]
   }
 ]

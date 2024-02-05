@@ -80,11 +80,39 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-title','listing-description','listing-image','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-fast_access'] = new List('listing-fast_access', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-resources .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description','listing-image','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-resources'] = new List('listing-resources', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -305,18 +333,91 @@ Important
 </section>
 <section id="fast-access" class="level3">
 <h3 class="anchored" data-anchor-id="fast-access">Fast access</h3>
-<p>:::{#fast_access}:::</p>
-<div class="grid">
-<div class="g-col-6">
-<p><a href="https://workflow4metabolomics.usegalaxy.fr/"><img src="https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png" style="height:2em"> Galaxy instance</a></p>
+<div id="listing-fast_access" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0">
+<a href="https://workflow4metabolomics.usegalaxy.fr" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png" class="thumbnail-image card-img" style="height: 130px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Galaxy instance
+</h5>
+<div class="card-text listing-description">
+Here is the Galaxy workflow4metabolomics website
 </div>
-<div class="g-col-6">
-<p><a href="https://workflow4metabolomics.org/W4E2024"><img src="./images/W4E_icon.svg" style="height:2em"> Teaching School</a></p>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1">
+<a href="https://workflow4metabolomics.org/W4E2024" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./images/W4E_icon.svg" class="thumbnail-image card-img" style="height: 130px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Teaching school
+</h5>
+<div class="card-text listing-description">
+Let’s check the teaching school of W4M
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
 </div>
 </div>
 </section>
 <section id="resources" class="level3">
 <h3 class="anchored" data-anchor-id="resources">Resources</h3>
+<div id="listing-resources" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1707146608986" data-listing-reading-time-sort="1" data-listing-word-count-sort="18">
+<a href="./resources1.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./images/W4M_icon.svg" class="thumbnail-image card-img" style="height: 130px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Newcomer
+</h5>
+<div class="card-text listing-description">
+<strong>I’m a newcomer</strong> and I want to know more about , visit our about us section
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1707146608986" data-listing-reading-time-sort="1" data-listing-word-count-sort="37">
+<a href="./resources2.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./images/W4E_icon.svg" class="thumbnail-image card-img" style="height: 130px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Want to learn
+</h5>
+<div class="card-text listing-description">
+<strong>I want to learn</strong> how to <strong>process metabolomics data</strong>, you can either:
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 <p><strong>I’m a newcomer</strong> and I want to know more about <img src="./images/W4M_icon.svg" style="height:1em">, visit our <a href="./about.html">about us</a> section</p>
 <p><strong>I want to learn</strong> how to <strong>process metabolomics data</strong>, you can either:</p>
 <ul>
@@ -372,43 +473,7 @@ Important
 
 </section>
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-fast_access">
-<div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1706879192848" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
-<a href="./test1.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 200px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-LALA
-</h5>
-<div class="card-text listing-description">
- Galaxy instance
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1706879192848" data-listing-reading-time-sort="3" data-listing-word-count-sort="456">
-<a href="./test2.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 200px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Test
-</h5>
-<div class="card-text listing-description">
-–&gt; <!--     <div id="twitter-feed"></div> -->
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
