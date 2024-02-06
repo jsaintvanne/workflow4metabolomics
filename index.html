@@ -108,11 +108,39 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-title','listing-description','listing-image','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-resources'] = new List('listing-resources', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-sponsors .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description','listing-image','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-sponsors'] = new List('listing-sponsors', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -379,7 +407,7 @@ No matching items
 <h3 class="anchored" data-anchor-id="resources">Resources</h3>
 <div id="listing-resources" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1707146608986" data-listing-reading-time-sort="1" data-listing-word-count-sort="18">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1704067200000" data-listing-file-modified-sort="1707230454099" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="18">
 <a href="./resources1.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -390,13 +418,13 @@ No matching items
 Newcomer
 </h5>
 <div class="card-text listing-description">
-<strong>I’m a newcomer</strong> and I want to know more about , visit our about us section
+Visit our <span>about us</span> section
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1707146608986" data-listing-reading-time-sort="1" data-listing-word-count-sort="37">
+<div class="g-col-1" data-index="1" data-listing-date-sort="1706745600000" data-listing-file-modified-sort="1707230454099" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="37">
 <a href="./resources2.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -413,59 +441,105 @@ Want to learn
 </div>
 </a>
 </div>
+<div class="g-col-1" data-index="2" data-listing-date-sort="1709251200000" data-listing-file-modified-sort="1707230454099" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
+<a href="./resources3.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./images/W4M_icon.svg" class="thumbnail-image card-img" style="height: 130px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Contributers
+</h5>
+<div class="card-text listing-description">
+I want to contribute as who?…
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-date-sort="1711929600000" data-listing-file-modified-sort="1707230454099" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="31">
+<a href="./resources4.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./images/W4M_icon.svg" class="thumbnail-image card-img" style="height: 130px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Reporter
+</h5>
+<div class="card-text listing-description">
+Visit our <span>about us</span> section
+</div>
+</div>
+</div>
+</a>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
 </div>
-<p><strong>I’m a newcomer</strong> and I want to know more about <img src="./images/W4M_icon.svg" style="height:1em">, visit our <a href="./about.html">about us</a> section</p>
-<p><strong>I want to learn</strong> how to <strong>process metabolomics data</strong>, you can either:</p>
-<ul>
-<li>Go to our teaching school event <a href="TODO"><img src="./images/W4E_icon.svg" style="height:1em"> section</a></li>
-<li>Consult our <a href="./tooluser.html">user page here</a></li>
-<li>Or directly go to our official <a href="https://training.galaxyproject.org/training-material/topics/metabolomics/">Galaxy training guides <img src="https://training.galaxyproject.org/training-material/assets/images/GTN-60px.png" style="height:1em"></a></li>
-</ul>
-<p><strong>I want to contribute as:</strong></p>
-<ul>
-<li><strong>A tutor</strong> to help people understand how to process metabolomics data: <a href="TODO">contact here</a><br>
-</li>
-<li><strong>A developper</strong> to propose or add new tools to the community:
-<ul>
-<li>Check our guides and how-to <a href="TODO">here</a><br>
-</li>
-<li>I need help <a href="TODO">contact here</a><br>
-</li>
-</ul></li>
-<li><strong>I don’t know</strong> but I want to help: <a href="TODO">contact here</a></li>
-</ul>
-<p><strong>I want to report a problem on:</strong></p>
-<ul>
-<li>the galaxy instance, post an issue on the <a href="https://community.france-bioinformatique.fr/c/workflow4metabolomics/10">IFB Communit Support</a></li>
-<li>on this website, post an issue on <a href="TODO">lien repo</a></li>
-</ul>
 <p><strong>I want to know who</strong> is behind all of these, to our <a href="./listing_team.html">team member section</a></p>
 </section>
 <section id="our-sponsors" class="level3">
 <h3 class="anchored" data-anchor-id="our-sponsors">Our sponsors</h3>
-<ul>
-<li>The National Infrastructure of Metabolomics and Fluxomics: <a href="https://www.metabohub.fr/">MetaboHUB [MetaboHUB-ANR-11-INBS-0010, 2011]</a></li>
-<li>The French Institute of Bioinformatics: <a href="https://www.france-bioinformatique.fr/">IFB [ANR-11-INBS-0013236]</a></li>
-<li>The French Network of Metabolomic and Fluxomic: <a href="https://www.rfmf.fr/">RFMF</a></li>
-</ul>
-<div>
-
+<div id="listing-sponsors" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0">
+<a href="https://www.metabohub.fr/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://www.metabohub.fr/media/752" class="thumbnail-image card-img" style="height: 100px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+MetaboHub
+</h5>
+<div class="card-text listing-description">
+The National Infrastructure of Metabolomics and Fluxomics
 </div>
-<div class="quarto-layout-panel" data-layout-ncol="3">
-<div class="quarto-layout-row quarto-layout-valign-center">
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<p><a href="https://www.metabohub.fr/"><img src="https://www.metabohub.fr/media/752.png" height="50"></a></p>
 </div>
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<p><a href="https://www.france-bioinformatique.fr/"><img src="https://www.france-bioinformatique.fr/wp-content/uploads/logo-ifb-couleur.svg" height="50"></a></p>
 </div>
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<p><a href="https://www.rfmf.fr/"><img src="https://www.rfmf.fr/wp-content/uploads/2020/06/logo_seul.png" height="50"></a></p>
+</a>
 </div>
+<div class="g-col-1" data-index="1">
+<a href="https://www.france-bioinformatique.fr/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://www.france-bioinformatique.fr/wp-content/uploads/logo-ifb-couleur.svg" class="thumbnail-image card-img" style="height: 100px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+IFB
+</h5>
+<div class="card-text listing-description">
+The French Institute of Bioinformatics
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2">
+<a href="https://www.rfmf.fr/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://www.rfmf.fr/wp-content/uploads/2020/06/logo_seul.png" class="thumbnail-image card-img" style="height: 100px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+RFMF
+</h5>
+<div class="card-text listing-description">
+The French Network of Metabolomic and Fluxomic
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
 </div>
 </div>
 
