@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.549">
+<meta name="generator" content="quarto-1.4.551">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -80,39 +80,11 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-title','listing-description','listing-image','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-fast_access'] = new List('listing-fast_access', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-resources .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-description','listing-image','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-resources'] = new List('listing-resources', options);
+    window['quarto-listings']['listing-fast_access'] = new List('listing-fast_access', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -281,7 +253,7 @@ window.Quarto = {
     <a href="https://twitter.com" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-twitter"></i></a>
     <div class="dropdown">
       <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-github"></i></a>
-      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="quarto-navigation-tool-dropdown-0">
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
           <li>
             <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/workflow4metabolomics/workflow4metabolomics">
             Source Code
@@ -380,8 +352,8 @@ Here is the Galaxy workflow4metabolomics website
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1">
-<a href="https://workflow4metabolomics.org/W4E2024" class="quarto-grid-link">
+<div class="g-col-1" data-index="1" data-listing-date-sort="1704067200000" data-listing-file-modified-sort="1709887253109" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="185">
+<a href="./w4e2024.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img src="./images/W4E_icon.svg" class="thumbnail-image card-img" style="height: 130px;">
@@ -405,82 +377,63 @@ No matching items
 </section>
 <section id="resources" class="level3">
 <h3 class="anchored" data-anchor-id="resources">Resources</h3>
-<div id="listing-resources" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-2">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1704067200000" data-listing-file-modified-sort="1707230454099" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="18">
-<a href="./resources1.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./images/W4M_icon.svg" class="thumbnail-image card-img" style="height: 130px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Newcomer
-</h5>
-<div class="card-text listing-description">
-Visit our <span>about us</span> section
+<div class="card-group">
+  <div class="card">
+    <img src="https://img.freepik.com/free-vector/cute-alien-concept-illustration_114360-9452.jpg?w=740&amp;t=st=1709885807~exp=1709886407~hmac=a9239acfe6d28eff132bb90c1e81c6fdfe30ba7bb142612e33c311d248c73d57" class="card-img-top" alt="newcomer.jpg">
+    <div class="card-body">
+      <h5 class="card-title anchored">Newcomer</h5>
+      <p class="card-text">I'm a newcomer and I want to know more about <img src="./images/W4M_icon.svg" style="height:20px">, visit our <a href="./about.html">About us section</a></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://img.freepik.com/free-vector/exams-concept-illustration_114360-2754.jpg?w=740&amp;t=st=1709886361~exp=1709886961~hmac=ed77f36456b1a8877032e0d6bed4bbde67edd840092932cb4e08306297552666" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title anchored">Want to learn</h5>
+      <p class="card-text">I want to learn how to process metabolomics data, you can either:
+      </p><ul class="list-group list-group-flush">
+        <li class="list-group-item">Go to our teaching school event <a href="./news.html"><img src="./images/W4E_icon.svg" style="height:25px"> section</a></li>
+        <li class="list-group-item">Consult our <a href="./tooluser.html">user page here</a></li>
+        <li class="list-group-item">Or directly go to our official <a href="https://training.galaxyproject.org/training-material/topics/metabolomics/">Galaxy training guides <img src="https://training.galaxyproject.org/training-material/assets/images/GTN-60px.png" style="height:25px"></a></li>
+      </ul>
+      <p></p>
+    </div>
+  </div>
 </div>
+<div class="card-group">
+  <div class="card">
+    <img src="https://img.freepik.com/free-vector/share-business-dividend-calculation-percentage-ratio-contribution-size-deposit-amount-accounting-audit-shareholders-cartoon-characters_335657-2986.jpg?t=st=1709886159~exp=1709889759~hmac=b531cfa45a6726fb8be34b2ad992b2a66c4400f20c73ce9263cb66f0ceb41c9b&amp;w=740" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title anchored">Contributers</h5>
+      <p class="card-text">I want to contribute as:
+      </p><ul class="list-group list-group-flush">
+        <li class="list-group-item"><b>A tutor</b> to help people understand how to process metabolomics data: [contact here](TODO)</li>
+        <li class="list-group-item"><b>A developper</b> to propose or add new tools to the community:
+          <ul>
+            <li>Check our guides and how-to [here](TODO)</li>
+            <li>I need help [contact here](TODO)</li>
+          </ul>
+        </li>
+        <li class="list-group-item">I don't know but I want to help: [contact here](TODO)</li>
+      </ul>
+      <p></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://img.freepik.com/free-vector/debugging-firewall-antivirus-scanning-malware-fixing-virus-attack-trojan-search-bugs-detection-system-protection-threat-diagnostic-crash-tester-isolated-concept-metaphor-illustration_335657-1189.jpg?t=st=1709886290~exp=1709889890~hmac=210ebdbc38805399ff78c901910ec6e56f7f161905bcca624a2e480ab05fd8f6&amp;w=740" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title anchored">Reporters</h5>
+      <p class="card-text">I want to report a problem on:
+        </p><ul class="list-group list-group-flush">
+          <li class="list-group-item">The galaxy instance, post an issue on the <a href="https://community.france-bioinformatique.fr/c/workflow4metabolomics/10">IFB Communit Support</a></li>
+          <li class="list-group-item">On this website, post an issue on [lien repo](TODO)</li>
+        </ul>
+      <p></p>
+    </div>
+  </div>
 </div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1706745600000" data-listing-file-modified-sort="1707230454099" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="37">
-<a href="./resources2.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./images/W4E_icon.svg" class="thumbnail-image card-img" style="height: 130px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Want to learn
-</h5>
-<div class="card-text listing-description">
-<strong>I want to learn</strong> how to <strong>process metabolomics data</strong>, you can either:
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1709251200000" data-listing-file-modified-sort="1707230454099" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
-<a href="./resources3.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./images/W4M_icon.svg" class="thumbnail-image card-img" style="height: 130px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Contributers
-</h5>
-<div class="card-text listing-description">
-I want to contribute as who?…
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-listing-date-sort="1711929600000" data-listing-file-modified-sort="1707230454099" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="31">
-<a href="./resources4.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./images/W4M_icon.svg" class="thumbnail-image card-img" style="height: 130px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Reporter
-</h5>
-<div class="card-text listing-description">
-Visit our <span>about us</span> section
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<p><strong>I want to know who</strong> is behind all of these, to our <a href="./listing_team.html">team member section</a></p>
+<!-- :::{#resources} -->
+<!-- ::: -->
+<p><strong>I want to know who</strong> is behind all of these, go to our <a href="./listing_team.html">team member section</a>.</p>
 </section>
 <section id="our-sponsors" class="level3">
 <h3 class="anchored" data-anchor-id="our-sponsors">Our sponsors</h3>
@@ -627,6 +580,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/jsaintvanne\.github\.io\/workflow4metabolomics\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -661,7 +632,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
