@@ -147,23 +147,16 @@
     "text": "Developing tools in a W4M-approuved format\nTODO blabla intro\n\nThe tool being wrapped\nTODO topo sur le user experience\nTODO Ajout de la ref à W4MRUtils dans le cas de codes en R.\n\n\nThe Galaxy XML wrapper\nAmong the possible variations for functional XML wrappers, W4M is willing to garantee […]\nTODO les reco W4M du XML\n\n\nDocumenting the Galaxy tool\nTODO Topo sur l’importance de la doc\nTODO Presenter les section mandatory et facultative\nAbout the format, you can find here a template of Help tag to help you initiating your writing with the recommanded sections and formats."
   },
   {
-    "objectID": "people/W4Mteam/melanie_petera.html#experience",
-    "href": "people/W4Mteam/melanie_petera.html#experience",
-    "title": "Mélanie Pétéra",
-    "section": "Experience",
-    "text": "Experience\nEngineer in statistics / MSc Contact infos\nmelanie.petera{at}inrae{dot}fr phone: +33(0)4 73 62 47 89 Involved in routine analyses as data analyst and/or data treatment supervisor. Workflow developer for internal data analysis procedures. Participation to Workflow4Metabolomics as a core team member.\nMissions\nData processing and statistical analysis of untargeted MS analyses Development and maintenance of in-house data processing workflows Training and guidance Main publications\nGiacomoni, F., Le Corguille, G., Monsoor, M., Landi, M., Pericard, P., Pétéra, M., … & Caron, C. (2015). Workflow4Metabolomics: a collaborative research infrastructure for computational metabolomics. Bioinformatics, 31(9), 1493-1495. dx.doi.org/10.1093/bioinformatics/btu813 Comte, B., Monnerie, S., Brandolini-Bunlon, M., Canlet, C., Castelli, F., Chu-Van, E., … & Pujos-Guillot, E. (2021). Multiplatform metabolomics for an integrative exploration of metabolic syndrome in older men. EBioMedicine, 69, 103440. doi.org/10.1016/j.ebiom.2021.103440 Pujos-Guillot, E., Pétéra, M., Jacquemin, J., Centeno, D., Lyan, B., Montoliu, I., … & Comte, B. (2019). Identification of pre-frailty sub-phenotypes in elderly using metabolomics. Frontiers in physiology, 9, 1903. dx.doi.org/10.3389/fphys.2018.01903"
-  },
-  {
-    "objectID": "people/W4Mteam/Etienne_Thevenot.html#experience",
-    "href": "people/W4Mteam/Etienne_Thevenot.html#experience",
-    "title": "Etienne Thévenot",
+    "objectID": "people/W4Mteam/Céline_Dalle.html#experience",
+    "href": "people/W4Mteam/Céline_Dalle.html#experience",
+    "title": "Céline Dalle",
     "section": "Experience",
     "text": "Experience"
   },
   {
-    "objectID": "people/W4Mteam/Charlotte_Joly.html#experience",
-    "href": "people/W4Mteam/Charlotte_Joly.html#experience",
-    "title": "Charlotte Joly",
+    "objectID": "people/W4Mteam/Florence_Souard.html#experience",
+    "href": "people/W4Mteam/Florence_Souard.html#experience",
+    "title": "Florence Souard",
     "section": "Experience",
     "text": "Experience"
   },
@@ -196,9 +189,9 @@
     "text": "Experience"
   },
   {
-    "objectID": "people/W4Mteam/Celine_Canlet.html#experience",
-    "href": "people/W4Mteam/Celine_Canlet.html#experience",
-    "title": "Cécile Canlet",
+    "objectID": "people/W4Mteam/Cédric_Delporte.html#experience",
+    "href": "people/W4Mteam/Cédric_Delporte.html#experience",
+    "title": "Cédric Deplorte",
     "section": "Experience",
     "text": "Experience"
   },
@@ -210,9 +203,16 @@
     "text": "Experience"
   },
   {
-    "objectID": "people/W4Mteam/Gildas_LeCorguille.html#experience",
-    "href": "people/W4Mteam/Gildas_LeCorguille.html#experience",
-    "title": "Gildas Le Corguillé",
+    "objectID": "people/W4Mteam/Sylvain_Chéreau.html#experience",
+    "href": "people/W4Mteam/Sylvain_Chéreau.html#experience",
+    "title": "Sylvain Chéreau",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/W4Mteam/Franck_Giacomoni.html#experience",
+    "href": "people/W4Mteam/Franck_Giacomoni.html#experience",
+    "title": "Franck Giacomoni",
     "section": "Experience",
     "text": "Experience"
   },
@@ -224,9 +224,9 @@
     "text": "Experience"
   },
   {
-    "objectID": "people/W4Mteam/Nils_Paulhe.html#experience",
-    "href": "people/W4Mteam/Nils_Paulhe.html#experience",
-    "title": "Nils Paulhe",
+    "objectID": "people/W4Mteam/Céline_Canlet.html#experience",
+    "href": "people/W4Mteam/Céline_Canlet.html#experience",
+    "title": "Cécile Canlet",
     "section": "Experience",
     "text": "Experience"
   },
@@ -322,6 +322,13 @@
     "text": "Previous collaborators\nHere are all the previous collaborators we had the chance to share with\n\n\n\n\n\n\n\n\n\n\nJean-François Martin\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLain Pavot\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarion Landi\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMisharl Monsoor\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNatacha Lenuzza\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPierre Péricard\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPierrick Roge-Mele\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRomain Dallet\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSophie Goulitquer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "listing_team.html#contributors",
+    "href": "listing_team.html#contributors",
+    "title": "W4M team",
+    "section": "Contributors",
+    "text": "Contributors\nThanks to all these people that contributed to the workflow4metabolomics experience."
+  },
+  {
     "objectID": "w4e2021.html",
     "href": "w4e2021.html",
     "title": "Workflow4Experimenters 2021",
@@ -392,16 +399,16 @@
     "text": "Experience"
   },
   {
-    "objectID": "people/W4Mteam/Celine_Dalle.html#experience",
-    "href": "people/W4Mteam/Celine_Dalle.html#experience",
-    "title": "Céline Dalle",
+    "objectID": "people/W4Mteam/Marie_Tremblay-Franco.html#experience",
+    "href": "people/W4Mteam/Marie_Tremblay-Franco.html#experience",
+    "title": "Marie Tremblay-Franco",
     "section": "Experience",
     "text": "Experience"
   },
   {
-    "objectID": "people/W4Mteam/cedric_delporte.html#experience",
-    "href": "people/W4Mteam/cedric_delporte.html#experience",
-    "title": "Cédric Deplorte",
+    "objectID": "people/W4Mteam/Nils_Paulhe.html#experience",
+    "href": "people/W4Mteam/Nils_Paulhe.html#experience",
+    "title": "Nils Paulhe",
     "section": "Experience",
     "text": "Experience"
   },
@@ -413,6 +420,13 @@
     "text": "Experience"
   },
   {
+    "objectID": "people/W4Mteam/Mélanie_Pétéra.html#experience",
+    "href": "people/W4Mteam/Mélanie_Pétéra.html#experience",
+    "title": "Mélanie Pétéra",
+    "section": "Experience",
+    "text": "Experience\nEngineer in statistics / MSc Contact infos\nmelanie.petera{at}inrae{dot}fr phone: +33(0)4 73 62 47 89 Involved in routine analyses as data analyst and/or data treatment supervisor. Workflow developer for internal data analysis procedures. Participation to Workflow4Metabolomics as a core team member.\nMissions\nData processing and statistical analysis of untargeted MS analyses Development and maintenance of in-house data processing workflows Training and guidance Main publications\nGiacomoni, F., Le Corguille, G., Monsoor, M., Landi, M., Pericard, P., Pétéra, M., … & Caron, C. (2015). Workflow4Metabolomics: a collaborative research infrastructure for computational metabolomics. Bioinformatics, 31(9), 1493-1495. dx.doi.org/10.1093/bioinformatics/btu813 Comte, B., Monnerie, S., Brandolini-Bunlon, M., Canlet, C., Castelli, F., Chu-Van, E., … & Pujos-Guillot, E. (2021). Multiplatform metabolomics for an integrative exploration of metabolic syndrome in older men. EBioMedicine, 69, 103440. doi.org/10.1016/j.ebiom.2021.103440 Pujos-Guillot, E., Pétéra, M., Jacquemin, J., Centeno, D., Lyan, B., Montoliu, I., … & Comte, B. (2019). Identification of pre-frailty sub-phenotypes in elderly using metabolomics. Frontiers in physiology, 9, 1903. dx.doi.org/10.3389/fphys.2018.01903"
+  },
+  {
     "objectID": "people/W4Mteam/Isabelle_Schmitz.html#experience",
     "href": "people/W4Mteam/Isabelle_Schmitz.html#experience",
     "title": "Isabelle Schmitz",
@@ -420,16 +434,16 @@
     "text": "Experience"
   },
   {
-    "objectID": "people/W4Mteam/Binta_Dieme.html#experience",
-    "href": "people/W4Mteam/Binta_Dieme.html#experience",
-    "title": "Binta Diémé",
+    "objectID": "people/W4Mteam/Etienne_Thévenot.html#experience",
+    "href": "people/W4Mteam/Etienne_Thévenot.html#experience",
+    "title": "Etienne Thévenot",
     "section": "Experience",
     "text": "Experience"
   },
   {
-    "objectID": "people/W4Mteam/franckgiacomoni.html#experience",
-    "href": "people/W4Mteam/franckgiacomoni.html#experience",
-    "title": "Franck Giacomoni",
+    "objectID": "people/W4Mteam/Binta_Diémé.html#experience",
+    "href": "people/W4Mteam/Binta_Diémé.html#experience",
+    "title": "Binta Diémé",
     "section": "Experience",
     "text": "Experience"
   },
@@ -441,23 +455,16 @@
     "text": "Experience"
   },
   {
-    "objectID": "people/W4Mteam/Florence_Souard.html#experience",
-    "href": "people/W4Mteam/Florence_Souard.html#experience",
-    "title": "Florence Souard",
+    "objectID": "people/W4Mteam/Gildas_LeCorguillé.html#experience",
+    "href": "people/W4Mteam/Gildas_LeCorguillé.html#experience",
+    "title": "Gildas Le Corguillé",
     "section": "Experience",
     "text": "Experience"
   },
   {
-    "objectID": "people/W4Mteam/Marie_TremblayFranco.html#experience",
-    "href": "people/W4Mteam/Marie_TremblayFranco.html#experience",
-    "title": "Marie Tremblay-Franco",
-    "section": "Experience",
-    "text": "Experience"
-  },
-  {
-    "objectID": "people/W4Mteam/Sylvain_Chereau.html#experience",
-    "href": "people/W4Mteam/Sylvain_Chereau.html#experience",
-    "title": "Sylvain Chéreau",
+    "objectID": "people/W4Mteam/Charlotte_Joly.html#experience",
+    "href": "people/W4Mteam/Charlotte_Joly.html#experience",
+    "title": "Charlotte Joly",
     "section": "Experience",
     "text": "Experience"
   },
@@ -550,7 +557,7 @@
     "href": "index.html",
     "title": "Workflow4Metabolomics",
     "section": "",
-    "text": "Important\n\n\n\nWorkflow4experimenters () course 2024 : Pre-Registrations CLOSED\n\n\nWelcome to the collaborative portal of  dedicated to metabolomics data processing, analysis and annotation for the Metabolomics community. On this website you will find information on our main missions as well as users and developpers guides.\n\nKeep in touch\nYou can subscribe to our newsletter to get updated on new events !\n\n\nFast access\n\n\n\n\n\n\n\n\n\n\nGalaxy instance\n\n\nHere is the Galaxy workflow4metabolomics website\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeaching school\n\n\nLet’s check the teaching school of W4M\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nResources\n\n\n  \n    \n    \n      Newcomer\n      I'm a newcomer and I want to know more about , visit our About us section\n    \n  \n  \n    \n    \n      Want to learn\n      \n      \n        Go to our teaching school event  section\n        Consult our user page here\n        Or directly go to our official Galaxy training guides \n      \n      \n    \n  \n\n\n  \n    \n    \n      Contributers\n      \n      \n        A tutor to help people understand how to process metabolomics data: [contact here](TODO)\n        A developper to propose or add new tools to the community:\n          \n            Check our guides and how-to [here](TODO)\n            I need help [contact here](TODO)\n          \n        \n        \n        I don't know but I want to help: [contact here](TODO)\n      \n      \n    \n  \n  \n    \n    \n      Reporters\n      \n        \n          The galaxy instance, post an issue on the IFB Communit Support\n          On this website, post an issue on [lien repo](TODO)\n        \n      \n    \n  \n\n\n\nI want to know who is behind all of these, go to our team member section.\n\n\nOur sponsors\n\n\n\n\n\n\n\n\n\n\nMetaboHub\n\n\nThe National Infrastructure of Metabolomics and Fluxomics\n\n\n\n\n\n\n\n\n\n\n\n\n\nIFB\n\n\nThe French Institute of Bioinformatics\n\n\n\n\n\n\n\n\n\n\n\n\n\nRFMF\n\n\nThe French Network of Metabolomic and Fluxomic\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nWhere are we ?"
+    "text": "Important\n\n\n\nWorkflow4experimenters () course 2024 : Pre-Registrations CLOSED\n\n\nWelcome to the collaborative portal of  dedicated to metabolomics data processing, analysis and annotation for the Metabolomics community. On this website you will find information on our main missions as well as users and developpers guides.\n\nKeep in touch\nYou can subscribe to our newsletter to get updated on new events !\n\n\nFast access\n\n\n\n\n\n\n\n\n\n\nGalaxy instance\n\n\nHere is the Galaxy workflow4metabolomics website\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeaching school\n\n\nLet’s check the teaching school of W4M\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nResources\n\n\n  \n    \n    \n      Newcomer\n      I'm a newcomer and I want to know more about , visit our About us section\n    \n  \n  \n    \n    \n      Want to learn\n      \n      \n        Go to our teaching school event  section\n        Consult our user page here\n        Or directly go to our official Galaxy training guides \n      \n      \n    \n  \n\n\n  \n    \n    \n      Contributers\n      \n      \n        A tutor to help people understand how to process metabolomics data: [contact here](TODO)\n        A developper to propose or add new tools to the community:\n          \n            Check our guides and how-to [here](TODO)\n            I need help [contact here](TODO)\n          \n        \n        \n        I don't know but I want to help: [contact here](TODO)\n      \n      \n    \n  \n  \n    \n    \n      Reporters\n      \n        \n          The galaxy instance, post an issue on the IFB Communit Support\n          On this website, post an issue on [lien repo](TODO)\n        \n      \n    \n  \n\n\n\nI want to know who is behind all of these, go to our team member section.\n\n\nOur sponsors\n\n\n\n\n\n\n\n\n\n\nMetaboHub\n\n\nThe National Infrastructure of Metabolomics and Fluxomics\n\n\n\n\n\n\n\n\n\n\n\n\n\nIFB\n\n\nThe French Institute of Bioinformatics\n\n\n\n\n\n\n\n\n\n\n\n\n\nRFMF\n\n\nThe French Network of Metabolomic and Fluxomic\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nWhere are we working ?"
   },
   {
     "objectID": "galaxyW4M.html",
