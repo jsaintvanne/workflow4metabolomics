@@ -1,11 +1,5 @@
 [
   {
-    "listing": "/tooluser.html",
-    "items": [
-      "/W4M_datasets/sacurine.html"
-    ]
-  },
-  {
     "listing": "/news.html",
     "items": [
       "/w4e2024.html",
@@ -27,7 +21,6 @@
       "/people/W4Mteam/Cédric_Delporte.html",
       "/people/W4Mteam/Céline_Dalle.html",
       "/people/W4Mteam/David_Benaben.html",
-      "/people/W4Mteam/Eric_Venot.html",
       "/people/W4Mteam/Etienne_Thévenot.html",
       "/people/W4Mteam/Florence_Souard.html",
       "/people/W4Mteam/Franck_Giacomoni.html",
@@ -41,6 +34,7 @@
       "/people/W4Mteam/Sylvain_Chéreau.html",
       "/people/W4Mteam/sylvain_dechaumet.html",
       "/people/W4Mteam/yann_guitton.html",
+      "/people/old_w4m/Eric_Venot.html",
       "/people/old_w4m/JeanFrançois_Martin.html",
       "/people/old_w4m/Lain_Pavot.html",
       "/people/old_w4m/Marion_Landi.html",
@@ -56,6 +50,12 @@
     "listing": "/index.html",
     "items": [
       "w4e2024.html"
+    ]
+  },
+  {
+    "listing": "/tooluser.html",
+    "items": [
+      "/W4M_datasets/sacurine.html"
     ]
   }
 ]
