@@ -1,17 +1,5 @@
 [
   {
-    "listing": "/news.html",
-    "items": [
-      "/w4e2024.html",
-      "/w4e2023.html",
-      "/w4e2021.html",
-      "/w4e2020.html",
-      "/w4e2018.html",
-      "/w4e2017.html",
-      "/w4e2016.html"
-    ]
-  },
-  {
     "listing": "/listing_team.html",
     "items": [
       "/people/W4Mteam/Binta_Diémé.html",
@@ -47,15 +35,27 @@
     ]
   },
   {
-    "listing": "/index.html",
-    "items": [
-      "w4e2024.html"
-    ]
-  },
-  {
     "listing": "/tooluser.html",
     "items": [
       "/W4M_datasets/sacurine.html"
+    ]
+  },
+  {
+    "listing": "/news.html",
+    "items": [
+      "/w4e2024.html",
+      "/w4e2023.html",
+      "/w4e2021.html",
+      "/w4e2020.html",
+      "/w4e2018.html",
+      "/w4e2017.html",
+      "/w4e2016.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/w4e2024.html"
     ]
   }
 ]
