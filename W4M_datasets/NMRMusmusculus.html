@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Cabaton et al.">
+<meta name="description" content="Effects of Low Doses of Bisphenol A on the Metabolome of Perinatally Exposed CD-1 Mice">
 
-<title>News – W4M Galaxy Documentation</title>
+<title>NMR Mus musculus dataset – W4M Galaxy Documentation</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,27 +22,45 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./images/w4m.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../images/w4m.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,68 +88,11 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-w4e .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-description','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-w4e'] = new List('listing-w4e', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
-<meta name="twitter:title" content="News – W4M Galaxy Documentation">
+<link rel="stylesheet" href="../styles.css">
+<meta name="twitter:title" content="NMR Mus musculus dataset – W4M Galaxy Documentation">
+<meta name="twitter:description" content="Effects of Low Doses of Bisphenol A on the Metabolome of Perinatally Exposed CD-1 Mice">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -140,10 +103,10 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/w4m.png" alt="" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../images/w4m.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">W4M Galaxy Documentation</span>
     </a>
   </div>
@@ -154,7 +117,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> <i class="bi bi-house" role="img">
+    <a class="nav-link" href="../index.html"> <i class="bi bi-house" role="img">
 </i> 
 <span class="menu-text">Home</span></a>
   </li>  
@@ -166,22 +129,22 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-galaxy-w4m">    
         <li>
-    <a class="dropdown-item" href="./galaxyW4M.html"><i class="bi bi-info-circle" role="img">
+    <a class="dropdown-item" href="../galaxyW4M.html"><i class="bi bi-info-circle" role="img">
 </i> 
  <span class="dropdown-text">Introduction</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./tooluser.html"><i class="bi bi-code" role="img">
+    <a class="dropdown-item" href="../tooluser.html"><i class="bi bi-code" role="img">
 </i> 
  <span class="dropdown-text">Guides for Users</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./tooldev.html"><i class="bi bi-code" role="img">
+    <a class="dropdown-item" href="../tooldev.html"><i class="bi bi-code" role="img">
 </i> 
  <span class="dropdown-text">Guides for Developpers</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./contribute.html"><i class="bi bi-person-fill-up" role="img">
+    <a class="dropdown-item" href="../contribute.html"><i class="bi bi-person-fill-up" role="img">
 </i> 
  <span class="dropdown-text">How to contribute</span></a>
   </li>  
@@ -195,27 +158,27 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-tools">    
         <li>
-    <a class="dropdown-item" href="./tool1.html">
+    <a class="dropdown-item" href="../tool1.html">
  <span class="dropdown-text">Tool 1</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./tool2.html">
+    <a class="dropdown-item" href="../tool2.html">
  <span class="dropdown-text">Tool 2</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="./news.html" aria-current="page"> <i class="bi bi-calendar-week" role="img">
+    <a class="nav-link" href="../news.html"> <i class="bi bi-calendar-week" role="img">
 </i> 
 <span class="menu-text">News &amp; Events</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./listing_team.html"> <i class="bi bi-people" role="img">
+    <a class="nav-link" href="../listing_team.html"> <i class="bi bi-people" role="img">
 </i> 
 <span class="menu-text">W4M Team</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -247,27 +210,52 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#description" id="toc-description" class="nav-link active" data-scroll-target="#description">Description</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content page-columns page-full column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">News</h1>
+<h1 class="title">NMR Mus musculus dataset</h1>
+</div>
+
+<div>
+  <div class="description">
+    Effects of Low Doses of Bisphenol A on the Metabolome of Perinatally Exposed CD-1 Mice
+  </div>
 </div>
 
 
+<div class="quarto-title-meta">
 
-<div class="quarto-title-meta column-page-left">
-
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Cabaton et al. </p>
+          </div>
+  </div>
     
   
     
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/<a href=" https:="" ehp.niehs.nih.gov="" doi="" 10.1289="" ehp.1205588"="">publication</a>"&gt;<a href="https://ehp.niehs.nih.gov/doi/10.1289/ehp.1205588">publication</a>
+      </p>
+    </div>
+  </div>
   </div>
   
 
@@ -275,187 +263,25 @@ window.Quarto = {
 </header>
 
 
-<div id="listing-w4e" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1704067200000" data-listing-file-modified-sort="1720604345338" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="185">
-<div class="thumbnail">
-<p><a href="./w4e2024.html" class="no-external"></a></p><a href="./w4e2024.html" class="no-external">
-<p class="card-img-top"><img src="images/W4E_maps_Archamps.png" style="height: 200px;"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./w4e2024.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./w4e2024.html" class="no-external">Workflow4Experimenters 2024</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./w4e2024.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./w4e2024.html" class="no-external"><strong>Save the date!</strong></a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./w4e2024.html" class="no-external"></a></p><a href="./w4e2024.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1672531200000" data-listing-file-modified-sort="1720604345338" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="367">
-<div class="thumbnail">
-<p><a href="./w4e2023.html" class="no-external"></a></p><a href="./w4e2023.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" style="height: 200px;">&nbsp;</div>
-</a><p><a href="./w4e2023.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./w4e2023.html" class="no-external">Workflow4Experimenters 2023</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./w4e2023.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./w4e2023.html" class="no-external">Overview</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./w4e2023.html" class="no-external"></a></p><a href="./w4e2023.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1609459200000" data-listing-file-modified-sort="1720604345338" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="377">
-<div class="thumbnail">
-<p><a href="./w4e2021.html" class="no-external"></a></p><a href="./w4e2021.html" class="no-external">
-<p class="card-img-top"><img src="images/W4E_2021_affiche.png" style="height: 200px;"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./w4e2021.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./w4e2021.html" class="no-external">Workflow4Experimenters 2021</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./w4e2021.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./w4e2021.html" class="no-external">This year the Workflow4Experimenters will take place in Toulouse from 11th to 15th of October. Let’s register before we run out of places.</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./w4e2021.html" class="no-external"></a></p><a href="./w4e2021.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1577836800000" data-listing-file-modified-sort="1720604345338" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="413">
-<div class="thumbnail">
-<p><a href="./w4e2020.html" class="no-external"></a></p><a href="./w4e2020.html" class="no-external">
-<p class="card-img-top"><img src="images/W4E_2020_affiche.png" style="height: 200px;"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./w4e2020.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./w4e2020.html" class="no-external">Workflow4Experimenters 2020</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./w4e2020.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./w4e2020.html" class="no-external">Overview Processing, statistical analysis, and annotation of metabolomics data is a complex task for experimenters since it involves many steps and requires a good knowledge…</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./w4e2020.html" class="no-external"></a></p><a href="./w4e2020.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1514764800000" data-listing-file-modified-sort="1720604345338" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="355">
-<div class="thumbnail">
-<p><a href="./w4e2018.html" class="no-external"></a></p><a href="./w4e2018.html" class="no-external">
-<p class="card-img-top"><img src="images/planning_w4e_2018.jpg" style="height: 200px;"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./w4e2018.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./w4e2018.html" class="no-external">Workflow4Experimenters 2018</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./w4e2018.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./w4e2018.html" class="no-external">Overview Processing, statistical analysis, and annotation of metabolomics data is a complex task for experimenters since it involves many steps and requires a good knowledge…</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./w4e2018.html" class="no-external"></a></p><a href="./w4e2018.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1483228800000" data-listing-file-modified-sort="1720604345338" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail">
-<p><a href="./w4e2017.html" class="no-external"></a></p><a href="./w4e2017.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" style="height: 200px;">&nbsp;</div>
-</a><p><a href="./w4e2017.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./w4e2017.html" class="no-external">Workflow4Experimenters 2017</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./w4e2017.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./w4e2017.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./w4e2017.html" class="no-external"></a></p><a href="./w4e2017.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1451606400000" data-listing-file-modified-sort="1720604345338" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="183">
-<div class="thumbnail">
-<p><a href="./w4e2016.html" class="no-external"></a></p><a href="./w4e2016.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" style="height: 200px;">&nbsp;</div>
-</a><p><a href="./w4e2016.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./w4e2016.html" class="no-external">Workflow4Experimenters 2016</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./w4e2016.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./w4e2016.html" class="no-external">W4E 2016 options de configuration Ouvert</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./w4e2016.html" class="no-external"></a></p><a href="./w4e2016.html" class="no-external">
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<!-- ```{=html} -->
-<!-- <a  -->
-<!-- class="twitter-timeline"  -->
-<!-- href="https://twitter.com/workflow4metabo?ref_src=twsrc%5Etfw"> -->
-<!-- Tweets by workflow4metabo</a> -->
-<!-- <script async src="https://platform.twitter.com/widgets.js"  -->
-<!-- charset="utf-8"></script> -->
-<!-- ``` -->
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
+<p><strong>Study:</strong> This study used metabolomics—a method for determining metabolic changes in response to nutritional, pharmacological, or toxic stimuli—to examine metabolic shifts induced in vivo by perinatal exposure to low doses of BPA in CD-1 mice (see <span class="citation" data-cites="Cabaton_2013">Cabaton et al. (<a href="#ref-Cabaton_2013" role="doc-biblioref">2013</a>)</span>).</p>
+<p><strong>Dataset:</strong> The dataset contains brain samples from 24 mice pups:<br>
+- Mothers exposed to BPA (25 or 250 ng / kg body weight / day)<br>
+- Pups sacrificed at 21 days: brain collection</p>
+<p>NMR analysis was performed on a Bruker DRX-600-Avance spectrometer using an inverse detection 5mm cryoprobe attached to a cryoplatform; CPMG spin-echo pulse sequence. Fourier transformation was applied, then all spectra were phased and baseline corrected using TopSpin.</p>
+<p><strong>Workflow:</strong></p>
+<p><strong>Comments:</strong></p>
 
 
 
+</section>
 
-
-<div class="no-row-height column-margin column-container"><div class="">
-<iframe style="
-  width:90%;
-  height:70em;
-  border-style:none;
-  box-shadow:0px 0px 2px 2px" src="https://twitter.com/workflow4metabo" title="Tweets by @workflow4metabo"></iframe>
-</div></div></main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Cabaton_2013" class="csl-entry" role="listitem">
+Cabaton, Nicolas J., Cécile Canlet, Perinaaz R. Wadia, Marie Tremblay-Franco, Roselyne Gautier, Jérôme Molina, Carlos Sonnenschein, et al. 2013. <span>“Effects of Low Doses of Bisphenol a on the Metabolome of Perinatally Exposed CD-1 Mice.”</span> <em>Environmental Health Perspectives</em> 121 (5): 586–93. <a href="https://doi.org/10.1289/ehp.1205588">https://doi.org/10.1289/ehp.1205588</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

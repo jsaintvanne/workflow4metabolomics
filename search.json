@@ -133,6 +133,20 @@
     "text": "Overview\nSave the date! Analyze your data with Galaxy and the Workflow4metabolomics infrastructure!The next Workflow4Experimenters session (W4E2023) will take place in March 2023. During this one-week course (entirely in English), you will learn how to use the W4M infrastructure and analyze your own LC-MS, GC-MS, or NMR data.\nFor this new session, format changes:\n• From March, 6 to 10 (10am to 12pm): online theoretical sessions (methods and tools)\nInvited online speaker: Callum Martin (EMBL-EBI Metabolights, United Kingdom)\n• From March, 20 to 24 : tutoring on your own data, at Institut des systèmes complexes (Paris). Practical information - access map\nInvited speaker: Helge Hecht (Masaryk University, République Tchèque)\nScientific comitee: C. Delporte (ULB, Bruxelles), C. Dalle (U.DAB IRBA, Brétigny-sur-Orge), Y. Guitton (Laberca, Nantes), C. Joly, M. Pétéra, F. Giacomoni (PFEM INRA, Clermont-Ferrand), G. Le Corguillé, (Abims, Roscoff), B. Diémé (PFEM Université Clermont Auvergne), F. Souard (ULB, Bruxelles & Université de Grenoble), C. Canlet, M. Tremblay-Franco (Toxalim INRA, Toulouse), Ralf Weber (University of Birmingham)\nAgenda and preregistration: registration form (Deadline 31/12/2022)\nContact: contact@workflow4metabolomics.org\nCosts: 1200€ for academic and 2500 € for private institution (to cover expenses for trainers, organization, materials and meals) Including: Lunch, coffee break, pedagogic support and the Thursday social event. Not included: travel expenses, accommodation and 3 diners (Monday, Tuesday, Wednesday)\nTarget audience: LC-MS, GC-MS, NMR, FIA-MS and DI-MS experimenters (e.g. biologists, chemists).\nMaterials: Participants will use their laptop to perform the analysis on their W4M account. All presentations, reference datasets and workflows will be available online.\nInvited speaker: Helge Hecht (Masaryk University, République Tchèque) \nTutors: Each participant will be paired with a duo of tutors (preprocessing / statistics experts) who will help him/her preparing data and assist him/her during each analysis step.\nLocation: Institute of Complex Systems, Paris (France) Language: English Number of attendees: 25 max.\nSponsor : W4M est conjointement développé et maintenu par l’Institut Français de Bioinformatique (IFB, nœud Elixir) et l’Infrastructure pour la Métabolomique et la Fluxomique (MetaboHUB).\nFinancial support: this course received the support of the Francophone Network of Metabolomics and Fluxomics (RFMF) and of Institut des Systèmes Complexes\nRFMF\nSee you soon in Paris!\nProgram (updated 22/02/2023)\nWebinars\nUpdate! On Friday 10th Callum Martin will present  ‘MetaboLights: the home for metabolomics experiments and derived information’.\nOn-site training\nFor any requests, please contact the team: support * AT * workflow4metabolomics.org\nPrivacy policy"
   },
   {
+    "objectID": "W4M_datasets/NMRMusmusculus.html",
+    "href": "W4M_datasets/NMRMusmusculus.html",
+    "title": "NMR Mus musculus dataset",
+    "section": "",
+    "text": "Study: This study used metabolomics—a method for determining metabolic changes in response to nutritional, pharmacological, or toxic stimuli—to examine metabolic shifts induced in vivo by perinatal exposure to low doses of BPA in CD-1 mice (see Cabaton et al. (2013)).\nDataset: The dataset contains brain samples from 24 mice pups:\n- Mothers exposed to BPA (25 or 250 ng / kg body weight / day)\n- Pups sacrificed at 21 days: brain collection\nNMR analysis was performed on a Bruker DRX-600-Avance spectrometer using an inverse detection 5mm cryoprobe attached to a cryoplatform; CPMG spin-echo pulse sequence. Fourier transformation was applied, then all spectra were phased and baseline corrected using TopSpin.\nWorkflow:\nComments:"
+  },
+  {
+    "objectID": "W4M_datasets/NMRMusmusculus.html#description",
+    "href": "W4M_datasets/NMRMusmusculus.html#description",
+    "title": "NMR Mus musculus dataset",
+    "section": "",
+    "text": "Study: This study used metabolomics—a method for determining metabolic changes in response to nutritional, pharmacological, or toxic stimuli—to examine metabolic shifts induced in vivo by perinatal exposure to low doses of BPA in CD-1 mice (see Cabaton et al. (2013)).\nDataset: The dataset contains brain samples from 24 mice pups:\n- Mothers exposed to BPA (25 or 250 ng / kg body weight / day)\n- Pups sacrificed at 21 days: brain collection\nNMR analysis was performed on a Bruker DRX-600-Avance spectrometer using an inverse detection 5mm cryoprobe attached to a cryoplatform; CPMG spin-echo pulse sequence. Fourier transformation was applied, then all spectra were phased and baseline corrected using TopSpin.\nWorkflow:\nComments:"
+  },
+  {
     "objectID": "w4e2018.html",
     "href": "w4e2018.html",
     "title": "Workflow4Experimenters 2018",
@@ -417,7 +431,7 @@
     "href": "tooluser.html#datasets-examples",
     "title": "User guide",
     "section": "Datasets examples",
-    "text": "Datasets examples\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\ngalaxyref\n\n\nlink\n\n\nTitle\n\n\nAuthor\n\n\nW4M\n\n\ndoi\n\n\n\n\n\n\nW4M00001\n\n\nMTBLS404\n\n\nSacurine\n\n\nThevenot et al.\n\n\nhistory\n\n\npublication\n\n\n\n\n\nNo matching items"
+    "text": "Datasets examples\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\ngalaxyref\n\n\nlink\n\n\nTitle\n\n\nAuthor\n\n\nW4M\n\n\ndoi\n\n\n\n\n\n\n?\n\n\n \n\n\nGC-MS Idealg dataset\n\n\nDittami et al.\n\n\nW4M00004_GCMS-Algae\n\n\npublication\n\n\n\n\nW4M00006\n\n\n \n\n\nNMR Mus musculus dataset\n\n\nCabaton et al.\n\n\nhistory\n\n\npublication\n\n\n\n\nW4M00001\n\n\nMTBLS404\n\n\nSacurine\n\n\nThevenot et al.\n\n\nhistory\n\n\npublication\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "w4e2021.html",
@@ -600,6 +614,27 @@
     "title": "Sacurine",
     "section": "",
     "text": "Study: Characterization of the physiological variations of the metabolome in biofluids is critical to understand human physiology and to avoid confounding effects in cohort studies aiming at biomarker discovery.\nDataset: In this study conducted by the MetaboHUB French Infrastructure for Metabolomics, urine samples from 184 volunteers were analyzed by reversed-phase (C18) ultrahigh performance liquid chromatography (UPLC) coupled to high-resolution mass spectrometry (LTQ-Orbitrap). A total of 258 metabolites were identified at confidence levels provided by the metabolomics standards initiative (MSI) levels 1 or 2.\nWorkflow: This history describes the statistical analysis of the data set from the negative ionization mode (113 identified metabolites at MSI levels 1 or 2): correction of signal drift (loess model built on QC pools) and batch effects (two batches), variable filtering (QC coefficent of variation &lt; 30%), normalization by the sample osmolality, log10 transformation, sample filtering (Hotelling, decile and missing pvalues &gt; 0.001) resulting in the HU_096 sample being discarded, univariate hypothesis testing of significant variations with age, BMI, or between genders (FDR &lt; 0.05), and OPLS(-DA) modeling of age, BMI and gender.\nComments: The ‘sacurine’ data set (after normalization and filtering) is also available in the ropls R package from the Bioconductor repository. For a comprehensive analysis of the dataset (starting from the preprocessing of the raw files and including all detected features in the subsequent steps), please see the companion ‘W4M00002_Sacurine-comprehensive’ reference history."
+  },
+  {
+    "objectID": "W4M_datasets/GCMSIdealg.html",
+    "href": "W4M_datasets/GCMSIdealg.html",
+    "title": "GC-MS Idealg dataset",
+    "section": "",
+    "text": "Study:\nDataset:\nWorkflow:\nComments:"
+  },
+  {
+    "objectID": "W4M_datasets/GCMSIdealg.html#description",
+    "href": "W4M_datasets/GCMSIdealg.html#description",
+    "title": "GC-MS Idealg dataset",
+    "section": "",
+    "text": "Study:\nDataset:\nWorkflow:\nComments:"
+  },
+  {
+    "objectID": "W4M_datasets/GCMSIdealg.html#citations",
+    "href": "W4M_datasets/GCMSIdealg.html#citations",
+    "title": "GC-MS Idealg dataset",
+    "section": "Citations",
+    "text": "Citations\nDittami et al. (2012)"
   },
   {
     "objectID": "resources2.html",
