@@ -199,7 +199,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#developing-galaxy-tools-in-general" id="toc-developing-galaxy-tools-in-general" class="nav-link active" data-scroll-target="#developing-galaxy-tools-in-general">Developing Galaxy tools in general</a></li>
   <li><a href="#developing-tools-compatible-with-w4m-inputoutput-datasets" id="toc-developing-tools-compatible-with-w4m-inputoutput-datasets" class="nav-link" data-scroll-target="#developing-tools-compatible-with-w4m-inputoutput-datasets">Developing tools compatible with W4M input/output datasets</a>
   <ul class="collapse">
-  <li><a href="#about-the-w4m-3-tables-format" id="toc-about-the-w4m-3-tables-format" class="nav-link" data-scroll-target="#about-the-w4m-3-tables-format">About the W4M 3-tables format</a></li>
+  <li><a href="#about-the-w4m-standardised-3-tables-format" id="toc-about-the-w4m-standardised-3-tables-format" class="nav-link" data-scroll-target="#about-the-w4m-standardised-3-tables-format">About the W4M standardised 3-tables format</a></li>
   </ul></li>
   <li><a href="#developing-tools-in-a-w4m-approuved-format" id="toc-developing-tools-in-a-w4m-approuved-format" class="nav-link" data-scroll-target="#developing-tools-in-a-w4m-approuved-format">Developing tools in a W4M-approuved format</a>
   <ul class="collapse">
@@ -241,9 +241,34 @@ ul.task-list li input[type="checkbox"] {
 <section id="developing-tools-compatible-with-w4m-inputoutput-datasets" class="level2">
 <h2 class="anchored" data-anchor-id="developing-tools-compatible-with-w4m-inputoutput-datasets">Developing tools compatible with W4M input/output datasets</h2>
 <p>Due to the diversity of tools needed to construct comprehensive metabolomic workflows, W4M chose to adopt common standards across its tools, in particular regarding data table formats.</p>
-<section id="about-the-w4m-3-tables-format" class="level3">
-<h3 class="anchored" data-anchor-id="about-the-w4m-3-tables-format">About the W4M 3-tables format</h3>
-<p><strong>TODO</strong> topo sur le format 3 tableaux ? ou lien vers un endroit où ya le topo ?</p>
+<section id="about-the-w4m-standardised-3-tables-format" class="level3">
+<h3 class="anchored" data-anchor-id="about-the-w4m-standardised-3-tables-format">About the W4M standardised 3-tables format</h3>
+<p>As W4M provides a large variety of tools, we set a common way to handle data, in order to enable easy links between the tools, limiting format switches and ensuring users can easily find the information they seek inside their data sets.</p>
+<p>For any extracted data (<em>i.e.</em> a single intensity value per {analytical variable; sample} pair), we settled for a standardised 3-tables format, in the form of ‘tabular’ files (as defined in Galaxy, <em>i.e.</em> plain text files (.txt, .tsv, .tabular) containing tables with columns separated by tabulations). One file is dedicated to the intensity values measured for each analytical variable and each sample, a second file gathers the meta-data concerning the samples, and a third file is about the meta-data of the analytical variables.</p>
+<p>Detailed information about this W4M 3-tables format is <a href="https://nextcloud.inrae.fr/s/qLkNZRf84QQ5YLY">available here</a>.</p>
+<p>Familiar with <a href="https://bioconductor.org/packages/release/bioc/html/Biobase.html">Biobase formating</a> from Bioconductor? The W4M 3-tables format is very similar to the ExpressionSets organisation of data, the main difference being that the dataMatrix table is a transposition of the assay data table:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>W4M format</th>
+<th>ExpressionSets</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>dataMatrix</td>
+<td><em>transposed</em> assay data (assayData)</td>
+</tr>
+<tr class="even">
+<td>sampleMetadata</td>
+<td>phenotypic data (phenoData)</td>
+</tr>
+<tr class="odd">
+<td>variableMetadata</td>
+<td>annotations and feature data (annotation)</td>
+</tr>
+</tbody>
+</table>
 </section>
 </section>
 <section id="developing-tools-in-a-w4m-approuved-format" class="level2">
