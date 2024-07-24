@@ -50,17 +50,17 @@
     ]
   },
   {
+    "listing": "/index.html",
+    "items": [
+      "/w4e2024.html"
+    ]
+  },
+  {
     "listing": "/tooluser.html",
     "items": [
       "/W4M_datasets/GCMSIdealg.html",
       "/W4M_datasets/NMRMusmusculus.html",
       "/W4M_datasets/sacurine.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/w4e2024.html"
     ]
   }
 ]
