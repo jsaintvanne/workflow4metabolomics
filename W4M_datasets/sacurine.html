@@ -6,8 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Thevenot et al.">
-<meta name="description" content="Analysis of the human adult urinary metabolome">
+<meta name="author" content="Thevenot et al., 2015">
+<meta name="description" content="doi link">
 
 <title>Sacurine – W4M Galaxy Documentation</title>
 <style>
@@ -22,7 +22,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -72,7 +92,7 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="../styles.css">
 <meta name="twitter:title" content="Sacurine – W4M Galaxy Documentation">
-<meta name="twitter:description" content="Analysis of the human adult urinary metabolome">
+<meta name="twitter:description" content="doi link">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -208,11 +228,12 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Sacurine</h1>
+<p class="subtitle lead">Analysis of the human adult urinary metabolome</p>
 </div>
 
 <div>
   <div class="description">
-    Analysis of the human adult urinary metabolome
+    <a href="https://pubs.acs.org/doi/10.1021/acs.jproteome.5b00354">doi link</a>
   </div>
 </div>
 
@@ -222,20 +243,12 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Thevenot et al. </p>
+             <p>Thevenot <em>et al.</em>, 2015 </p>
           </div>
   </div>
     
   
     
-    <div>
-    <div class="quarto-title-meta-heading">Doi</div>
-    <div class="quarto-title-meta-contents">
-      <p class="doi">
-        <a href="https://doi.org/<a href=" https:="" pubs.acs.org="" doi="" 10.1021="" acs.jproteome.5b00354"="">publication</a>"&gt;<a href="https://pubs.acs.org/doi/10.1021/acs.jproteome.5b00354">publication</a>
-      </p>
-    </div>
-  </div>
   </div>
   
 
@@ -248,12 +261,17 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Study:</strong> Characterization of the physiological variations of the metabolome in biofluids is critical to understand human physiology and to avoid confounding effects in cohort studies aiming at biomarker discovery.</p>
 <p><strong>Dataset:</strong> In this study conducted by the MetaboHUB French Infrastructure for Metabolomics, urine samples from 184 volunteers were analyzed by reversed-phase (C18) ultrahigh performance liquid chromatography (UPLC) coupled to high-resolution mass spectrometry (LTQ-Orbitrap). A total of 258 metabolites were identified at confidence levels provided by the metabolomics standards initiative (MSI) levels 1 or 2.</p>
 <p><strong>Workflow:</strong> This history describes the statistical analysis of the data set from the negative ionization mode (113 identified metabolites at MSI levels 1 or 2): correction of signal drift (loess model built on QC pools) and batch effects (two batches), variable filtering (QC coefficent of variation &lt; 30%), normalization by the sample osmolality, log10 transformation, sample filtering (Hotelling, decile and missing pvalues &gt; 0.001) resulting in the HU_096 sample being discarded, univariate hypothesis testing of significant variations with age, BMI, or between genders (FDR &lt; 0.05), and OPLS(-DA) modeling of age, BMI and gender.</p>
-<p><strong>Comments:</strong> The ‘sacurine’ data set (after normalization and filtering) is also available in the ropls R package from the Bioconductor repository. For a comprehensive analysis of the dataset (starting from the preprocessing of the raw files and including all detected features in the subsequent steps), please see the companion ‘W4M00002_Sacurine-comprehensive’ reference history.</p>
+<p><strong>Comments:</strong> The ‘sacurine’ data set (after normalization and filtering) is also available in the ropls R package from the Bioconductor repository.</p>
+
 
 
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-THEVENOT_2015" class="csl-entry" role="listitem">
+Thévenot, Etienne A., Aurélie Roux, Ying Xu, Eric Ezan, and Christophe Junot. 2015. <span>“Analysis of the Human Adult Urinary Metabolome Variations with Age, Body Mass Index, and Gender by Implementing a Comprehensive Workflow for Univariate and OPLS Statistical Analyses.”</span> <em>Journal of Proteome Research</em> 14 (8): 3322–35. <a href="https://doi.org/10.1021/acs.jproteome.5b00354">https://doi.org/10.1021/acs.jproteome.5b00354</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

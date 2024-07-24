@@ -78,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-galaxyref','listing-link','listing-title','listing-author','listing-W4M','listing-doi',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-W4M','listing-Respository','listing-doi-link',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] },{ data: ['listing-author-sort'] }],
       
       searchColumns: ["listing-title","listing-author"],
     };
@@ -285,7 +285,7 @@ window.Quarto = {
 </header>
 
 
-<p>The most effective way to master the use of our tools is by enrolling in our comprehensive training school <img src="./images/W4E_icon.svg" style="height:1em">. Below you will find in-depth learning guides, providing you with the skills you need to leverage our tools seamlessly.</p>
+<p>The most effective way to master the use of our tools is by enrolling in our comprehensive <a href="./news.html">training school <img src="./images/W4E_icon.svg" style="height:1em"></a>. Below you will find in-depth learning guides, providing you with the skills you need to leverage our tools seamlessly.</p>
 <p>If you have any questions or troubleshooting on Galaxy, one way to find an answer or solution is to visit the <a href="community.france-bioinformatique.fr/c/workflow4metabolomics/">IFB User Community</a>.</p>
 <section id="galaxy-training-network-on-metabolomics" class="level2">
 <h2 class="anchored" data-anchor-id="galaxy-training-network-on-metabolomics">Galaxy Training Network on Metabolomics</h2>
@@ -298,7 +298,7 @@ window.Quarto = {
 </section>
 <section id="galaxy-instance" class="level2">
 <h2 class="anchored" data-anchor-id="galaxy-instance">Galaxy <img src="./images/W4M_icon.svg" style="height:1em"> Instance</h2>
-<p>Explore our <a href="https://workflow4metabolomics.usegalaxy.fr/"><img src="https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png" style="height:2em"> Galaxy instance</a> where each tool is accompanied by comprehensive support, including helpful documentation, examples, and references, ensuring that you have the resources you need.</p>
+<p>Explore our <a href="https://workflow4metabolomics.usegalaxy.fr"><img src="https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png" style="height:2em"> Galaxy instance</a> where each tool is accompanied by comprehensive support, including helpful documentation, examples, and references, ensuring that you have the resources you need.</p>
 </section>
 <section id="workflows-examples" class="level2">
 <h2 class="anchored" data-anchor-id="workflows-examples">Workflows examples</h2>
@@ -326,7 +326,7 @@ window.Quarto = {
          <option value="listing-title-sort" data-direction="asc">
           Title
         </option>
-         <option value="listing-author" data-direction="asc">
+         <option value="listing-author-sort" data-direction="asc">
           Author
         </option>
      </select>
@@ -336,88 +336,79 @@ window.Quarto = {
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
-<table class="quarto-listing-table table">
+<table class="quarto-listing-table table table-hover">
 <thead>
 <tr>
-<th>
-galaxyref
-</th>
-<th>
-link
-</th>
 <th>
 <a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
 </th>
 <th>
-<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Author</a>
+<a class="sort" data-sort="listing-author-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Author</a>
 </th>
 <th>
 W4M
 </th>
 <th>
-doi
+Respository
+</th>
+<th>
+doi-link
 </th>
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-file-modified-sort="1721813697276" data-listing-reading-time-sort="1" data-listing-word-count-sort="6" data-listing-title-sort="GC-MS Idealg dataset" data-listing-filename-sort="GCMSIdealg.qmd">
-<td>
-<span class="listing-galaxyref">W4M00004</span>
-</td>
-<td>
-<span class="listing-link">&nbsp;</span>
-</td>
+<tr data-index="0" data-listing-file-modified-sort="1721816489233" data-listing-reading-time-sort="2" data-listing-word-count-sort="249" data-listing-title-sort="GC-MS Idealg dataset" data-listing-author-sort="Dittami *et al.*, 2012" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
 <td>
 <a href="./W4M_datasets/GCMSIdealg.html" class="title listing-title">GC-MS Idealg dataset</a>
 </td>
 <td>
-<span class="listing-author">Dittami et al.</span>
+<a href="./W4M_datasets/GCMSIdealg.html" class="author listing-author">Dittami <em>et al.</em>, 2012</a>
 </td>
 <td>
-<span class="listing-W4M"><a href="https://workflow4metabolomics.usegalaxy.fr/published/history?id=85be02a450bd0e8c">history</a></span>
+<span class="listing-W4M"><a href="https://workflow4metabolomics.usegalaxy.fr/published/history?id=85be02a450bd0e8c">W4M00004</a></span>
 </td>
 <td>
-<span class="listing-doi"><a href="https://onlinelibrary.wiley.com/doi/full/10.1111/j.1365-313X.2012.04982.x"><span class="citation" data-cites="DITTAMI_2012">@DITTAMI_2012</span></a></span>
+<span class="listing-Respository">&nbsp;</span>
+</td>
+<td>
+<span class="listing-doi-link"><a href="https://onlinelibrary.wiley.com/doi/full/10.1111/j.1365-313X.2012.04982.x">doi link</a></span>
 </td>
 </tr>
-<tr data-index="1" data-listing-file-modified-sort="1721813697276" data-listing-reading-time-sort="1" data-listing-word-count-sort="115" data-listing-title-sort="NMR Mus musculus dataset" data-listing-filename-sort="NMRMusmusculus.qmd">
-<td>
-<span class="listing-galaxyref">W4M00006</span>
-</td>
-<td>
-<span class="listing-link">&nbsp;</span>
-</td>
+<tr data-index="1" data-listing-file-modified-sort="1721816489233" data-listing-reading-time-sort="1" data-listing-word-count-sort="113" data-listing-title-sort="NMR Mus musculus dataset" data-listing-author-sort="Cabaton *et al.*, 2013" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
 <td>
 <a href="./W4M_datasets/NMRMusmusculus.html" class="title listing-title">NMR Mus musculus dataset</a>
 </td>
 <td>
-<span class="listing-author">Cabaton et al.</span>
+<a href="./W4M_datasets/NMRMusmusculus.html" class="author listing-author">Cabaton <em>et al.</em>, 2013</a>
 </td>
 <td>
-<span class="listing-W4M"><a href="https://workflow4metabolomics.usegalaxy.fr/published/history?id=c342a31eb03b9648">history</a></span>
+<span class="listing-W4M"><a href="https://workflow4metabolomics.usegalaxy.fr/published/history?id=c342a31eb03b9648">W4M00006</a></span>
 </td>
 <td>
-<span class="listing-doi"><a href="https://ehp.niehs.nih.gov/doi/10.1289/ehp.1205588">publication</a></span>
+<span class="listing-Respository">&nbsp;</span>
+</td>
+<td>
+<span class="listing-doi-link"><a href="https://ehp.niehs.nih.gov/doi/10.1289/ehp.1205588">doi link</a></span>
 </td>
 </tr>
-<tr data-index="2" data-listing-file-modified-sort="1721813697276" data-listing-reading-time-sort="2" data-listing-word-count-sort="226" data-listing-title-sort="Sacurine" data-listing-filename-sort="sacurine.qmd">
-<td>
-<span class="listing-galaxyref">W4M00001</span>
-</td>
-<td>
-<span class="listing-link"><a href="https://www.ebi.ac.uk/metabolights/editor/MTBLS404/descriptors">MTBLS404</a></span>
-</td>
+<tr data-index="2" data-listing-file-modified-sort="1721816489233" data-listing-reading-time-sort="1" data-listing-word-count-sort="195" data-listing-title-sort="Sacurine" data-listing-author-sort="Thevenot *et al.*, 2015" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
 <td>
 <a href="./W4M_datasets/sacurine.html" class="title listing-title">Sacurine</a>
 </td>
 <td>
-<span class="listing-author">Thevenot et al.</span>
+<a href="./W4M_datasets/sacurine.html" class="author listing-author">Thevenot <em>et al.</em>, 2015</a>
 </td>
 <td>
-<span class="listing-W4M"><a href="https://workflow4metabolomics.usegalaxy.fr/published/history?id=3052e053b71f3ff5">history</a></span>
+<span class="listing-W4M"><a href="https://workflow4metabolomics.usegalaxy.fr/published/history?id=3052e053b71f3ff5">W4M00001</a></span>
 </td>
 <td>
-<span class="listing-doi"><a href="https://pubs.acs.org/doi/10.1021/acs.jproteome.5b00354">publication</a></span>
+<span class="listing-Respository"><a href="https://www.ebi.ac.uk/metabolights/editor/MTBLS404/descriptors">MTBLS404</a></span>
+</td>
+<td>
+<span class="listing-doi-link"><a href="https://pubs.acs.org/doi/10.1021/acs.jproteome.5b00354">doi link</a></span>
 </td>
 </tr>
 </tbody>
