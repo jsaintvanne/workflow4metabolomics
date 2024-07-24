@@ -281,22 +281,6 @@ window.Quarto = {
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <div id="listing-list_w4e" class="quarto-listing quarto-listing-container-table">
 <div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-list_w4e-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-list_w4e'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-         <option value="listing-title-sort" data-direction="asc">
-          Title
-        </option>
-     </select>
-  </div>
     <div class="input-group input-group-sm quarto-listing-filter">
       <span class="input-group-text"><i class="bi bi-search"></i></span>
       <input type="text" class="search form-control" placeholder="Filter">
@@ -312,10 +296,10 @@ year
 place
 </th>
 <th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
+Date
 </th>
 <th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+Title
 </th>
 <th>
 speakers
@@ -323,143 +307,7 @@ speakers
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-date-sort="NaN" data-listing-file-modified-sort="1721811812776" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Workflow4Experimenters 2014" data-listing-filename-sort="w4e2014.qmd">
-<td>
-<span class="listing-year">2014</span>
-</td>
-<td>
-<span class="listing-place">Lyon, France</span>
-</td>
-<td>
-<span class="listing-date">Invalid Date</span>
-</td>
-<td>
-<a href="./W4E/w4e2014.html" class="title listing-title">Workflow4Experimenters 2014</a>
-</td>
-<td>
-<span class="listing-speakers">&nbsp;</span>
-</td>
-</tr>
-<tr data-index="1" data-listing-date-sort="1758412800000" data-listing-file-modified-sort="1721811812776" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Workflow4Experimenters 2015" data-listing-filename-sort="w4e2015.qmd">
-<td>
-<span class="listing-year">2015</span>
-</td>
-<td>
-<span class="listing-place">Roscoff, France</span>
-</td>
-<td>
-<span class="listing-date">Sep 21, 2025</span>
-</td>
-<td>
-<a href="./W4E/w4e2015.html" class="title listing-title">Workflow4Experimenters 2015</a>
-</td>
-<td>
-<span class="listing-speakers">&nbsp;</span>
-</td>
-</tr>
-<tr data-index="2" data-listing-date-sort="NaN" data-listing-file-modified-sort="1721811812776" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="183" data-listing-title-sort="Workflow4Experimenters 2016" data-listing-filename-sort="w4e2016.qmd">
-<td>
-<span class="listing-year">2016</span>
-</td>
-<td>
-<span class="listing-place">Roscoff, France</span>
-</td>
-<td>
-<span class="listing-date">Invalid Date</span>
-</td>
-<td>
-<a href="./W4E/w4e2016.html" class="title listing-title">Workflow4Experimenters 2016</a>
-</td>
-<td>
-<span class="listing-speakers">&nbsp;</span>
-</td>
-</tr>
-<tr data-index="3" data-listing-date-sort="NaN" data-listing-file-modified-sort="1721811812776" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Workflow4Experimenters 2017" data-listing-filename-sort="w4e2017.qmd">
-<td>
-<span class="listing-year">2017</span>
-</td>
-<td>
-<span class="listing-place">Paris, France</span>
-</td>
-<td>
-<span class="listing-date">Invalid Date</span>
-</td>
-<td>
-<a href="./W4E/w4e2017.html" class="title listing-title">Workflow4Experimenters 2017</a>
-</td>
-<td>
-<span class="listing-speakers">Tim Ebbels, Steffen Neumann, Ralf Weber</span>
-</td>
-</tr>
-<tr data-index="4" data-listing-date-sort="1349654400000" data-listing-file-modified-sort="1721811812776" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="355" data-listing-title-sort="Workflow4Experimenters 2018" data-listing-filename-sort="w4e2018.qmd">
-<td>
-<span class="listing-year">2018</span>
-</td>
-<td>
-<span class="listing-place">Paris, France</span>
-</td>
-<td>
-<span class="listing-date">Oct 8, 2012</span>
-</td>
-<td>
-<a href="./W4E/w4e2018.html" class="title listing-title">Workflow4Experimenters 2018</a>
-</td>
-<td>
-<span class="listing-speakers">Julien Boccard, Christoph Steinbeck</span>
-</td>
-</tr>
-<tr data-index="5" data-listing-date-sort="1170460800000" data-listing-file-modified-sort="1721811812776" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="413" data-listing-title-sort="Workflow4Experimenters 2020" data-listing-filename-sort="w4e2020.qmd">
-<td>
-<span class="listing-year">2020</span>
-</td>
-<td>
-<span class="listing-place">Brussels, Belgium</span>
-</td>
-<td>
-<span class="listing-date">Feb 3, 2007</span>
-</td>
-<td>
-<a href="./W4E/w4e2020.html" class="title listing-title">Workflow4Experimenters 2020</a>
-</td>
-<td>
-<span class="listing-speakers">Susanne Mar, Ralf Weber, Nathalie Poupin</span>
-</td>
-</tr>
-<tr data-index="6" data-listing-date-sort="1444521600000" data-listing-file-modified-sort="1721811812776" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="377" data-listing-title-sort="Workflow4Experimenters 2021" data-listing-filename-sort="w4e2021.qmd">
-<td>
-<span class="listing-year">2021</span>
-</td>
-<td>
-<span class="listing-place">Toulouse, France</span>
-</td>
-<td>
-<span class="listing-date">Oct 11, 2015</span>
-</td>
-<td>
-<a href="./W4E/w4e2021.html" class="title listing-title">Workflow4Experimenters 2021</a>
-</td>
-<td>
-<span class="listing-speakers">Sylvain Dechaumet, David Touboul, Fabien Jourdan</span>
-</td>
-</tr>
-<tr data-index="7" data-listing-date-sort="1267833600000" data-listing-file-modified-sort="1721811812776" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="367" data-listing-title-sort="Workflow4Experimenters 2023" data-listing-filename-sort="w4e2023.qmd">
-<td>
-<span class="listing-year">2023</span>
-</td>
-<td>
-<span class="listing-place">Paris, France</span>
-</td>
-<td>
-<span class="listing-date">Mar 6, 2010</span>
-</td>
-<td>
-<a href="./W4E/w4e2023.html" class="title listing-title">Workflow4Experimenters 2023</a>
-</td>
-<td>
-<span class="listing-speakers">Helge Hecht, Callum Martin</span>
-</td>
-</tr>
-<tr data-index="8" data-listing-date-sort="1333843200000" data-listing-file-modified-sort="1721811812776" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="185" data-listing-title-sort="Workflow4Experimenters 2024" data-listing-filename-sort="w4e2024.qmd">
+<tr data-index="0" data-listing-date-sort="1333843200000" data-listing-file-modified-sort="1721813697276" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="185" data-listing-title-sort="Workflow4Experimenters 2024" data-listing-filename-sort="w4e2024.qmd">
 <td>
 <span class="listing-year">2024</span>
 </td>
@@ -476,6 +324,142 @@ speakers
 <span class="listing-speakers">TBD</span>
 </td>
 </tr>
+<tr data-index="1" data-listing-date-sort="1267833600000" data-listing-file-modified-sort="1721813697276" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="367" data-listing-title-sort="Workflow4Experimenters 2023" data-listing-filename-sort="w4e2023.qmd">
+<td>
+<span class="listing-year">2023</span>
+</td>
+<td>
+<span class="listing-place">Paris, France</span>
+</td>
+<td>
+<span class="listing-date">Mar 6, 2010</span>
+</td>
+<td>
+<a href="./W4E/w4e2023.html" class="title listing-title">Workflow4Experimenters 2023</a>
+</td>
+<td>
+<span class="listing-speakers">Helge Hecht, Callum Martin</span>
+</td>
+</tr>
+<tr data-index="2" data-listing-date-sort="1444521600000" data-listing-file-modified-sort="1721813697276" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="377" data-listing-title-sort="Workflow4Experimenters 2021" data-listing-filename-sort="w4e2021.qmd">
+<td>
+<span class="listing-year">2021</span>
+</td>
+<td>
+<span class="listing-place">Toulouse, France</span>
+</td>
+<td>
+<span class="listing-date">Oct 11, 2015</span>
+</td>
+<td>
+<a href="./W4E/w4e2021.html" class="title listing-title">Workflow4Experimenters 2021</a>
+</td>
+<td>
+<span class="listing-speakers">Sylvain Dechaumet, David Touboul, Fabien Jourdan</span>
+</td>
+</tr>
+<tr data-index="3" data-listing-date-sort="1170460800000" data-listing-file-modified-sort="1721813697276" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="413" data-listing-title-sort="Workflow4Experimenters 2020" data-listing-filename-sort="w4e2020.qmd">
+<td>
+<span class="listing-year">2020</span>
+</td>
+<td>
+<span class="listing-place">Brussels, Belgium</span>
+</td>
+<td>
+<span class="listing-date">Feb 3, 2007</span>
+</td>
+<td>
+<a href="./W4E/w4e2020.html" class="title listing-title">Workflow4Experimenters 2020</a>
+</td>
+<td>
+<span class="listing-speakers">Susanne Mar, Ralf Weber, Nathalie Poupin</span>
+</td>
+</tr>
+<tr data-index="4" data-listing-date-sort="1349654400000" data-listing-file-modified-sort="1721813697276" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="355" data-listing-title-sort="Workflow4Experimenters 2018" data-listing-filename-sort="w4e2018.qmd">
+<td>
+<span class="listing-year">2018</span>
+</td>
+<td>
+<span class="listing-place">Paris, France</span>
+</td>
+<td>
+<span class="listing-date">Oct 8, 2012</span>
+</td>
+<td>
+<a href="./W4E/w4e2018.html" class="title listing-title">Workflow4Experimenters 2018</a>
+</td>
+<td>
+<span class="listing-speakers">Julien Boccard, Christoph Steinbeck</span>
+</td>
+</tr>
+<tr data-index="5" data-listing-date-sort="NaN" data-listing-file-modified-sort="1721813697276" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Workflow4Experimenters 2017" data-listing-filename-sort="w4e2017.qmd">
+<td>
+<span class="listing-year">2017</span>
+</td>
+<td>
+<span class="listing-place">Paris, France</span>
+</td>
+<td>
+<span class="listing-date">Invalid Date</span>
+</td>
+<td>
+<a href="./W4E/w4e2017.html" class="title listing-title">Workflow4Experimenters 2017</a>
+</td>
+<td>
+<span class="listing-speakers">Tim Ebbels, Steffen Neumann, Ralf Weber</span>
+</td>
+</tr>
+<tr data-index="6" data-listing-date-sort="NaN" data-listing-file-modified-sort="1721813697276" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="183" data-listing-title-sort="Workflow4Experimenters 2016" data-listing-filename-sort="w4e2016.qmd">
+<td>
+<span class="listing-year">2016</span>
+</td>
+<td>
+<span class="listing-place">Roscoff, France</span>
+</td>
+<td>
+<span class="listing-date">Invalid Date</span>
+</td>
+<td>
+<a href="./W4E/w4e2016.html" class="title listing-title">Workflow4Experimenters 2016</a>
+</td>
+<td>
+<span class="listing-speakers">&nbsp;</span>
+</td>
+</tr>
+<tr data-index="7" data-listing-date-sort="1758412800000" data-listing-file-modified-sort="1721813697276" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Workflow4Experimenters 2015" data-listing-filename-sort="w4e2015.qmd">
+<td>
+<span class="listing-year">2015</span>
+</td>
+<td>
+<span class="listing-place">Roscoff, France</span>
+</td>
+<td>
+<span class="listing-date">Sep 21, 2025</span>
+</td>
+<td>
+<a href="./W4E/w4e2015.html" class="title listing-title">Workflow4Experimenters 2015</a>
+</td>
+<td>
+<span class="listing-speakers">&nbsp;</span>
+</td>
+</tr>
+<tr data-index="8" data-listing-date-sort="NaN" data-listing-file-modified-sort="1721813697276" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Workflow4Experimenters 2014" data-listing-filename-sort="w4e2014.qmd">
+<td>
+<span class="listing-year">2014</span>
+</td>
+<td>
+<span class="listing-place">Lyon, France</span>
+</td>
+<td>
+<span class="listing-date">Invalid Date</span>
+</td>
+<td>
+<a href="./W4E/w4e2014.html" class="title listing-title">Workflow4Experimenters 2014</a>
+</td>
+<td>
+<span class="listing-speakers">&nbsp;</span>
+</td>
+</tr>
 </tbody>
 </table>
 <div class="listing-no-matching d-none">
@@ -484,7 +468,172 @@ No matching items
 </div>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<p>Blablablbalbabl</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 2%">
+<col style="width: 9%">
+<col style="width: 6%">
+<col style="width: 34%">
+<col style="width: 31%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Year</th>
+<th>Place</th>
+<th>Date</th>
+<th>Event</th>
+<th>Training</th>
+<th>Speaker</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2024</td>
+<td>St Malo, France</td>
+<td>3-6 June</td>
+<td>RFMF</td>
+<td>Atelier</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>2022</td>
+<td>Sète, France</td>
+<td>17-20 October</td>
+<td>Chemomics</td>
+<td>3rd School =&gt; Bar camp ChemFlow / W4M</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>2021</td>
+<td>Online Session</td>
+<td>15-19 March</td>
+<td>Chemomics</td>
+<td>2nd School =&gt; Bar camp ChemFlow / W4M</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>2020</td>
+<td>Breda, NDL</td>
+<td>5-6 November</td>
+<td>Avans Galaxy workshop</td>
+<td>Introduction of to XCMS, Analyzing LC-MS data with Galaxy by XCMS functions</td>
+<td>Yann Guitton</td>
+</tr>
+<tr class="odd">
+<td>2020</td>
+<td>Toulouse, France</td>
+<td>21 January</td>
+<td>RFMF</td>
+<td>Interactive tutorial, How to process LC-MS data with workflow4metabolomics.org</td>
+<td>Y Guitton, M. Tremblay-Franco, F. Giacomoni</td>
+</tr>
+<tr class="even">
+<td>2019</td>
+<td>Sète, France</td>
+<td>18-22 November</td>
+<td>Chemomics</td>
+<td>1st =&gt; Bar camp ChemFlow / W4M</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>2019</td>
+<td>St Etienne, France</td>
+<td>16-21 June</td>
+<td>ETEC</td>
+<td>Approches “Omiques” en ecologie chimique - Atelier Metabolomique avec W4M</td>
+<td>Binta Dieme</td>
+</tr>
+<tr class="even">
+<td>2018</td>
+<td>EBI, UK</td>
+<td>21-23 March</td>
+<td>EMBL-EBI Training</td>
+<td>Introduction to Metabolomics Analysis</td>
+<td>Etienne Thevenot</td>
+</tr>
+<tr class="odd">
+<td>2017</td>
+<td>Pula, Italy</td>
+<td>11-15 September</td>
+<td>CloudMET</td>
+<td>1st scientific school on Cloud-based Metabolomics Data Analysis and Collaboration</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>2017</td>
+<td>Lausanne, Switzerland</td>
+<td>12-15 June</td>
+<td>Metabolomics : from data to publication</td>
+<td>LC-MS data pre-processing/MS data processing</td>
+<td>Yann Guitton</td>
+</tr>
+<tr class="odd">
+<td>2017</td>
+<td>Paris, France</td>
+<td>6-9 June</td>
+<td>Applications de R pour l’analyse de données spectroscopiques</td>
+<td>SM et RMN : XCMS et Batman</td>
+<td>Alain PARIS</td>
+</tr>
+<tr class="even">
+<td>2016</td>
+<td>Toulouse, France</td>
+<td>8 November</td>
+<td>Master in Structural and Functional Biology</td>
+<td>Introduction to Statistics for Metabolomics and Proteomics</td>
+<td>Marie Tremblay-Franco</td>
+</tr>
+<tr class="odd">
+<td>2016</td>
+<td>Sardenia, Italy</td>
+<td>12-16 September</td>
+<td>2nd Metabolomics Sardinian Scientific School: How to bridge metabolomics and genomics</td>
+<td>The Workflow4Metabolomics (W4M) online infrastructure for omics analysis with Galaxy</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>2015</td>
+<td>Tours, France</td>
+<td>27 November</td>
+<td>workshop Pharmaco-métabolomique et recherche de nouveaux biomarqueurs en onco-pharmacologie</td>
+<td>Atelier Analyses multivariées des données métabolomiques</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>2014</td>
+<td>Lyon, France</td>
+<td>19 May</td>
+<td>RFMF</td>
+<td>Initiation au traitement et à l’Analyse des données métabolomiques</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>2014</td>
+<td>Clermont-Ferrand, France</td>
+<td>19-20 March</td>
+<td></td>
+<td>Galaxy pour l’analyse de données métabolomique</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>2014</td>
+<td>Roscoff, France</td>
+<td>12-14 March</td>
+<td></td>
+<td>Galaxy for developper</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>2014</td>
+<td>Roscoff, France</td>
+<td>28 January</td>
+<td></td>
+<td>Galaxy pour l’analyse de données métabolomique</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 </div>
