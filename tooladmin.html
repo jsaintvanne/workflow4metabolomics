@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2016-01-01">
 
-<title>Workflow4Experimenters 2016 – W4M Galaxy Documentation</title>
+<title>Tool administration – W4M Galaxy Documentation</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -70,7 +69,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
-<meta name="twitter:title" content="Workflow4Experimenters 2016 – W4M Galaxy Documentation">
+<meta name="twitter:title" content="Tool administration – W4M Galaxy Documentation">
 <meta name="twitter:description" content="">
 <meta name="twitter:card" content="summary">
 </head>
@@ -197,15 +196,21 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#how-to-include-the-tools-supported-by-w4m-in-ones-galaxy-instance" id="toc-how-to-include-the-tools-supported-by-w4m-in-ones-galaxy-instance" class="nav-link active" data-scroll-target="#how-to-include-the-tools-supported-by-w4m-in-ones-galaxy-instance">How to include the tools supported by W4M in one’s Galaxy instance?</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Workflow4Experimenters 2016</h1>
+<h1 class="title">Tool administration</h1>
 </div>
 
 
@@ -213,12 +218,6 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">January 1, 2016</p>
-    </div>
-  </div>
   
     
   </div>
@@ -228,20 +227,31 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>W4E 2016 options de configuration Ouvert</p>
-<p>Workflow4Experimenters (W4E) course 2016</p>
-<p>Using Galaxy and the Workflow4metabolomics infrastructureto analyse metabolomics data</p>
-<p>Overview: Pre-processing, statistical analysis, and annotation of metabolomics data is a complex task. The Workflow4metabolomics online infrastructure provides a user-friendly and high-performance environment with advanced computational modules for building, running, and sharing complete workflows for LC-MS, GC-MS, and NMR analysis (Giacomoni et al, 2015).</p>
-<p>Goals: During this one-week course, participants will learn how to use the W4M infrastructure to analyze their own dataset.Morning sessions will be dedicated to methodology and tools. Afternoon sessions will be devoted to tutoring.</p>
-<p>Target audience: LC-MS, GC-MS and NMR experimenters (e.g.&nbsp;biologists, chemists)</p>
-<p>Date: Monday 28th November 2016 to Friday 2nd December, 2016</p>
-<p>Location: ABiMS platform (Roscoff, France)</p>
-<p>Les cours auront lieu à l’Hôtel de France :</p>
-<p>Place Georges Teissier, Roscoff, 29680 Google Maps Hôtels : Vous serez logé dans un des deux hôtels suivants. Nous vous enverrons les codes d’accès quelques jours avant la formation.</p>
-<p>Gulf Stream : 400, rue Marquise de Kergariou, Roscoff, 29680 Google Maps Hôtel de France: Place Georges Teissier, Roscoff, 29680 Google Maps Plans Plan de Roscoff Roscoff sur maps.google.fr Venir à la station biologique de Roscoff</p>
-<p>Contact: contact@workflow4metabolomics.org</p>
+<section id="how-to-include-the-tools-supported-by-w4m-in-ones-galaxy-instance" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-include-the-tools-supported-by-w4m-in-ones-galaxy-instance">How to include the tools supported by W4M in one’s Galaxy instance?</h2>
+<p>As Workflow4Metabolomics, we provide and support a range of tools that are made available at workflow4metabolomics.usegalaxy.fr, but that are also available on the <a href="https://toolshed.g2.bx.psu.edu/">Main Galaxy Toolshed</a>. Thus, it is possible to install them in a variety of Galaxy instances (some are already available elsewhere), including locally-administrated ones.</p>
+<p>Want to have the W4M workflows on your favorite Galaxy instance or one on your own? Bellow are the steps to follow.</p>
+<section id="identify-the-galaxy-instance-you-want-to-use" class="level4">
+<h4 class="anchored" data-anchor-id="identify-the-galaxy-instance-you-want-to-use">Identify the Galaxy instance you want to use</h4>
+<p>We, at W4M, do not provide support in Galaxy instance building and management. Consequently, if you want to use our supported Galaxy workflows elsewhere than at usegalaxy.fr, you need to have access to another already existing Galaxy instance.</p>
+<p>In case you want to use your own Galaxy instance, you will need to have the required administration skills to deploy it (or somebody around you available to deploy it for you). Not sure what is needed to deploy such a Galaxy instance? Check the <a href="https://training.galaxyproject.org/training-material/learning-pathways/admin-training.html">Galaxy Training Network</a> online materials: plenty of tutorials with hands-on to learn how to do so.</p>
+</section>
+<section id="identify-the-procedure-to-ask-for-additional-galaxy-tools" class="level4">
+<h4 class="anchored" data-anchor-id="identify-the-procedure-to-ask-for-additional-galaxy-tools">Identify the procedure to ask for additional Galaxy tools</h4>
+<p>If you want to use W4M workflows on a Galaxy instance you do not manage yourself, you need to identify whether there is a procedure to ask for additional tool installation. In some cases, you have specific chanels (forum, contact e-mail) where to address your installation request. Always follow the recommanded procedure of the Galaxy instance you want to use!</p>
+<p>If you want to use your own Galaxy instance but do not have the corresponding administration skills, you will need to find someone arround you that have such skills to help you with the tool installation. We, at W4M, do not provide such assistance, as we have limited human ressources.</p>
+</section>
+<section id="get-the-list-of-the-w4m-supported-galaxy-tools" class="level4">
+<h4 class="anchored" data-anchor-id="get-the-list-of-the-w4m-supported-galaxy-tools">Get the list of the W4M-supported Galaxy tools</h4>
+<p>As we deploy the Galaxy tools we support and use on usegalaxy.fr, and since this Galaxy instance implementation is publicly available, you will find the list of all the tools we include in our W4M subdomain on Usegalaxy.fr’s GitLab repository.</p>
+<p>In particular, you will find this <a href="https://gitlab.com/ifb-elixirfr/usegalaxy-fr/tools">yml file</a> where …</p>
+</section>
+<section id="have-a-nice-w4m-journey" class="level4">
+<h4 class="anchored" data-anchor-id="have-a-nice-w4m-journey">Have a nice W4M journey!</h4>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
