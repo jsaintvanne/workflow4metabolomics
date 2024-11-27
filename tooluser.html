@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>User guide – W4M Galaxy Documentation</title>
+<title>User guide – Workflow4Metabolomics</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -37,10 +37,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-29e2c20b02301cfff04dc8050bf30c7e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-d44db6582b92c0fe7dec73bf27328fdd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -129,9 +129,10 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="styles.css">
-<meta name="twitter:title" content="User guide – W4M Galaxy Documentation">
+<meta name="twitter:title" content="User guide – Workflow4Metabolomics">
 <meta name="twitter:description" content="">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://jsaintvanne.github.io/workflow4metabolomics/images/W4M_icon.svg">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed">
@@ -145,7 +146,7 @@ window.Quarto = {
     <img src="./images/w4m.png" alt="" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">W4M Galaxy Documentation</span>
+    <span class="navbar-title">Workflow4Metabolomics</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -362,7 +363,7 @@ doi-link
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-file-modified-sort="1727163871754" data-listing-reading-time-sort="2" data-listing-word-count-sort="249" data-listing-title-sort="GC-MS Idealg dataset" data-listing-author-sort="Dittami *et al.*, 2012" onclick="href = this.querySelector('a').getAttribute('href');
+<tr data-index="0" data-listing-file-modified-sort="1732693861645" data-listing-reading-time-sort="2" data-listing-word-count-sort="249" data-listing-title-sort="GC-MS Idealg dataset" data-listing-author-sort="Dittami *et al.*, 2012" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./W4M_datasets/GCMSIdealg.html" class="title listing-title">GC-MS Idealg dataset</a>
@@ -380,7 +381,7 @@ doi-link
 <span class="listing-doi-link"><a href="https://onlinelibrary.wiley.com/doi/full/10.1111/j.1365-313X.2012.04982.x">doi link</a></span>
 </td>
 </tr>
-<tr data-index="1" data-listing-file-modified-sort="1727163871754" data-listing-reading-time-sort="1" data-listing-word-count-sort="113" data-listing-title-sort="NMR Mus musculus dataset" data-listing-author-sort="Cabaton *et al.*, 2013" onclick="href = this.querySelector('a').getAttribute('href');
+<tr data-index="1" data-listing-file-modified-sort="1732693861645" data-listing-reading-time-sort="1" data-listing-word-count-sort="113" data-listing-title-sort="NMR Mus musculus dataset" data-listing-author-sort="Cabaton *et al.*, 2013" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./W4M_datasets/NMRMusmusculus.html" class="title listing-title">NMR Mus musculus dataset</a>
@@ -398,7 +399,7 @@ doi-link
 <span class="listing-doi-link"><a href="https://ehp.niehs.nih.gov/doi/10.1289/ehp.1205588">doi link</a></span>
 </td>
 </tr>
-<tr data-index="2" data-listing-file-modified-sort="1727163871754" data-listing-reading-time-sort="1" data-listing-word-count-sort="195" data-listing-title-sort="Sacurine" data-listing-author-sort="Thevenot *et al.*, 2015" onclick="href = this.querySelector('a').getAttribute('href');
+<tr data-index="2" data-listing-file-modified-sort="1732693861645" data-listing-reading-time-sort="1" data-listing-word-count-sort="195" data-listing-title-sort="Sacurine" data-listing-author-sort="Thevenot *et al.*, 2015" onclick="href = this.querySelector('a').getAttribute('href');
  if (href) { window.location=href ; return false; }">
 <td>
 <a href="./W4M_datasets/sacurine.html" class="title listing-title">Sacurine</a>
@@ -510,8 +511,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -622,7 +621,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

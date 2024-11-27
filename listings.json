@@ -1,17 +1,7 @@
 [
   {
-    "listing": "/tooluser.html",
-    "items": [
-      "/W4M_datasets/GCMSIdealg.html",
-      "/W4M_datasets/NMRMusmusculus.html",
-      "/W4M_datasets/sacurine.html"
-    ]
-  },
-  {
     "listing": "/index.html",
-    "items": [
-      "/w4e2024.html"
-    ]
+    "items": []
   },
   {
     "listing": "/listing_team.html",
@@ -19,10 +9,10 @@
       "/people/W4Mteam/Binta_Diémé.html",
       "/people/W4Mteam/Charlotte_Joly.html",
       "/people/W4Mteam/christophe_duperier.html",
+      "/people/W4Mteam/Celine_Canlet.html",
       "/people/W4Mteam/Céline_Canlet.html",
       "/people/W4Mteam/Cédric_Delporte.html",
       "/people/W4Mteam/Céline_Dalle.html",
-      "/people/W4Mteam/David_Benaben.html",
       "/people/W4Mteam/Etienne_Thévenot.html",
       "/people/W4Mteam/Florence_Souard.html",
       "/people/W4Mteam/Franck_Giacomoni.html",
@@ -37,6 +27,7 @@
       "/people/W4Mteam/Sylvain_Chéreau.html",
       "/people/W4Mteam/sylvain_dechaumet.html",
       "/people/W4Mteam/yann_guitton.html",
+      "/people/old_w4m/David_Benaben.html",
       "/people/old_w4m/Eric_Venot.html",
       "/people/old_w4m/JeanFrançois_Martin.html",
       "/people/old_w4m/Lain_Pavot.html",
@@ -52,6 +43,7 @@
   {
     "listing": "/news.html",
     "items": [
+      "/W4E/w4e2025.html",
       "/W4E/w4e2024.html",
       "/W4E/w4e2023.html",
       "/W4E/w4e2021.html",
@@ -61,6 +53,14 @@
       "/W4E/w4e2016.html",
       "/W4E/w4e2015.html",
       "/W4E/w4e2014.html"
+    ]
+  },
+  {
+    "listing": "/tooluser.html",
+    "items": [
+      "/W4M_datasets/GCMSIdealg.html",
+      "/W4M_datasets/NMRMusmusculus.html",
+      "/W4M_datasets/sacurine.html"
     ]
   }
 ]
