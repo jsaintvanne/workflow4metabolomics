@@ -125,6 +125,27 @@ ul.task-list li input[type="checkbox"] {
     }
   })
   </script>
+<link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
+<script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
+<script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
+<script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
+<script src="site_libs/leaflet-binding-2.2.2/leaflet.js"></script>
+<script src="site_libs/leaflet-providers-2.0.0/leaflet-providers_2.0.0.js"></script>
+<script src="site_libs/leaflet-providers-plugin-2.2.2/leaflet-providers-plugin.js"></script>
+<link href="site_libs/leaflet-markercluster-1.0.5/MarkerCluster.css" rel="stylesheet">
+<link href="site_libs/leaflet-markercluster-1.0.5/MarkerCluster.Default.css" rel="stylesheet">
+<script src="site_libs/leaflet-markercluster-1.0.5/leaflet.markercluster.js"></script>
+<script src="site_libs/leaflet-markercluster-1.0.5/leaflet.markercluster.freezable.js"></script>
+<script src="site_libs/leaflet-markercluster-1.0.5/leaflet.markercluster.layersupport.js"></script>
+<link href="site_libs/leaflet-easybutton-1.3.1/easy-button.css" rel="stylesheet">
+<script src="site_libs/leaflet-easybutton-1.3.1/easy-button.js"></script>
+<script src="site_libs/leaflet-easybutton-1.3.1/EasyButton-binding.js"></script>
+<link href="site_libs/ionicons-2.0.1/ionicons.min.css" rel="stylesheet">
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -159,7 +180,11 @@ window.Quarto = {
 <link rel="stylesheet" href="styles.css">
 <meta name="twitter:title" content="W4M team – Workflow4Metabolomics">
 <meta name="twitter:description" content="">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://jsaintvanne.github.io/workflow4metabolomics/images/logo/logo_inrae.png">
+<meta name="twitter:image:alt" content="logo inrae">
+<meta name="twitter:image-height" content="317">
+<meta name="twitter:image-width" content="1200">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed">
@@ -289,12 +314,15 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#current-w4m-team" id="toc-current-w4m-team" class="nav-link active" data-scroll-target="#current-w4m-team">Current W4M team</a></li>
+  <li><a href="#current-w4m-team" id="toc-current-w4m-team" class="nav-link active" data-scroll-target="#current-w4m-team">Current W4M team</a>
+  <ul class="collapse">
+  <li><a href="#where-are-we-working" id="toc-where-are-we-working" class="nav-link" data-scroll-target="#where-are-we-working">Where are we working ?</a></li>
+  </ul></li>
   <li><a href="#previous-collaborators" id="toc-previous-collaborators" class="nav-link" data-scroll-target="#previous-collaborators">Previous collaborators</a></li>
   <li><a href="#contributors" id="toc-contributors" class="nav-link" data-scroll-target="#contributors">Contributors</a></li>
   </ul>
 </nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(31)</span></div><div class="category" data-category="QmlvaW5mbyUyRlRvb2xzRGV2">Bioinfo/ToolsDev <span class="quarto-category-count">(9)</span></div><div class="category" data-category="Rmx1eG9taWNz">Fluxomics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R0NNUw==">GCMS <span class="quarto-category-count">(7)</span></div><div class="category" data-category="R2FsYXh5">Galaxy <span class="quarto-category-count">(8)</span></div><div class="category" data-category="SFBD">HPC <span class="quarto-category-count">(3)</span></div><div class="category" data-category="SW5mb3JtYXRpYw==">Informatic <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TENNUw==">LCMS <span class="quarto-category-count">(15)</span></div><div class="category" data-category="TVNNUw==">MSMS <span class="quarto-category-count">(12)</span></div><div class="category" data-category="UGVha0ZvcmVzdA==">PeakForest <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Uk1O">RMN <span class="quarto-category-count">(2)</span></div><div class="category" data-category="U3RhdGlzdGljcw==">Statistics <span class="quarto-category-count">(8)</span></div><div class="category" data-category="V3JhcHBlciUyMChYTUwp">Wrapper (XML) <span class="quarto-category-count">(7)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(30)</span></div><div class="category" data-category="QmlvaW5mbyUyRlRvb2xzRGV2">Bioinfo/ToolsDev <span class="quarto-category-count">(9)</span></div><div class="category" data-category="Rmx1eG9taWNz">Fluxomics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R0NNUw==">GCMS <span class="quarto-category-count">(7)</span></div><div class="category" data-category="R2FsYXh5">Galaxy <span class="quarto-category-count">(8)</span></div><div class="category" data-category="SFBD">HPC <span class="quarto-category-count">(3)</span></div><div class="category" data-category="TENNUw==">LCMS <span class="quarto-category-count">(15)</span></div><div class="category" data-category="TVNNUw==">MSMS <span class="quarto-category-count">(12)</span></div><div class="category" data-category="UGVha0ZvcmVzdA==">PeakForest <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Uk1O">RMN <span class="quarto-category-count">(2)</span></div><div class="category" data-category="U3RhdGlzdGljcw==">Statistics <span class="quarto-category-count">(8)</span></div><div class="category" data-category="V3JhcHBlciUyMChYTUwp">Wrapper (XML) <span class="quarto-category-count">(7)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -322,11 +350,11 @@ window.Quarto = {
 <p>Here are all the participants for the development of a beautiful and usefull W4M Galaxy.</p>
 <div id="listing-current" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-categories="TENNUyUyQ01TTVMlMkNTdGF0aXN0aWNz" data-listing-file-modified-sort="1736759484050" data-listing-reading-time-sort="1" data-listing-word-count-sort="104">
+<div class="g-col-1" data-index="0" data-categories="TENNUyUyQ01TTVMlMkNTdGF0aXN0aWNz" data-listing-file-modified-sort="1737540959236" data-listing-reading-time-sort="1" data-listing-word-count-sort="104">
 <a href="./people/W4Mteam/Binta_Diémé.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="https://media.licdn.com/dms/image/C5603AQEHwsAAKwmoRw/profile-displayphoto-shrink_200_200/0/1574098911686?e=2147483647&amp;v=beta&amp;t=UmErCeOzQnfOAsp-05HJstNSZ5Vf4l9GtkTXH6wpFI4" class="thumbnail-image card-img" style="height: 200px;">
+<img loading="lazy" src="https://media.licdn.com/dms/image/v2/D4D03AQGX1sj9kJl8LA/profile-displayphoto-shrink_800_800/B4DZSJP4vYG4Ag-/0/1737469431266?e=1743033600&amp;v=beta&amp;t=U04lGmbz0qeBu-hiKbuKOgXjp4COIvDaWtC4syGDzso" class="thumbnail-image card-img" style="height: 200px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -350,7 +378,7 @@ Data processing biologist
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="TENNUyUyQ01TTVMlMkNHYWxheHklMkNQZWFrRm9yZXN0" data-listing-file-modified-sort="1736759484050" data-listing-reading-time-sort="1" data-listing-word-count-sort="77">
+<div class="g-col-1" data-index="1" data-categories="TENNUyUyQ01TTVMlMkNHYWxheHklMkNQZWFrRm9yZXN0" data-listing-file-modified-sort="1737540959236" data-listing-reading-time-sort="1" data-listing-word-count-sort="77">
 <a href="./people/W4Mteam/Charlotte_Joly.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -381,7 +409,7 @@ Assistant engineer in biomolecule analysis
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="Uk1O" data-listing-file-modified-sort="1736759484050" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="2" data-categories="Uk1O" data-listing-file-modified-sort="1737540959236" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/W4Mteam/Cécile_Canlet.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -403,7 +431,7 @@ RMN
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="TENNUyUyQ01TTVM=" data-listing-file-modified-sort="1736759484050" data-listing-reading-time-sort="1" data-listing-word-count-sort="96">
+<div class="g-col-1" data-index="3" data-categories="TENNUyUyQ01TTVM=" data-listing-file-modified-sort="1737540959236" data-listing-reading-time-sort="1" data-listing-word-count-sort="96">
 <a href="./people/W4Mteam/Cédric_Delporte.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -428,7 +456,7 @@ Associate Professor (ULB, Belgium)
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="TENNUyUyQ1N0YXRpc3RpY3M=" data-listing-file-modified-sort="1736759484050" data-listing-reading-time-sort="1" data-listing-word-count-sort="163">
+<div class="g-col-1" data-index="4" data-categories="TENNUyUyQ1N0YXRpc3RpY3M=" data-listing-file-modified-sort="1737540959236" data-listing-reading-time-sort="1" data-listing-word-count-sort="163">
 <a href="./people/W4Mteam/Céline_Dalle.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -453,7 +481,7 @@ Metabolomics Research Engineer
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="TENNUyUyQ0dDTVMlMkNNU01TJTJDU3RhdGlzdGljcw==" data-listing-file-modified-sort="1736759484050" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="5" data-categories="TENNUyUyQ0dDTVMlMkNNU01TJTJDU3RhdGlzdGljcw==" data-listing-file-modified-sort="1737540959236" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/W4Mteam/Etienne_Thévenot.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -484,7 +512,7 @@ Statistics
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="TENNUyUyQ0dDTVMlMkNNU01TJTJDU3RhdGlzdGljcw==" data-listing-file-modified-sort="1736759484050" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="6" data-categories="TENNUyUyQ0dDTVMlMkNNU01TJTJDU3RhdGlzdGljcw==" data-listing-file-modified-sort="1737540959236" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/W4Mteam/Florence_Souard.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -515,7 +543,7 @@ Statistics
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="TENNUyUyQ1dyYXBwZXIlMjAoWE1MKSUyQ0hQQyUyQ0Jpb2luZm8lMkZUb29sc0RldiUyQ0dhbGF4eSUyQ1BlYWtGb3Jlc3Q=" data-listing-file-modified-sort="1736759484050" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="7" data-categories="TENNUyUyQ1dyYXBwZXIlMjAoWE1MKSUyQ0hQQyUyQ0Jpb2luZm8lMkZUb29sc0RldiUyQ0dhbGF4eSUyQ1BlYWtGb3Jlc3Q=" data-listing-file-modified-sort="1737540959236" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/W4Mteam/Franck_Giacomoni.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -552,7 +580,7 @@ PeakForest
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-categories="V3JhcHBlciUyMChYTUwpJTJDSFBDJTJDQmlvaW5mbyUyRlRvb2xzRGV2JTJDR2FsYXh5" data-listing-file-modified-sort="1736759484050" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="8" data-categories="V3JhcHBlciUyMChYTUwpJTJDSFBDJTJDQmlvaW5mbyUyRlRvb2xzRGV2JTJDR2FsYXh5" data-listing-file-modified-sort="1737540959236" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/W4Mteam/Gildas_LeCorguillé.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -583,7 +611,7 @@ Galaxy
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="9" data-categories="TENNUyUyQ01TTVM=" data-listing-file-modified-sort="1736759484050" data-listing-reading-time-sort="1" data-listing-word-count-sort="126">
+<div class="g-col-1" data-index="9" data-categories="TENNUyUyQ01TTVM=" data-listing-file-modified-sort="1737540959240" data-listing-reading-time-sort="1" data-listing-word-count-sort="126">
 <a href="./people/W4Mteam/Isabelle_Schmitz.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -608,7 +636,7 @@ Research Engineer in Mass Spectrometry
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="10" data-categories="TENNUyUyQ0dDTVMlMkNNU01TJTJDV3JhcHBlciUyMChYTUwpJTJDQmlvaW5mbyUyRlRvb2xzRGV2JTJDR2FsYXh5" data-listing-file-modified-sort="1736759484050" data-listing-reading-time-sort="1" data-listing-word-count-sort="165">
+<div class="g-col-1" data-index="10" data-categories="TENNUyUyQ0dDTVMlMkNNU01TJTJDV3JhcHBlciUyMChYTUwpJTJDQmlvaW5mbyUyRlRvb2xzRGV2JTJDR2FsYXh5" data-listing-file-modified-sort="1737540959240" data-listing-reading-time-sort="1" data-listing-word-count-sort="165">
 <a href="./people/W4Mteam/julien_saint-vanne.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -645,7 +673,7 @@ Bioinformatic Engineer
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="11" data-categories="V3JhcHBlciUyMChYTUwpJTJDQmlvaW5mbyUyRlRvb2xzRGV2JTJDRmx1eG9taWNz" data-listing-file-modified-sort="1736759484050" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="11" data-categories="V3JhcHBlciUyMChYTUwpJTJDQmlvaW5mbyUyRlRvb2xzRGV2JTJDRmx1eG9taWNz" data-listing-file-modified-sort="1737540959240" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/W4Mteam/Loic_Legregam.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -673,7 +701,7 @@ Fluxomics
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="12" data-categories="Uk1OJTJDU3RhdGlzdGljcyUyQ1dyYXBwZXIlMjAoWE1MKSUyQ0Jpb2luZm8lMkZUb29sc0RldiUyQ0dhbGF4eQ==" data-listing-file-modified-sort="1736759484050" data-listing-reading-time-sort="1" data-listing-word-count-sort="72">
+<div class="g-col-1" data-index="12" data-categories="Uk1OJTJDU3RhdGlzdGljcyUyQ1dyYXBwZXIlMjAoWE1MKSUyQ0Jpb2luZm8lMkZUb29sc0RldiUyQ0dhbGF4eQ==" data-listing-file-modified-sort="1737540959240" data-listing-reading-time-sort="1" data-listing-word-count-sort="72">
 <a href="./people/W4Mteam/Marie_Tremblay-Franco.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -707,7 +735,7 @@ Engineer in Statistics
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="13" data-categories="TENNUyUyQ1N0YXRpc3RpY3MlMkNXcmFwcGVyJTIwKFhNTCklMkNCaW9pbmZvJTJGVG9vbHNEZXYlMkNHYWxheHk=" data-listing-file-modified-sort="1736759484050" data-listing-reading-time-sort="1" data-listing-word-count-sort="128">
+<div class="g-col-1" data-index="13" data-categories="TENNUyUyQ1N0YXRpc3RpY3MlMkNXcmFwcGVyJTIwKFhNTCklMkNCaW9pbmZvJTJGVG9vbHNEZXYlMkNHYWxheHk=" data-listing-file-modified-sort="1737540959240" data-listing-reading-time-sort="1" data-listing-word-count-sort="128">
 <a href="./people/W4Mteam/Mélanie_Pétéra.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -741,7 +769,7 @@ Engineer in Statistics
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="14" data-categories="QmlvaW5mbyUyRlRvb2xzRGV2JTJDR2FsYXh5JTJDUGVha0ZvcmVzdA==" data-listing-file-modified-sort="1736759484050" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="14" data-categories="QmlvaW5mbyUyRlRvb2xzRGV2JTJDR2FsYXh5JTJDUGVha0ZvcmVzdA==" data-listing-file-modified-sort="1737540959240" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/W4Mteam/Nils_Paulhe.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -769,7 +797,7 @@ PeakForest
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="15" data-listing-file-modified-sort="1736759484050" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="15" data-listing-file-modified-sort="1737540959240" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/W4Mteam/Ralf_Weber.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -788,7 +816,7 @@ Ralf Weber
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="16" data-categories="TENNUyUyQ0dDTVMlMkNNU01T" data-listing-file-modified-sort="1736759484050" data-listing-reading-time-sort="1" data-listing-word-count-sort="152">
+<div class="g-col-1" data-index="16" data-categories="TENNUyUyQ0dDTVMlMkNNU01T" data-listing-file-modified-sort="1737540959240" data-listing-reading-time-sort="1" data-listing-word-count-sort="152">
 <a href="./people/W4Mteam/Sylvain_Chéreau.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -816,7 +844,7 @@ Engineer in chemical ecology
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="17" data-categories="TENNUyUyQ01TTVMlMkNXcmFwcGVyJTIwKFhNTCklMkNIUEMlMkNCaW9pbmZvJTJGVG9vbHNEZXY=" data-listing-file-modified-sort="1736759484050" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="17" data-categories="TENNUyUyQ01TTVMlMkNXcmFwcGVyJTIwKFhNTCklMkNIUEMlMkNCaW9pbmZvJTJGVG9vbHNEZXY=" data-listing-file-modified-sort="1737540959240" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/W4Mteam/sylvain_dechaumet.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -850,7 +878,7 @@ Bioinfo/ToolsDev
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="18" data-categories="TENNUyUyQ0dDTVMlMkNNU01TJTJDQmlvaW5mbyUyRlRvb2xzRGV2JTJDR2FsYXh5JTJDUGVha0ZvcmVzdA==" data-listing-file-modified-sort="1736759484050" data-listing-reading-time-sort="1" data-listing-word-count-sort="163">
+<div class="g-col-1" data-index="18" data-categories="TENNUyUyQ0dDTVMlMkNNU01TJTJDQmlvaW5mbyUyRlRvb2xzRGV2JTJDR2FsYXh5JTJDUGVha0ZvcmVzdA==" data-listing-file-modified-sort="1737540959240" data-listing-reading-time-sort="1" data-listing-word-count-sort="163">
 <a href="./people/W4Mteam/yann_guitton.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -892,13 +920,51 @@ Metabolomics facility manager
 No matching items
 </div>
 </div>
+<section id="where-are-we-working" class="level3">
+<h3 class="anchored" data-anchor-id="where-are-we-working">Where are we working ?</h3>
+<div class="cell" data-context="output">
+<div class="cell-output-display">
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-3cd82e1264e38d1c1aad" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-3cd82e1264e38d1c1aad">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["OpenStreetMap.Mapnik",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addMarkers","args":[[45.71213,45.71213,43.60249300145284,50.81809209254244,48.60461044311523,48.765236,48.72471552437846,50.81809209254244,45.71213,48.7268,49.45800142743788,47.28945,43.60249300145284,45.71213,45.71213,52.44991582676665,48.1090675,48.72471552437846,47.28953],[3.01629,3.01629,1.374973866104927,4.396103200491615,2.322339057922363,2.1767607,2.148791155648477,4.396103200491615,3.01629,-3.98708,1.070602652089367,-1.52532,1.374973866104927,3.01629,3.01629,-1.931156237616085,-1.792899,2.148791155648477,-1.52524],{"iconUrl":{"data":"https://cdn1.iconfinder.com/data/icons/working-at-office/90/activity-work_at_office-working-people-man-23-512.png","index":0},"iconWidth":50,"iconHeight":50},null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["<b><a href=/workflow4metabolomics/people/W4Mteam/Binta_Diémé.html>Binta Diémé<\/a><\/b> <br>PFEM","<b><a href=/workflow4metabolomics/people/W4Mteam/Charlotte_Joly.html>Charlotte Joly<\/a><\/b> <br>PFEM","<b><a href=/workflow4metabolomics/people/W4Mteam/Cécile_Canlet.html>Cécile Canlet<\/a><\/b> <br>TOXALIM","<b><a href=/workflow4metabolomics/people/W4Mteam/Cédric_Delporte.html>Cédric Delporte<\/a><\/b> <br>ULB","<b><a href=/workflow4metabolomics/people/W4Mteam/Céline_Dalle.html>Céline Dalle<\/a><\/b> <br>IRBA","<b><a href=/workflow4metabolomics/people/W4Mteam/Eric_Venot.html>Eric Venot<\/a><\/b> <br>GABI","<b><a href=/workflow4metabolomics/people/W4Mteam/Etienne_Thévenot.html>Etienne Thévenot<\/a><\/b> <br>CEA","<b><a href=/workflow4metabolomics/people/W4Mteam/Florence_Souard.html>Florence Souard<\/a><\/b> <br>ULB","<b><a href=/workflow4metabolomics/people/W4Mteam/Franck_Giacomoni.html>Franck Giacomoni<\/a><\/b> <br>PFEM","<b><a href=/workflow4metabolomics/people/W4Mteam/Gildas_LeCorguillé.html>Gildas LeCorguillé<\/a><\/b> <br>ABiMS","<b><a href=/workflow4metabolomics/people/W4Mteam/Isabelle_Schmitz.html>Isabelle Schmitz<\/a><\/b> <br>PBS","<b><a href=/workflow4metabolomics/people/W4Mteam/Julien_Saint-Vanne.html>Julien Saint-Vanne<\/a><\/b> <br>LABERCA","<b><a href=/workflow4metabolomics/people/W4Mteam/Marie_Tremblay-Franco.html>Marie Tremblay-Franco<\/a><\/b> <br>Toxalim","<b><a href=/workflow4metabolomics/people/W4Mteam/Mélanie_Pétéra.html>Mélanie Pétéra<\/a><\/b> <br>PFEM","<b><a href=/workflow4metabolomics/people/W4Mteam/Nils_Paulhe.html>Nils Paulhe<\/a><\/b> <br>PFEM","<b><a href=/workflow4metabolomics/people/W4Mteam/Ralf_Weber.html>Ralf Weber<\/a><\/b> <br>PCB","<b><a href=/workflow4metabolomics/people/W4Mteam/Sylvain_Chéreau.html>Sylvain Chéreau<\/a><\/b> <br>IGEPP","<b><a href=/workflow4metabolomics/people/W4Mteam/Sylvain_Dechaumet.html>Sylvain Dechaumet<\/a><\/b> <br>CEA","<b><a href=/workflow4metabolomics/people/W4Mteam/Yann_Guitton.html>Yann Guitton<\/a><\/b> <br>LABERCA"],null,{"showCoverageOnHover":true,"zoomToBoundsOnClick":true,"spiderfyOnMaxZoom":true,"removeOutsideVisibleBounds":true,"spiderLegPolylineOptions":{"weight":1.5,"color":"#222","opacity":0.5},"freezeAtZoom":false,"iconCreateFunction":"function (cluster) {    \n                                  var childCount = cluster.getChildCount(); \n                                  var c = ' marker-cluster-';  \n                                  if (childCount > 10) {  \n                                    c += 'large';  \n                                  } else if (childCount > 5) {  \n                                    c += 'medium';  \n                                  } else { \n                                    c += 'small';  \n                                  }    \n                                  return new L.DivIcon({ html: '<div><span>' + childCount + '<\/span><\/div>', className: 'marker-cluster' + c, iconSize: new L.Point(40, 40) });\n\n  }"},null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addEasyButton","args":[{"icon":"ion-arrow-shrink","title":"Reset View","onClick":"function(btn, map){ map.setView(map._initialCenter, map._initialZoom); }","position":"topleft"}]}],"limits":{"lat":[43.60249300145284,52.44991582676665],"lng":[-3.98708,4.396103200491615]}},"evals":["calls.1.args.8.iconCreateFunction","calls.2.args.0.onClick"],"jsHooks":{"render":[{"code":"function(el, x, data) {\n  return (function(el, x){ var map = this; map._initialCenter = map.getCenter(); map._initialZoom = map.getZoom();}).call(this.getMap(), el, x, data);\n}","data":null},{"code":"function(el, x, data) {\n  return (function(el, x, data) {\n                     // we need a new div element because we have to handle\n                     // the mouseover output seperately\n                     // debugger;\n                     function addElement () {\n                     // generate new div Element\n                     var newDiv = $(document.createElement('div'));\n                     // append at end of leaflet htmlwidget container\n                     $(el).append(newDiv);\n                     //provide ID and style\n                     newDiv.addClass('logo');\nnewDiv.css({\n                        'position': 'absolute',\n                        'top': '13px',\n                        'left': '50px',\n                        'background-color': 'transparent',\n                        'border': '0px solid black',\n                        'width': '60px',\n                        'height': '60px',\n});return newDiv;\n                     }// check for already existing logo class to not duplicate\n                    var logo = $(el).find('.logo');\n                    if(!logo.length) {\n                    logo = addElement();logo.html('<a href=\"https://jsaintvanne.github.io/workflow4metabolomics/\"><img src=\"https://avatars.githubusercontent.com/u/17082156?s=200&v=4\", width=60, height=60, style=\"opacity:1;filter:alpha(opacity=100);\"><\/a>');\n                       var map = HTMLWidgets.find('#' + el.id).getMap();\n                       };\n                       }).call(this.getMap(), el, x, data);\n}","data":null}]}}</script>
+</div>
+</div>
+<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; width: 100%; max-width: 100%;">    
+  <style>
+    .logo-cell {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100px; /* Ajustez la hauteur selon vos besoins */
+      overflow: hidden;
+    }
+
+    .logo-cell img {
+      max-width: 150px; /* Ajustez la largeur maximale des logos */
+      max-height: 150px; /* Ajustez la hauteur maximale des logos */
+      object-fit: contain; /* Assure que l'image garde ses proportions */
+    }
+  </style>
+   <div class="logo-cell">
+    <img src="./images/logo/logo_inrae.png" alt="logo inrae">
+  </div>
+  <div class="logo-cell">
+    <img src="./images/logo/logo_oniris.png" alt="logo oniris">
+  </div>
+  <div class="logo-cell">
+    <img src="./images/logo/logo_ifb.png" alt="logo ifb">
+  </div>
+  <div class="logo-cell">
+    <img src="./images/logo/logo_cnrs.png" alt="logo cnrs">
+  </div>
+</div>
+</section>
 </section>
 <section id="previous-collaborators" class="level2">
 <h2 class="anchored" data-anchor-id="previous-collaborators">Previous collaborators</h2>
 <p>Here are all the previous collaborators we had the chance to share with</p>
 <div id="listing-previous_collab" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-6">
-<div class="g-col-1" data-index="0" data-categories="TENNUyUyQ0dDTVMlMkNNU01TJTJDU3RhdGlzdGljcw==" data-listing-file-modified-sort="1736759484050" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="0" data-categories="TENNUyUyQ0dDTVMlMkNNU01TJTJDU3RhdGlzdGljcw==" data-listing-file-modified-sort="1737540959240" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/old_w4m/Christophe_Duperier.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -934,34 +1000,7 @@ Statistics
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="SW5mb3JtYXRpYw==" data-listing-file-modified-sort="1736759484050" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
-<a href="./people/old_w4m/David_Benaben.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="https://secure.gravatar.com/avatar/85815f7c184217f4c1dff325089daef4?s=800&amp;d=identicon" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-David Benaben
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('SW5mb3JtYXRpYw=='); return false;">
-Informatic
-</div>
-</div>
-<div class="card-text listing-description">
-???
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="TENNUyUyQ0dDTVMlMkNNU01TJTJDU3RhdGlzdGljcw==" data-listing-file-modified-sort="1736759484050" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="1" data-categories="TENNUyUyQ0dDTVMlMkNNU01TJTJDU3RhdGlzdGljcw==" data-listing-file-modified-sort="1737540959240" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/old_w4m/Eric_Venot.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -997,7 +1036,7 @@ Statistics
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1736759484050" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1737540959240" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/old_w4m/JeanFrançois_Martin.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1021,7 +1060,7 @@ Jean-François Martin
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1736759484050" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1737540959240" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/old_w4m/Lain_Pavot.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1045,7 +1084,7 @@ Lain Pavot
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1736759484050" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1737540959240" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/old_w4m/Marion_Landi.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1069,7 +1108,7 @@ Marion Landi
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1736759484050" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1737540959240" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/old_w4m/Misharl_Monsoor.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1093,7 +1132,7 @@ Misharl Monsoor
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="7" data-listing-file-modified-sort="1736759484050" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1737540959240" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/old_w4m/Natacha_Lenuzza.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1117,7 +1156,7 @@ Natacha Lenuzza
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-listing-file-modified-sort="1736759484050" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="7" data-listing-file-modified-sort="1737540959240" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/old_w4m/Pierre_Pericard.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1141,7 +1180,7 @@ Pierre Péricard
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="9" data-listing-file-modified-sort="1736759484050" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="8" data-listing-file-modified-sort="1737540959240" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/old_w4m/Pierrick_Roge_Mele.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1165,7 +1204,7 @@ Pierrick Roge-Mele
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="10" data-listing-file-modified-sort="1736759484050" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="9" data-listing-file-modified-sort="1737540959240" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/old_w4m/Romain_Dallet.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1189,7 +1228,7 @@ Romain Dallet
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="11" data-listing-file-modified-sort="1736759484050" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+<div class="g-col-1" data-index="10" data-listing-file-modified-sort="1737540959240" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
 <a href="./people/old_w4m/Sophie_Goulitquer.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1649,7 +1688,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© Julien Saint-Vanne</p>
+<p>Contact us: workflow4metabolomics@proton.me</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
