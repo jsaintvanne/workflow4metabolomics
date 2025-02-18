@@ -35,9 +35,11 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/tooluser.html",
     "items": [
-      "/W4E/w4e2025.html"
+      "/W4M_datasets/GCMSIdealg.html",
+      "/W4M_datasets/NMRMusmusculus.html",
+      "/W4M_datasets/sacurine.html"
     ]
   },
   {
@@ -56,11 +58,9 @@
     ]
   },
   {
-    "listing": "/tooluser.html",
+    "listing": "/index.html",
     "items": [
-      "/W4M_datasets/GCMSIdealg.html",
-      "/W4M_datasets/NMRMusmusculus.html",
-      "/W4M_datasets/sacurine.html"
+      "/W4E/w4e2025.html"
     ]
   }
 ]
